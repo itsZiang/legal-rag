@@ -3,13 +3,16 @@ import os
 import re
 
 
-def save_to_json(data, output_file):
+def save_to_json(chunks, output_file):
     """Save the processed data to a JSON file."""
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        json.dump(chunks, f, ensure_ascii=False, indent=4)
 
 
 def extract_section_text(text):
+    """
+    Extract section text from the given text.
+    """
     section_pattern = r"(Mục\s+\d+[a-z]*\.?\s*\n*\s*((?:[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬĐÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰ,;:\-\s]+)))"
 
     # Tìm tất cả các phần khớp
@@ -25,6 +28,9 @@ def extract_section_text(text):
 
 
 def extract_legal_name(text):
+    """
+    Extract legal name from the given text.
+    """
     match = re.search(r"\d+\/[A-Z]*[^\s]*", text)
     return match.group()
 
@@ -38,8 +44,9 @@ def preprocess_and_chunk_text(text):
 
     # Define regex patterns for identifying chapters and articles
     chapter_pattern = r"(Chương\s+[IVXLCDM]+\s*[\n\r]*[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬĐÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰÝ][^\n]*)"
-    article_pattern = r"(Điều\s+\d+[a-z]?\.\s*[\n\r]*[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬĐÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰÝ][^\n]*)"
+    article_pattern = r"(Điều\s+\d+[a-z]?\.\s*[\n\r]*[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬĐÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰ][^\n]*[\n\r]*[a-zàáảãạăắằẳẵặâấầẩẫậđèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữự]*[^\dA-Z]*)"
     section_text_list = extract_section_text(text)
+    legal_name = extract_legal_name(text)
 
     # Split text into parts using chapter or article
     sections = re.split(f"({chapter_pattern}|{article_pattern})", text, flags=re.DOTALL)
@@ -62,7 +69,7 @@ def preprocess_and_chunk_text(text):
                         buffer = buffer.replace(section_text, "")
                 chunks.append(
                     {
-                        "title": f"{current_article}; {current_chapter or ''}".strip(),
+                        "title": f"{current_article} {current_chapter or ''} {legal_name}".strip(),
                         "context": buffer.strip().split("./.")[0],
                     }
                 )
@@ -78,7 +85,7 @@ def preprocess_and_chunk_text(text):
                         buffer = buffer.replace(section_text, "")
                 chunks.append(
                     {
-                        "title": f"{current_article}; {current_chapter or ''}".strip(),
+                        "title": f"{current_article} {current_chapter or ''} {legal_name}".strip(),
                         "context": buffer.strip().split("./.")[0],
                     }
                 )
@@ -93,7 +100,7 @@ def preprocess_and_chunk_text(text):
     if current_article and buffer.strip():
         chunks.append(
             {
-                "title": f"{current_article}; {current_chapter or ''}".strip(),
+                "title": f"{current_article} {current_chapter or ''} {legal_name}".strip(),
                 "context": buffer.strip().split("./.")[0],  # thêm xử lý split ở đây
             }
         )
@@ -102,8 +109,8 @@ def preprocess_and_chunk_text(text):
 
 
 # Đường dẫn thư mục
-txt_folder = "txt"
-output_folder = "output"
+txt_folder = "../data"
+output_folder = "../output"
 
 # Tạo thư mục output nếu chưa tồn tại
 if not os.path.exists(output_folder):
@@ -127,7 +134,6 @@ for filename in os.listdir(txt_folder):
         print(f"File: {filename}")
         print(f"Total chunks: {len(chunks)}")
         print(f"Legal number: {legal_name}")
-        print("=========================")
 
         # Tạo tên file đầu ra (thay .txt thành .jsonl)
         output_filename = os.path.splitext(filename)[0] + ".json"
@@ -136,3 +142,4 @@ for filename in os.listdir(txt_folder):
         # Lưu vào file .jsonl
         save_to_json(chunks, output_path)
         print(f"Saved to: {output_path}\n")
+        print("=========================")
