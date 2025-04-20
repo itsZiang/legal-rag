@@ -1,7 +1,7 @@
 import json
 import logging
 import os
-
+import torch
 from functions import (
     calculate_fixed_monthly_payment,
     calculate_future_value,
@@ -9,18 +9,19 @@ from functions import (
 )
 from openai import OpenAI
 from redis import InvalidResponse
+from sentence_transformers import SentenceTransformer
 
 logger = logging.getLogger(__name__)
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", default=None)
 
 
-VAST_IP_ADDRESS = "64.139.209.4"
-VAST_PORT = "29593"
+# VAST_IP_ADDRESS = "64.139.209.4"
+# VAST_PORT = "29593"
 
-deepseek_client = OpenAI(
-    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
-)
+# deepseek_client = OpenAI(
+#     api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
+# )
 
 
 def get_openai_client():
@@ -40,17 +41,24 @@ def openai_chat_complete(messages=(), model="gpt-4o-mini", raw=False):
     return output.content
 
 
-def deepseek_chat_complete(messages=(), model="Deepseek-r1-distill-qwen-4b"):
-    logger.info("Chat complete for {}".format(messages))
-    response = deepseek_client.chat.completions.create(model=model, messages=messages)
-    output = response.choices[0].message
-    logger.info("deepseek chat complete output: ".format(output))
-    return output.content
+# def deepseek_chat_complete(messages=(), model="Deepseek-r1-distill-qwen-4b"):
+#     logger.info("Chat complete for {}".format(messages))
+#     response = deepseek_client.chat.completions.create(model=model, messages=messages)
+#     output = response.choices[0].message
+#     logger.info("deepseek chat complete output: ".format(output))
+#     return output.content
 
 
-def get_embedding(text, model="text-embedding-3-small"):
+# initialize the embedder a single time
+_EMBEDDER = SentenceTransformer(
+    "GreenNode/GreenNode-Embedding-Large-VN-V1",
+    device="cpu",
+)
+
+def get_embedding(text: str) -> list[float]:
     text = text.replace("\n", " ")
-    return client.embeddings.create(input=[text], model=model).data[0].embedding
+    emb = _EMBEDDER.encode(text, convert_to_numpy=True)
+    return emb.tolist()
 
 
 def gen_doc_prompt(docs):

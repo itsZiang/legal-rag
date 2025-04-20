@@ -1,4 +1,5 @@
-FROM python:3.10.12-slim-bullseye
+# FROM python:3.10.12-slim-bullseye
+FROM pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime
 
 RUN apt update -y \
     && apt-get install \
@@ -15,6 +16,7 @@ WORKDIR /usr/src/app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH "${PYTHONPATH}:/usr/src/app/src"
+ENV PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # install dependencies
 RUN pip install --upgrade pip

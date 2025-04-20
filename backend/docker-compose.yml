@@ -22,6 +22,7 @@ services:
       - 8000:8000
     networks:
       - internal-network
+    gpus: all
 
   chatbot-worker:
     build: .
@@ -38,6 +39,7 @@ services:
       - worker_volume:/var/logs/
     networks:
       - internal-network
+    gpus: all
 
   valkey-db:
     image: 'valkey/valkey:bookworm'

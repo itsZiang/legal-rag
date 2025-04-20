@@ -6,7 +6,7 @@ from celery.result import AsyncResult
 from fastapi import FastAPI, HTTPException
 from models import insert_document
 from pydantic import BaseModel
-from tasks import index_document, llm_handle_message
+from tasks import index_document, llm_handle_message, index_documents
 from utils import setup_logging
 from vectorize import create_collection
 
@@ -91,6 +91,12 @@ async def create_document(data: Dict):
     logging.info(f"Create document status: {create_status}")
     index_status = index_document(doc_id, title, content)
     return {"status": create_status is not None, "index_status": index_status}
+
+@app.post("/document/index")
+async def indexing():
+    index_status = index_documents()
+    logging.info(f"Index documents status: {index_status}")
+    return {"status": index_status is not None}
 
 
 if __name__ == "__main__":
