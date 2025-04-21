@@ -28,7 +28,8 @@ celery_app.autodiscover_tasks()
 
 
 BASE_DIR = os.path.dirname(__file__)
-DATA_DIR = os.path.join(BASE_DIR, "json_data_chunked")
+DATA_DIR = os.path.join(BASE_DIR, "final_chunk")
+
 
 def follow_up_question(history, question):
     user_intent = detect_user_intent(history, question)
@@ -45,7 +46,7 @@ def bot_rag_answer_message(history, question):
     logger.info(f"Get vector: {new_question}")
 
     # Search documents
-    top_docs = search_vector(DEFAULT_COLLECTION_NAME, vector, 2)
+    top_docs = search_vector(DEFAULT_COLLECTION_NAME, vector, 8)
     logger.info(f"Top docs: {top_docs}")
 
     # Rerank documents
@@ -64,7 +65,8 @@ def bot_rag_answer_message(history, question):
     return assistant_answer
 
 
-def index_document(title: str, content: str, collection_name=DEFAULT_COLLECTION_NAME
+def index_single_node(
+    title: str, content: str, collection_name=DEFAULT_COLLECTION_NAME
 ):
     id = time.time_ns()
     vector = get_embedding(title + ". " + content)
@@ -76,21 +78,6 @@ def index_document(title: str, content: str, collection_name=DEFAULT_COLLECTION_
     )
     logger.info(f"Add vector status: {add_vector_status}")
     return add_vector_status
-
-
-def index_documents(collection_name=DEFAULT_COLLECTION_NAME
-):
-    count = 0
-    for filename in os.listdir(DATA_DIR):
-        with open(os.path.join(DATA_DIR, filename), "r", encoding="utf-8") as f:
-            chunks = json.load(f)
-            for chunk in chunks:
-                title = chunk["title"]
-                content = chunk["context"]
-                index_document(title, content, collection_name)
-                count += 1
-                logger.info(f"Indexed document {count}")
-    return f"success - {count} documents indexed"
 
 
 def get_summarized_response(response):
