@@ -8,7 +8,7 @@ from typing import List
 
 # Set up your cohere client
 COHERE_API_KEY = os.environ.get("COHERE_API_KEY")
-DEFAULT_RANK_MODEL = "rerank-multilingual-v3.0"
+DEFAULT_RANK_MODEL = "rerank-v3.5"
 co = cohere.Client(COHERE_API_KEY)
 
 
@@ -21,8 +21,8 @@ def rerank_documents(docs, query, top_n=3, rank_model=DEFAULT_RANK_MODEL):
         query=query, documents=process_docs, top_n=top_n, model=rank_model
     )
     for item in results.results:
-        print(f"Document Index: {item.index}")
-        print(f"Document: {docs[item.index]}")
+        # print(f"Document Index: {item.index}")
+        print(f"Rerank. Document: {docs[item.index]}")
         print(f"Relevance Score: {item.relevance_score:.5f}")
 
     ranked_docs = [docs[item.index] for item in results.results]

@@ -1,19 +1,23 @@
 import logging
 import time
+
+from click import prompt
 from agent import ai_agent_handle
 import os
-import json
+import pprint
 from brain import (
     detect_route,
     detect_user_intent,
     gen_doc_prompt,
     get_embedding,
     openai_chat_complete,
+    vistral_chat_complete,
+    cohere_chat_complete
 )
 from celery import shared_task
 from configs import DEFAULT_COLLECTION_NAME
 from database import get_celery_app
-from models import get_conversation_messages, update_chat_conversation
+from models import get_conversation_history, update_chat_conversation
 from rerank import rerank_documents
 from splitter import split_document
 from summarizer import summarize_text
@@ -33,7 +37,7 @@ DATA_DIR = os.path.join(BASE_DIR, "final_chunk")
 
 def follow_up_question(history, question):
     user_intent = detect_user_intent(history, question)
-    logger.info(f"User intent: {user_intent}")
+    logger.info(f"rewrited query: {user_intent}")
     return user_intent
 
 
@@ -46,22 +50,49 @@ def bot_rag_answer_message(history, question):
     logger.info(f"Get vector: {new_question}")
 
     # Search documents
-    top_docs = search_vector(DEFAULT_COLLECTION_NAME, vector, 8)
-    logger.info(f"Top docs: {top_docs}")
+    top_docs = search_vector(DEFAULT_COLLECTION_NAME, vector, 5)
+    logger.info("Top docs:\n%s", pprint.pformat(top_docs))
 
     # Rerank documents
-    ranked_docs = rerank_documents(top_docs, new_question)
+    ranked_docs = rerank_documents(top_docs, new_question, top_n=3)
 
-    openai_messages = history + [
+    # append history to ranked_docs
+    openai_messages = [
+        {
+            "role": "system",
+            "content": "You are a highly intelligent Vietnamese legal assistant that helps answer questions based on documents. Please give a detailed answer with references to the documents.",
+        },
         {"role": "user", "content": gen_doc_prompt(ranked_docs)},
-        {"role": "user", "content": question},
+        {"role": "user", "content": new_question},
     ]
 
-    logger.info(f"Openai messages: {openai_messages}")
+    # just reranked docs
+    vistral_prompt = f"""Bạn là một trợ lý AI thông minh về lĩnh vực luật pháp. 
 
-    assistant_answer = openai_chat_complete(openai_messages)
+Hãy trích xuất thông tin liên quan đến câu hỏi, sau đó trả lời câu hỏi pháp luật sau dựa trên tài liệu được cung cấp, nhớ phải đề cập chính xác phần trích dẫn để trả lời câu hỏi. Nếu không thể trả lời, hãy nói rằng bạn không thể trả lời và cung cấp lý do.
 
-    logger.info(f"Bot RAG reply: {assistant_answer}")
+### Question:
+{new_question}
+
+### Context:
+{gen_doc_prompt(ranked_docs)}
+
+### Response:
+"""
+    vistral_messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": vistral_prompt},
+            ],
+        }
+    ]
+
+    logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
+
+    assistant_answer = cohere_chat_complete(vistral_messages)
+
+    logger.info("Bot RAG reply:\n%s", pprint.pformat(assistant_answer))
     return assistant_answer
 
 
@@ -101,17 +132,19 @@ def bot_route_answer_message(history, question):
 
 @shared_task()
 def llm_handle_message(bot_id, user_id, question):
-    logger.info("Start handle message")
+    logger.info("=======================Start handle message========================")
     # Update chat conversation
     conversation_id = update_chat_conversation(bot_id, user_id, question, True)
-    logger.info("Conversation id: %s", conversation_id)
+    # logger.info("Conversation id: %s", conversation_id)
     # Convert history to list messages
-    messages = get_conversation_messages(conversation_id)
-    logger.info("Conversation messages: %s", messages)
-    history = messages[:-1]
+    messages = get_conversation_history(conversation_id)  # include the current question
+    logger.info("Conversation history:\n%s", pprint.pformat(messages))
+    history = messages[:-1]  # the last one is the current question
+    # history = history[-5:]  # keep the last 5 messages
+    logger.info("History messages:\n%s", pprint.pformat(history))
     # Bot generation
     response = bot_route_answer_message(history, question)
-    logger.info(f"Chatbot response: {response}")
+    # logger.info(f"Chatbot response: {response}")
     # Summarize response
     summarized_response = get_summarized_response(response)
     # Save response to history

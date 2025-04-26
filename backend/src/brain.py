@@ -1,6 +1,9 @@
 import json
 import logging
 import os
+import pprint
+from urllib import response
+
 import torch
 from functions import (
     calculate_fixed_monthly_payment,
@@ -16,12 +19,16 @@ logger = logging.getLogger(__name__)
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", default=None)
 
 
-# VAST_IP_ADDRESS = "64.139.209.4"
-# VAST_PORT = "29593"
+VAST_IP_ADDRESS="93.92.199.89"
+VAST_PORT="40890"
 
-# deepseek_client = OpenAI(
-#     api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
-# )
+vistral_client = OpenAI(
+    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
+)
+
+cohere_client = OpenAI(
+    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
+)
 
 
 def get_openai_client():
@@ -32,7 +39,7 @@ client = get_openai_client()
 
 
 def openai_chat_complete(messages=(), model="gpt-4o-mini", raw=False):
-    logger.info("Chat complete for {}".format(messages))
+    # logger.info("Chat complete for {}".format(messages))
     response = client.chat.completions.create(model=model, messages=messages)
     if raw:
         return response.choices[0].message
@@ -41,12 +48,21 @@ def openai_chat_complete(messages=(), model="gpt-4o-mini", raw=False):
     return output.content
 
 
-# def deepseek_chat_complete(messages=(), model="Deepseek-r1-distill-qwen-4b"):
-#     logger.info("Chat complete for {}".format(messages))
-#     response = deepseek_client.chat.completions.create(model=model, messages=messages)
-#     output = response.choices[0].message
-#     logger.info("deepseek chat complete output: ".format(output))
-#     return output.content
+def vistral_chat_complete(messages=()):
+    chat_response = vistral_client.chat.completions.create(
+        model="davicn81/vistral-7b-legal",
+        messages=messages,
+    )
+    output = chat_response.choices[0].message
+    return output.content
+
+def cohere_chat_complete(messages=()):
+    chat_response = cohere_client.chat.completions.create(
+        model="CohereLabs/aya-expanse-8b",
+        messages=messages,
+    )
+    output = chat_response.choices[0].message
+    return output.content
 
 
 # initialize the embedder a single time
@@ -54,6 +70,7 @@ _EMBEDDER = SentenceTransformer(
     "GreenNode/GreenNode-Embedding-Large-VN-V1",
     device="cpu",
 )
+
 
 def get_embedding(text: str) -> list[float]:
     text = text.replace("\n", " ")
@@ -69,9 +86,9 @@ def gen_doc_prompt(docs):
     """
     doc_prompt = ""
     for doc in docs:
-        doc_prompt += f"Title: {doc['title']} \n Content: {doc['content']} \n"
+        doc_prompt += f"Theo {doc['title']}: {doc['content']}\n\n"
 
-    return "Document: \n + {}".format(doc_prompt)
+    return "Document:\n{}".format(doc_prompt)
 
 
 def generate_conversation_text(conversations):
@@ -103,7 +120,7 @@ def detect_user_intent(history, message):
         {"role": "system", "content": "You are an amazing virtual assistant"},
         {"role": "user", "content": user_prompt},
     ]
-    logger.info(f"Rephrase input messages: {openai_messages}")
+    logger.info("Rephrase input messages:\n%s", pprint.pformat(openai_messages))
     # call openai
     return openai_chat_complete(openai_messages)
 
@@ -121,7 +138,7 @@ def detect_route(history, message):
     Latest User Message:
     {message}
 
-    Classification (choose either "legal" or "research" or "chit_chat"):
+    Classification (choose either "legal" or "chit_chat"):
     """
     openai_messages = [
         {
@@ -130,9 +147,10 @@ def detect_route(history, message):
         },
         {"role": "user", "content": user_prompt},
     ]
-    logger.info(f"Route output: {openai_messages}")
+    response = openai_chat_complete(openai_messages)
+    logger.info("Route output:%s", pprint.pformat(response))
     # call openai
-    return openai_chat_complete(openai_messages)
+    return response
 
 
 available_tools = {

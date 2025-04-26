@@ -1,5 +1,5 @@
 import logging
-
+import pprint
 from celery import shared_task
 from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
@@ -27,5 +27,5 @@ ai_agent = ReActAgent.from_tools([multiply_tool, add_tool, search_tool], llm=llm
 @shared_task()
 def ai_agent_handle(question):
     response = ai_agent.chat(question)
-    logging.info(f"Agent response: {response}")
+    logging.info("Agent response:\n%s", pprint.pformat(response))
     return response.response

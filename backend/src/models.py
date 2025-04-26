@@ -2,7 +2,6 @@ import asyncio
 import logging
 from xml.dom import ValidationErr
 
-from sqlalchemy.orm import Session
 from sqlalchemy.future import select
 from sqlalchemy import Column, String, Boolean, DateTime, Integer
 from sqlalchemy.ext.declarative import declarative_base
@@ -14,13 +13,13 @@ from database import engine, get_db
 
 Base = declarative_base()
 Base.metadata.create_all(bind=engine)
-db =  next(get_db())
+db = next(get_db())
 setup_logging()
 logger = logging.getLogger(__name__)
 
 
 class ChatConversation(Base):
-    __tablename__ = 'chat_conversations'
+    __tablename__ = "chat_conversations"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     conversation_id = Column(String(50), nullable=False, default="")
@@ -30,28 +29,39 @@ class ChatConversation(Base):
     is_request = Column(Boolean, default=True)
     completed = Column(Boolean, default=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), onupdate=func.now(), server_default=func.now())
+    updated_at = Column(
+        DateTime(timezone=True), onupdate=func.now(), server_default=func.now()
+    )
 
 
 def load_conversation(conversation_id: str):
-    return db.query(ChatConversation).filter(ChatConversation.conversation_id == conversation_id).order_by(ChatConversation.created_at).all()
+    return (
+        db.query(ChatConversation)
+        .filter(ChatConversation.conversation_id == conversation_id)
+        .order_by(ChatConversation.created_at)
+        .all()
+    )
 
 
 async def read_conversation(conversation_id: str):
     async with db() as session:
         result = await session.execute(
-            select(ChatConversation).where(ChatConversation.conversation_id == conversation_id))
+            select(ChatConversation).where(
+                ChatConversation.conversation_id == conversation_id
+            )
+        )
         db_conversation = result.scalars().first()
         if db_conversation is None:
             raise ValidationErr("Conversation not found")
         return db_conversation
 
+
 def convert_conversation_to_openai_messages(user_conversations):
     conversation_list = [
-        {
-            "role": "system",
-            "content": "You are an amazing virtual assistant"
-        }
+        # {
+        #     "role": "system",
+        #     "content": "You are an amazing virtual assistant"
+        # }
     ]
 
     for conversation in user_conversations:
@@ -59,12 +69,14 @@ def convert_conversation_to_openai_messages(user_conversations):
         content = str(conversation.message)
         conversation_list.append({"role": role, "content": content})
 
-    logging.info(f"Create conversation to {conversation_list}")
+    # logging.info(f"Create conversation to {conversation_list}")
 
     return conversation_list
 
 
-def update_chat_conversation(bot_id: str, user_id: str, message: str, is_request: bool = True):
+def update_chat_conversation(
+    bot_id: str, user_id: str, message: str, is_request: bool = True
+):
     # Step 1: Create a new ChatConversation instance
     conversation_id = get_conversation_id(bot_id, user_id)
 
@@ -81,24 +93,26 @@ def update_chat_conversation(bot_id: str, user_id: str, message: str, is_request
     db.commit()
     db.refresh(new_conversation)
 
-    logger.info(f"Create message for conversation {conversation_id}")
+    # logger.info(f"Create message for conversation {conversation_id}")
 
     return conversation_id
 
 
-def get_conversation_messages(conversation_id):
+def get_conversation_history(conversation_id):
     user_conversations = load_conversation(conversation_id)
     return convert_conversation_to_openai_messages(user_conversations)
 
 
 class Document(Base):
-    __tablename__ = 'document'
+    __tablename__ = "document"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String(200), nullable=False, default="")
     content = Column(String)  # Assuming TextField is equivalent to String in SQLAlchemy
     created_at = Column(DateTime(timezone=True), server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), onupdate=func.now(), server_default=func.now())
+    updated_at = Column(
+        DateTime(timezone=True), onupdate=func.now(), server_default=func.now()
+    )
 
 
 def insert_document(title: str, content: str):
