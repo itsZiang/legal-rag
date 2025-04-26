@@ -32,11 +32,13 @@ def process_embeddings(data):
     """
     Process the embeddings data and extract title, content, and vector values
     """
+    ids = []
     titles = []
     contents = []
     vectors = []
 
     for item in data:
+        ids.append(item.get("id"))
         titles.append(item.get("title"))
         contents.append(item.get("content"))
         vector = item.get("vector")
@@ -44,7 +46,7 @@ def process_embeddings(data):
         vector_np = np.array(vector) if vector else None
         vectors.append(vector_np)
 
-    return titles, contents, vectors
+    return ids, titles, contents, vectors
 
 
 def indexing():
@@ -52,7 +54,7 @@ def indexing():
     data = read_embeddings_file(file_path)
 
     if data:
-        titles, contents, vectors = process_embeddings(data)
+        ids, titles, contents, vectors = process_embeddings(data)
 
         # Index each document
         for i in range(len(titles)):
@@ -61,7 +63,7 @@ def indexing():
             vector = vectors[i]
 
             # Create a unique ID for each document
-            doc_id = time.time_ns()
+            doc_id = ids[i]
 
             # Index the document
             add_vector_status = add_vector(
