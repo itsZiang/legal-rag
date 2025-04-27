@@ -1,15 +1,14 @@
-from typing import List
 import logging
 import time
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
-from search import search_documents
 from celery.result import AsyncResult
 from database import get_db
 from fastapi import Depends, FastAPI, HTTPException, Query
 from indexing import indexing
 from models import ChatConversation, insert_document
 from pydantic import BaseModel
+from search import search_documents_ids
 from sqlalchemy.orm import Session
 from tasks import index_single_node, llm_handle_message
 from utils import setup_logging
@@ -113,15 +112,15 @@ async def delete_all_conversations(db: Session = Depends(get_db)):
     return {"status": "all conversations deleted"}
 
 
-@app.post("/search")
-async def search_documents_api(data: Dict):
+@app.post("/search_ids")
+async def search_documents_ids_api(data: Dict):
     query = data.get("query")
     limit = data.get("limit", 5)
 
     if not query:
         return {"error": "Missing 'query' field."}
 
-    results = search_documents(query, limit)
+    results = search_documents_ids(query, limit)
     logging.info(f"Search query: '{query}' with limit {limit}")
     return {"results": results}
 

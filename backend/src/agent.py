@@ -5,7 +5,7 @@ from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
 from llama_index.core.llms import ChatMessage
 from llama_index.core.tools import BaseTool, FunctionTool
-from search import search_engine
+from google_search import search_engine
 
 def multiply(a: int, b: int) -> int:
     """Multiply two integers and returns the result integer"""

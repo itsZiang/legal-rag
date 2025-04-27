@@ -15,7 +15,10 @@ def create_collection(name):
 
 
 def add_vector(collection_name, vectors={}):
-    points = [PointStruct(id=k, vector=v['vector'], payload=v['payload']) for k, v in vectors.items()]
+    points = [
+        PointStruct(id=k, vector=v["vector"], payload=v["payload"])
+        for k, v in vectors.items()
+    ]
     return client.upsert(
         collection_name=collection_name,
         wait=True,
@@ -29,3 +32,10 @@ def search_vector(collection_name, vector, limit=2):
     )
     payloads = [x.payload for x in res]
     return payloads
+
+
+def search_vector_ids(collection_name, vector, limit=2):
+    res = client.search(
+        collection_name=collection_name, query_vector=vector, limit=limit
+    )
+    return [x.id for x in res]
