@@ -1,0 +1,273 @@
+Xe quá tải trọng bao gồm loại xe nào?; 372
+Xe ô tô có được dừng xe tại khu đất ở bên ngoài phần đường xe chạy không?; 304
+Cơ quan nào có thẩm quyền thực hiện thu hồi giấy phép sát hạch?; 1882
+Khi nào được phục hồi điểm giấy phép lái xe?; 392
+Giấy phép lái xe hạng C được điều khiển xe gì?; 390
+Đối tượng nào phải bảo đảm chất lượng an toàn kỹ thuật và bảo vệ môi trường?; 355
+Cách nhận biết xe cứu thương đang làm nhiệm vụ cấp cứu?; 319
+Bến xe khách có chức năng gì?; 1422
+Thời hạn của giấy phép lái xe được quy định là bao lâu?; 391
+Thời hạn của bằng lái xe hạng D là bao nhiêu năm?; 391
+Dây chuyền kiểm định là gì?; 1907
+Hệ thống giám sát giao thông là gì?; 420
+Thiết bị phát tín hiệu xe của lực lượng công an, xe của lực lượng kiểm sát đi làm nhiệm vụ khẩn cấp như thế nào?; 1183
+Cơ sở đăng kiểm sẽ bị tạm đình chỉ hoạt động kiểm định trong trường hợp nào? Thời hạn bao lâu?; 1933
+Xe cứu thương đang đi cấp cứu có được sử dụng còi liên tục không?; 307, 317
+Không chấp hành yêu cầu kiểm tra của người thi hành công vụ trong lĩnh vực giao thông đường bộ là hành vi bị nghiêm cấm đúng không?; 286
+Đường bộ, hoạt động đường bộ bao gồm những gì?; 960
+Người điều khiển phương tiện tham gia giao thông đường bộ là xe thô sơ có phải bật đèn xe từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau không?; 328
+Đối tượng tập huấn nghiệp vụ vận tải là ai?; 1453
+Đinh phản quang được lắp đặt nhằm mục đích gì?; 292
+Niên hạn sử dụng xe cơ giới là bao nhiêu năm?; 1937
+Khi tham gia giao thông phải ưu tiên chấp hành vạch vàng nét đứt trước đúng không?; 291, 292
+Độ tuổi được điều khiển xe máy điện là bao nhiêu?; 393
+Đơn vị kinh doanh vận tải hành khách bằng xe ô tô có cần phải ứng dụng công nghệ thông tin để quản lý điều hành hoạt động vận tải không?; 1093
+Cảnh sát giao thông mặc thường phục được dừng xe xử phạt trong trường hợp nào?; 856
+Cơ sở đăng kiểm là gì?; 1905
+Giấy chứng nhận kiểm định cấp lại có thời hạn hiệu lực bao lâu?; 2142
+Tên đường bộ bao gồm những gì?; 100
+Người bao nhiêu tuổi được cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ?; 393
+Khi nào được phục hồi điểm giấy phép lái xe?; 392
+Đơn vị kinh doanh vận tải hàng hóa có được quyết định giá cước vận tải không?; 56
+Bằng lái xe B1 có được lái xe mô tô ba bánh không?; 390
+Biên bản phân công nhiệm vụ của Hội đồng sát hạch lái xe phải được lưu trữ bao lâu?; 
+Hàng hóa ký gửi là gì?; 1115
+Người khuyết tật, người mất năng lực hành vi dân sự tham gia giao thông đường bộ cần tuân theo quy định nào?; 327
+Tốc độ khai thác tối đa của đường bộ là gì?; 1808
+Hệ thống thông tin cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ tại Sở Giao thông vận tải gồm những gì?; 1777
+Nộp lệ phí đăng ký xe ô tô lần đầu thực hiện như thế nào?; 461
+Giấy phép lái xe có bao nhiêu điểm?; 392
+03 Đối tượng nào được giáo dục kiến thức pháp luật về trật tự an toàn giao thông đường bộ theo quy định mới?; 282
+Vận tốc thiết kế của xe chở người bốn bánh có gắn động cơ là bao nhiêu?; 331
+Thanh toán điện tử giao thông là gì?; 1065
+Thời hạn xác minh việc mất chứng nhận đăng ký xe khi làm thủ tục cấp lại chứng nhận đăng ký xe là bao lâu?; 476
+Xe tải chở hàng khối lượng 2,5 tấn không mui khi chở hàng hóa được xếp hàng hóa cao bao nhiêu mét?; 1395
+Thời gian lưu trữ dữ liệu cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ là bao lâu?; 1782
+Xe gắn máy không được xếp hàng hóa cao quá bao nhiêu mét?; 330
+Phương tiện, thiết bị phục vụ quản lý, vận hành, khai thác công trình đường bộ được pháp luật quy định như thế nào?; 1010
+03 Trường hợp bị thu hồi bằng lái xe theo quy định mới nhất?; 402
+Giao thông thông minh là gì?; 1062
+Kỳ hạn sử dụng của vé đường bộ toàn quốc là bao lâu?; 2201
+Số hiệu đường tỉnh được quy định gồm những gì?; 100
+Không được quay đầu xe ở những nơi nào?; 299
+Có được bóp còi khi vượt xe không?; 307
+Nơi không có vạch kẻ đường thì người đi bộ được qua đường khi nào?; 326
+Người lái xe gắn máy có được sử dụng chân chống xe quệt xuống đường khi xe đang chạy không?; 330
+Người lái xe ô tô chở người trên 29 chỗ phải có bằng lái xe hạng nào?; 390
+Nguyên tắc nhường đường khi có chướng ngại vật phía trước thế nào?; 301
+Tem kiểm định xe gắn máy bị mất có bị cảnh báo phương tiện tham gia giao thông không?; 1169
+03 Hoạt động tuần tra, kiểm soát về trật tự, an toàn giao thông là hoạt động nào?;408
+Xe ô tô tải chuyên dùng có niên hạn sử dụng bao lâu?; 1937
+Quy hoạch nào cụ thể hóa quy hoạch mạng lưới đường bộ?; 967
+Hành vi chuyển hướng xe có gồm việc quay đầu xe?; 299
+Một xe ô tô có được chở nhiều loại hàng hóa nguy hiểm không?; 920
+Xe ô tô vận chuyển hành khách khi vượt xe cần phải vượt bên nào?; 297, 298
+Chồng có được phép chở vợ kèm theo 2 con nhỏ khi tham gia giao thông không?; 330
+Quay đầu xe đối với người tham gia giao thông được quy định như thế nào?; 299
+Xe chở người bốn bánh có gắn động cơ có thời hạn sử dụng là bao lâu?; 1937
+Đơn vị kinh doanh vận tải hành khách bằng xe buýt thực hiện lưu trữ Lệnh vận chuyển như thế nào?; 1432
+Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động được cấp lại giấy chứng nhận khi nào?; 1935
+Giấy phép vận chuyển hàng hóa nguy hiểm có thời hạn bao lâu?; 924
+Việc tổ chức kiểm tra, cấp giấy chứng nhận được thực hiện thế nào?; 1454
+Có được lùi xe trong hầm đường bộ hay không?; 300
+Có bắt buộc đặt tên, số hiệu đường bộ đối với đường nội bộ hay không?; 980
+Xe tải chở hàng hoá xếp hàng vượt phía trước phải có báo hiệu màu gì tại điểm đầu của hàng hóa?; 365
+Có được dừng đỗ xe trong hầm đường bộ không?; 316
+Không chấp hành yêu cầu kiểm tra của người thi hành công vụ trong lĩnh vực giao thông đường bộ thì người thi hành công vụ thực hiện các biện pháp nào?; 422, 423
+Người điều khiển phương tiện tham gia giao thông đường bộ được vượt xe khi nào?; 297
+Xe ô tô chuyên dùng có niên hạn sử dụng không?; 353
+Hoạt động vận tải người nội bộ là gì?; 1090
+Hướng dẫn chỉ huy, điều khiển giao thông tại một vị trí hoặc một khu vực trên đường giao thông khi xảy ra ùn tắc giao thông đường bộ?; 641
+Chỉ huy giao thông đường bộ là gì?; 424
+Khắc phục hậu quả thiên tai đường bộ khi sạt lở ta luy âm như thế nào?; 2044
+Bỏ trốn sau khi gây tai nạn để trốn tránh trách nhiệm là hành vi bị nghiêm cấm theo quy định pháp luật?; 288
+Thời hạn cấp lại Giấy chứng nhận kiểm định là bao lâu?; 2144, 2145, 2146
+Xe cứu thương có phải lắp thiết bị giám sát hành trình khi tham gia giao thông?; 333
+Cơ sở đăng kiểm xe cơ giới có hai dây chuyền kiểm định là gì?; 1907
+Cảnh sát chỉ huy giao thông đường bộ có trách nhiệm gì khi giải quyết các vụ ùn tắc giao thông đường bộ?; 647
+Bao nhiêu tuổi được cấp giấy phép lái xe hạng C1E?; 393
+Đèn vàng mà Cảnh sát giao thông ra hiệu được đi thì có được đi tiếp hay không?; 291
+Xe có số máy bị đóng chồng số thì giải quyết đăng ký xe thế nào?; 522
+Chi phí thẩm tra an toàn giao thông đường bộ được lấy từ đâu?; 1029
+Khi điều khiển xe máy chuyên dùng có phải mang theo chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ không?; 389
+Cơ sở đăng kiểm xe cơ giới chỉ có một dây chuyền kiểm định loại I thì diện tích là bao nhiêu?; 1910to
+Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ được xây dựng như thế nào?; 1161
+Xe mô tô (xe máy) được chở hàng hóa có tải trọng tối đa là bao nhiêu theo quy định của pháp luật hiện nay?; 330
+Nâng hạng bằng lái xe từ B lên C1, C khi bằng lái còn hiệu lực được không?; 395
+Phương tiện đo của cơ sở đăng kiểm tại xưởng kiểm định được bố trí thế nào?; 1919
+Giấy phép lái xe hạng CE là gì?; 390
+Bằng lái xe quốc tế là gì?; 391
+Thời điểm tập huấn nghiệp vụ vận tải cho lái xe kinh doanh vận tải và yêu cầu của cán bộ tập huấn được quy định thế nào?; 1453
+Phương tiện tham gia giao thông đường bộ di chuyển với tốc độ thấp hơn phải đi về bên nào?; 296
+Khi xuống phà xe đạp điện có được phép xuống đầu tiên không?; 310
+Tạm dừng khai thác đường cao tốc là gì?; 1073
+Cơ quan nào quản lý, vận hành hệ thống giám sát giao thông trên các tuyến đường cao tốc?; 2221
+Xe chở thực phẩm tươi sống có phải là xe được ưu tiên khi qua phà không?; 309
+Chuyển hướng xe là gì?; 299
+Nếu bị trừ hết điểm giấy phép lái xe có được lái xe không?; 392
+Điều kiện đăng kiểm viên hạng II của cơ sở đăng kiểm xe cơ giới là gì?; 1912
+Sử dụng tạm thời lòng đường gây mất trật tự cơ quan nào có thẩm quyền giải quyết?; 432
+Cơ quan nào có thẩm quyền kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ?; 1622
+Báo cáo nhanh trong phòng chống khắc phục hậu quả thiên tai đường bộ được lập khi nào?;2058
+ Bao nhiêu tuổi được cấp giấy phép lái xe hạng C?; 393
+ Người bao nhiêu tuổi sẽ được cấp bằng lái xe hạng C1?; 393
+ Bằng lái xe B1 cấp trước đây được đổi sang giấy phép lái xe hạng nào?; 454
+ Phương tiện giao thông thông minh cần đảm bảo điều kiện nào?; 333
+ Bao nhiêu tuổi được thi bằng lái a1?; 393
+ Xe ô tô tuần tra, kiểm soát về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông có hình thức như thế nào?; 860, 861
+ Khi đỗ xe ô tô trên đường phải thực hiện quy định nào?; 302, 304
+ Đối tượng được ưu tiên khi đi xe buýt công cộng theo quy định mới?; 1430
+ Người điều khiển phương tiện tham gia giao thông đường bộ phải có trách nhiệm gì?; 421
+Thuốc nổ là hàng hóa nguy hiểm có được vận chuyển qua hầm hay không?; 922
+Trật tự, an toàn giao thông đường bộ là gì?; 268
+ Khi nào đường dây tải điện xây dựng bên trên đường bộ không cần có văn bản chấp thuận của cơ quan quản lý đường bộ?; 1006
+ Giấy phép xe tập lái có hiệu lực bao lâu theo quy định?; 1850
+ Có được cải tạo xe ô tô khác thành xe chở người không?; 286
+Cấp kỹ thuật của đường bộ bao gồm những gì?; 977
+Vạch kẻ đường có phải là báo hiệu đường bộ không?; 291, 292
+Cơ sở đăng kiểm xe cơ giới cần tối thiểu bao nhiêu lãnh đạo là đăng kiểm viên hạng II trở lên?; 1911
+Tải trọng đường bộ là gì?; 1017
+Xe taxi đón trả hành khách như thế nào?; 359
+Người lái xe ô tô có phải thắt dây an toàn khi tham gia giao thông không?; 290
+Người đi bộ phải tuân thủ những quy định gì khi tham gia giao thông đường bộ?; 326
+Đường quốc lộ được hiểu là gì?; 972
+Tín hiệu được sử dụng đối với thiết bị phát tín hiệu của xe cứu thương là gì?; 1183
+Bằng lái xe bị thu hồi khi nào theo quy định của pháp luật?; 402
+Xe gắn máy được phép đậu xe cách vỉa hè ít nhất bao nhiêu mét?; 304
+Xe nhập khẩu không có số máy thì cơ quan đăng ký xe đóng lại số máy như thế nào?; 522
+Các hành vi bị cấm của người được chở khi tham gia giao thông là gì?; 330
+Người điều khiển phương tiện tham gia giao thông đường bộ có bao gồm người điều khiển xe thô sơ không?; 269
+Hoạt động sát hạch lái xe ô tô được thực hiện ở đâu?; 397
+Tổ trưởng Tổ sát hạch có phải là ủy viên của Hội đồng sát hạch lái xe không?; 1696
+Có được vượt xe khi có chướng ngại vật phía trước không?; 297
+Xe đã đi qua vạch dừng mà tín hiệu đèn vàng có được đi tiếp?; 291
+Có tịch thu xe máy chạy quá tốc độ gây tai nạn giao thông?; 2271
+Yêu cầu đối với sát hạch viên là gì?; 1701, 1702
+Công trình đường bộ bao gồm những gì theo Luật Đường bộ mới nhất?; 960, 961
+Số IDP bao gồm những gì theo quy định?; 1749
+Hành vi bị nghiêm cấm đối với thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông là gì?; 287, 288
+Người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?; 290
+Người có giấy phép lái xe quốc tế khi lái xe tham gia giao thông tại Việt Nam phải mang theo giấy tờ gì?; 391
+Có được chở người trên xe ô tô được kéo không?; 325
+Công dân khi phát hiện vụ tai nạn giao thông cần phải báo cho ai?; 437
+Lắp loa trên xe ô tô gây mất trật tự an toàn giao thông đường bộ là hành vi vi phạm pháp luật đúng không?; 287
+Bằng lái xe hạng C1 có thời hạn bao lâu kể từ ngay được cấp?; 391
+Đường đô thị bao gồm những đường nào?; 972
+Chưa đổi, cấp lại giấy phép lái xe trong trường hợp nào?; 402
+Xe ô tô được kéo xe ô tô khác khi nào? Được kéo bao nhiêu xe?; 325
+Tem kiểm định bị mất thì có phải mang xe đến cơ sở đăng kiểm kiểm tra, đánh giá lại không?; 2142
+Sử dụng người chưa được huấn luyện an toàn hàng hóa nguy hiểm có bị thu hồi giấy phép không?; 937
+Ô tô, xe máy phải tắt đèn pha, bật đèn chiếu gần trong trường hợp nào?; 306
+Cơ quan quản lý thu phí sử dụng đường bộ cao tốc là cơ quan nào?; 2198
+Đào tạo lái xe để nâng hạng giấy phép lái xe thực hiện với những đối tượng nào?; 394
+Cảnh sát giao thông được kiểm soát các giấy tờ nào liên quan đến người và phương tiện giao thông?; 857
+Người điều khiển phương tiện tham gia giao thông có phải giảm tốc độ để tránh xe đi ngược chiều không?; 294
+Đơn vị kinh doanh vận tải sử dụng hợp đồng vận tải hành khách điện tử phải lưu trữ dữ liệu hợp đồng bao lâu?; 1461
+Người đi bộ qua đường phải có tín hiệu bằng tay theo quy định mới?; 326
+Có thu hồi giấy phép hoạt động khi phương tiện giao thông thông minh bị hỏng không sử dụng được không?; 1199
+Cấp kỹ thuật của đường bộ được xác định như thế nào?; 977
+Xe ô tô thuộc trường hợp nào sẽ không áp dụng niên hạn sử dụng?; 353
+Khi nào được đi vào làn khẩn cấp trên cao tốc?; 313, 314
+Cơ sở đăng kiểm xe cơ giới có hai dây chuyền kiểm định thì diện tích mặt bằng cơ sở tối thiểu là bao nhiêu?; 1910
+Thiết bị an toàn cho trẻ em trên ô tô là gì?; 270
+Phạm vi hoạt động vận tải trung chuyển hành khách như thế nào?; 1426
+Các hành vi bị cấm của người lái xe khi tham gia giao thông là gì?; 330
+Xe cứu thương có thuộc nhóm xe ưu tiên?; 317
+Tên đường bộ được đặt như thế nào?; 978, 979, 980
+Trách nhiệm của người gây tai nạn giao thông là gì?; 436
+Hoạt động tuần tra kiểm soát về trật tự an toàn giao thông đường bộ được thực hiện thế nào?; 408
+Hành vi điểu khiển phương tiện giao thông đường bộ mà trong cơ thể có chất ma túy có bị pháp luật nghiêm cấm không?; 286
+Trách nhiệm của người gây ra tai nạn giao thông là gì?; 436
+Biên lai thu phí sử dụng đường bộ cao tốc được phát hành dưới dạng nào?; 2199
+Cơ quan nào có thẩm quyền quyết định vị trí lắp đặt công trình kiểm soát tải trọng xe?;1061
+Độ tuổi của người được cấp bằng lái xe B1 quy định thế nào?; 393
+Khi vận chuyển hàng rời người điều khiển xe gắn máy có trách nhiệm gì?; 365
+Khi nào giấy chứng nhận kiểm định, tem kiểm định được xem là không có hiệu lực?; 1927
+Giấy phép lái xe được phục hồi khi nào?; 2506
+Có được vượt xe tại nơi đường giao nhau với đường sắt không?; 294
+Đua xe trái phép là một hành vi bị pháp luật nghiêm cấm trong lĩnh vực giao thông đường bộ đúng không?; 286
+Hệ thống thông tin sát hạch lái xe gồm những gì?; 1654
+Thực hiện hợp tác quốc tế về trật tự an toàn giao thông đường bộ trên cơ sở thế nào theo quy định?; 285
+Thứ tự ưu tiên của việc chấp hành hiệu lệnh của tín hiệu đèn giao thông?; 291
+Việc nộp lệ phí đăng ký xe được thực hiện qua đâu?; 462
+Vận tải trung chuyển hành khách là gì?; 1422
+Người chạy xe gắn máy tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ như thế nào?; 291
+Cảnh sát chỉ huy, điều khiển giao thông có nhiệm vụ giải quyết ùn tắc giao thông đường bộ không?; 627
+Xe ô tô có được lùi xe ở khu vực cấm dừng không?; 300
+Việc nhận kết quả đăng ký xe được thực hiện qua đâu?; 462
+Chỉ được dừng xe trong hầm đường bộ trong trường hợp nào?; 316
+Khi chuyển làn đường có cần phải bảo đảm khoảng cách an toàn với các xe khác không?; 296
+Xe gắn máy bao gồm những loại xe nào theo quy định của pháp luật?; 331
+Điều khiển xe gắn máy tham gia giao thông nẹt pô liên tục có phải là hành vi bị cấm không?; 286
+Lái xe 8 chỗ cần bằng lái xe hạng gì? Xe 8 chỗ chở được mấy người?; 390
+Học viên không đủ điều kiện xét hoàn thành khóa đào tạo lái xe hạng B thì có được đào tạo lại không?; 1668
+Có được chở trẻ em ngồi cùng hàng ghế ô tô với người lái xe theo quy định mới nhất không?; 290
+CSGT có được dừng phương tiện tham gia giao thông đường bộ để phục vụ việc phòng cháy, chữa cháy và cứu nạn, cứu hộ không?; 415
+Chủ xe là người Việt Nam sử dụng tài khoản định danh điện tử mức độ mấy khi thực hiện đăng ký xe trên cổng dịch vụ công?; 482
+Hình thức thanh toán tiền sử dụng đường bộ trên đường cao tốc?; 1065
+Hàng rời là gì?; 1369
+Năm 2025, điều khiển, dẫn dắt thú cưng phải đảm bảo điều kiện gì?; 329
+Xe hết niên hạn sử dụng có được giữ lại số biển số xe không?; 336
+Việc kiểm soát tại một điểm trên đường giao thông, tại Trạm Cảnh sát giao thông được thực hiện thế nào?; 852
+Giấy phép lái xe quốc gia bị tẩy xóa thì có được cấp IDP không?; 1753
+Xe không có số máy số khung đều do cơ quan đăng ký xe thực hiện đóng lại đúng không?; 523, 524, 525
+Hai xe đi ngược chiều nhường đường khi tránh nhau như thế nào là đúng quy tắc giao thông hiện nay?; 301
+Đất của đường bộ gồm những phần đất nào?; 982
+Giấy chứng nhận kiểm định và tem kiểm định được cấp đồng thời khi xe tham gia giao thông đường bộ đúng không?; 1926
+Thiết bị thông minh hỗ trợ chỉ huy điều khiển giao thông là gì?; 270
+Phương tiện giao thông thông minh cần gắn biển số xe hay không?; 333
+Thời gian nghỉ giữa 2 lần lái xe liên tục đối với tài xế lái xe ô tô đầu kéo Container vận chuyển hàng hóa là bao lâu?; 1452
+Đèn tín hiệu giao thông màu vàng có được đi hay không?;291
+Theo nguyên tắc, mọi hành vi vi phạm pháp luật về trật tự an toàn giao thông đường bộ phải được xử lý như thế nào?;273
+Thay đổi thông tin ghi trên giấy phép lái xe có được đổi giấy phép lái xe không?; 400
+ đạp điện có phải là xe thô sơ không?; 332
+Khối lượng toàn bộ của xe bao gồm những gì?; 1368
+Có cần lắp đèn cảnh báo khi chở hàng hóa nguy hiểm không?; 371
+Người lái xe đạp được chở tối đa hai người tromng trường hợp chở một trẻ em dưới 07 tuổi đúng không?; 328
+Chiều rộng hành lang an toàn đường bộ đối với đường ngoài đô thị được tính như thế nào?; 109
+Những loại hình kinh doanh vận tải hành khách bằng xe ô tô được pháp luật quy định như thế nào?; 1084
+Xếp hàng hóa trên xe tải chở hàng có được che khuất cảnh báo an toàn của phương tiện không?; 1388
+Xây dựng cơ sở dữ liệu về trật tự an toàn giao thông đường bộ có nằm trong nội dung quản lý nhà nước không?; 446
+Không chấp hành yêu cầu kiểm tra của người thi hành công vụ khi tham gia giao thông là vi phạm điều cấm?; 286
+Thu hồi chứng chỉ thẩm tra viên an toàn giao thông đường bộ khi nào?; 203
+Điều kiện đối với xe ô tô kinh doanh vận tải hành khách theo hợp đồng được quy định thế nào?; 1438
+Xe ô tô bao gồm những loại xe nào?; 331
+Nội dung tập huấn an toàn hàng hóa nguy hiểm được pháp luật quy định như thế nào?; 917
+Khi nào được xét hoàn thành khóa đào tạo nâng hạng giấy phép lái xe?; 1675
+Xe đạp điện được chở tối đa bao nhiêu người?; 328
+Người ngồi sau xe đạp điện có cần đội mũ bảo hiểm không?; 328
+Thông tin trong Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ được cập nhật từ những nguồn nào?; 1176
+Có được lùi xe trên đường 1 chiều không?; 300
+Có được dừng xe đổ xe tại điểm đón trả khách không?; 303
+Cơ quan quản lý đường bộ gồm cơ quan nào?; 962
+Giấy phép lái xe sau khi đổi, cấp lại, nâng hạng có được giữ nguyên số điểm không?; 392
+Lái xe buýt thì tài xế cần có bằng lái xe hạng nào?; 390
+Quyền hạn của Cảnh sát giao thông khi thực hiện tuần tra, kiểm soát hiện nay?; 412
+Người khuyết tật lái xe ô tô số tự động được cấp giáy phép lái xe không?; 391
+Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe máy chuyên dùng gồm những gì?; 355
+Cơ quan nào có thẩm quyền cấp Giấy phép kinh doanh vận tải theo quy định?; 1463
+Việc kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới do ai thực hiện?; 357
+Vận tốc thiết kế của xe bốn bánh có gắn động cơ vận chuyển hàng hóa có được lớn hơn 60 km/h không?; 331
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+

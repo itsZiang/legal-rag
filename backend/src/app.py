@@ -122,7 +122,7 @@ async def search_documents_ids_api(data: Dict):
 
     results = search_documents_ids(query, limit)
     logging.info(f"Search query: '{query}' with limit {limit}")
-    return {"results": results}
+    return {"ids": results}
 
 
 if __name__ == "__main__":

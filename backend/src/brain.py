@@ -2,9 +2,13 @@ import json
 import logging
 import os
 import pprint
-from urllib import response
-
-import torch
+import requests
+from configs import (
+    VAST_IP_ADDRESS_LLM,
+    VAST_PORT_LLM,
+    VAST_IP_ADDRESS_EMBED_RERANK,
+    VAST_PORT_EMBED_RERANK,
+)
 from functions import (
     calculate_fixed_monthly_payment,
     calculate_future_value,
@@ -12,22 +16,18 @@ from functions import (
 )
 from openai import OpenAI
 from redis import InvalidResponse
-from sentence_transformers import SentenceTransformer
 
 logger = logging.getLogger(__name__)
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", default=None)
 
 
-VAST_IP_ADDRESS="93.92.199.89"
-VAST_PORT="40890"
-
 vistral_client = OpenAI(
-    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
+    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS_LLM}:{VAST_PORT_LLM}/v1"
 )
 
 cohere_client = OpenAI(
-    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS}:{VAST_PORT}/v1"
+    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS_LLM}:{VAST_PORT_LLM}/v1"
 )
 
 
@@ -56,6 +56,7 @@ def vistral_chat_complete(messages=()):
     output = chat_response.choices[0].message
     return output.content
 
+
 def cohere_chat_complete(messages=()):
     chat_response = cohere_client.chat.completions.create(
         model="CohereLabs/aya-expanse-8b",
@@ -65,17 +66,22 @@ def cohere_chat_complete(messages=()):
     return output.content
 
 
-# initialize the embedder a single time
-_EMBEDDER = SentenceTransformer(
-    "GreenNode/GreenNode-Embedding-Large-VN-V1",
-    device="cpu",
-)
-
-
-def get_embedding(text: str) -> list[float]:
+def get_embedding(text: str):
     text = text.replace("\n", " ")
-    emb = _EMBEDDER.encode(text, convert_to_numpy=True)
-    return emb.tolist()
+    # Set URL
+    url = f"http://{VAST_IP_ADDRESS_EMBED}:{VAST_PORT_EMBED}/embed"
+
+    # Prepare headers
+    headers = {"Content-Type": "application/json"}
+
+    # Prepare data
+    payload = {"text": text}
+
+    # Make request
+    response = requests.post(url, headers=headers, json=payload)
+
+    # Get embedding
+    return response.json()["embedding"]
 
 
 def gen_doc_prompt(docs):
