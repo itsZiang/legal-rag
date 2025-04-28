@@ -11,7 +11,16 @@ def main():
             continue
         question = line[0]
         doc_ids = line[1].strip().split(",")
-        doc_ids = [int(x.strip()) for x in doc_ids if x.strip()]
+        # convert strings to ints, skipping invalid entries
+        converted_ids = []
+        for x in doc_ids:
+            x = x.strip()
+            try:
+                converted_ids.append(int(x))
+            except ValueError:
+                # skip non-integer values
+                continue
+        doc_ids = converted_ids
         data.append({"question": question.strip(), "doc_ids": doc_ids})
 
     with open("test_set.json", "w", encoding="utf-8") as f:

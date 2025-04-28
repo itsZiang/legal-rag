@@ -69,7 +69,7 @@ def cohere_chat_complete(messages=()):
 def get_embedding(text: str):
     text = text.replace("\n", " ")
     # Set URL
-    url = f"http://{VAST_IP_ADDRESS_EMBED}:{VAST_PORT_EMBED}/embed"
+    url = f"http://{VAST_IP_ADDRESS_EMBED_RERANK}:{VAST_PORT_EMBED_RERANK}/embed"
 
     # Prepare headers
     headers = {"Content-Type": "application/json"}

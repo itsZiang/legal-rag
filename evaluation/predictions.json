@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Xe quá tải trọng bao gồm loại xe nào?",
+        "doc_ids": [
+            373,
+            1401,
+            1403,
+            1366,
+            1380
+        ]
+    },
+    {
+        "question": "Xe ô tô có được dừng xe tại khu đất ở bên ngoài phần đường xe chạy không?",
+        "doc_ids": [
+            303,
+            304,
+            1646,
+            314,
+            329
+        ]
+    },
+    {
+        "question": "Cơ quan nào có thẩm quyền thực hiện thu hồi giấy phép sát hạch?",
+        "doc_ids": [
+            1882,
+            1697,
+            1881,
+            1888,
+            1747
+        ]
+    },
+    {
+        "question": "Khi nào được phục hồi điểm giấy phép lái xe?",
+        "doc_ids": [
+            2506,
+            1628,
+            2507,
+            2505,
+            392
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe hạng C được điều khiển xe gì?",
+        "doc_ids": [
+            453,
+            454,
+            390,
+            393,
+            391
+        ]
+    },
+    {
+        "question": "Đối tượng nào phải bảo đảm chất lượng an toàn kỹ thuật và bảo vệ môi trường?",
+        "doc_ids": [
+            355,
+            356,
+            1295,
+            556,
+            1304
+        ]
+    },
+    {
+        "question": "Cách nhận biết xe cứu thương đang làm nhiệm vụ cấp cứu?",
+        "doc_ids": [
+            317,
+            1181,
+            318,
+            319,
+            1237
+        ]
+    },
+    {
+        "question": "Bến xe khách có chức năng gì?",
+        "doc_ids": [
+            1422,
+            58,
+            34,
+            59,
+            1120
+        ]
+    },
+    {
+        "question": "Thời hạn của giấy phép lái xe được quy định là bao lâu?",
+        "doc_ids": [
+            391,
+            1732,
+            1782,
+            1682,
+            1728
+        ]
+    },
+    {
+        "question": "Thời hạn của bằng lái xe hạng D là bao nhiêu năm?",
+        "doc_ids": [
+            1682,
+            391,
+            1732,
+            1782,
+            1842
+        ]
+    }
+]

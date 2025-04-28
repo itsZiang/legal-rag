@@ -5,7 +5,7 @@ import requests
 def get_documents(query, limit=5):
     body = {"query": query, "limit": limit}
     response = requests.post("http://localhost:8000/search_ids", json=body)
-    return response.json()["results"]
+    return response.json()["ids"]
 
 
 def main():
@@ -18,7 +18,6 @@ def main():
         questions.append(question)
 
     predictions: list[dict] = []
-
     for question in questions:
         doc_ids = get_documents(question)
         predictions.append({"question": question, "doc_ids": doc_ids})
