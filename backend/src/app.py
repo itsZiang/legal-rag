@@ -128,11 +128,12 @@ async def search_documents_ids_api(data: Dict):
 async def search_documents_ids_rerank_api(data: Dict):
     query = data.get("query")
     limit = data.get("limit", 5)
+    top_n = data.get("top_n", 5)
 
     if not query:
         return {"error": "Missing 'query' field."}
 
-    results = search_documents_ids_rerank(query, limit)
+    results = search_documents_ids_rerank(query, limit, top_n)
     logging.info(f"Search query: '{query}' with limit {limit}")
     return {"ids": results}
 

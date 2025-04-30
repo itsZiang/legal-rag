@@ -2,13 +2,13 @@ import json
 import requests
 
 
-def get_documents(query, limit=5):
+def get_documents(query, limit=10):
     body = {"query": query, "limit": limit}
     response = requests.post("http://localhost:8000/search_ids", json=body)
     return response.json()["ids"]
 
 
-def get_documents_rerank(query, limit=5, top_n=5):
+def get_documents_rerank(query, limit=10, top_n=10):
     body = {"query": query, "limit": limit, "top_n": top_n}
     response = requests.post("http://localhost:8000/search_ids_rerank", json=body)
     return response.json()["ids"]
@@ -25,7 +25,7 @@ def main():
 
     predictions: list[dict] = []
     for question in questions:
-        doc_ids = get_documents_rerank(question)
+        doc_ids = get_documents(question)
         predictions.append({"question": question, "doc_ids": doc_ids})
 
     with open("predictions.json", "w", encoding="utf-8") as f:
