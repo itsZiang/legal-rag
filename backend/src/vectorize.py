@@ -39,3 +39,16 @@ def search_vector_ids(collection_name, vector, limit=2):
         collection_name=collection_name, query_vector=vector, limit=limit
     )
     return [x.id for x in res]
+
+
+def search_vector_ids_payloads(collection_name, vector, limit=2):
+    res = client.search(
+        collection_name=collection_name, query_vector=vector, limit=limit
+    )
+    ids = [x.id for x in res]
+    payloads = [x.payload for x in res]
+    output = [{"id": id, "payload": payload} for id, payload in zip(ids, payloads)]
+    return output
+
+
+

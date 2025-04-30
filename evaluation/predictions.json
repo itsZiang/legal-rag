@@ -3,17 +3,17 @@
         "question": "Xe quá tải trọng bao gồm loại xe nào?",
         "doc_ids": [
             373,
+            1366,
             1401,
             1403,
-            1366,
             1380
         ]
     },
     {
         "question": "Xe ô tô có được dừng xe tại khu đất ở bên ngoài phần đường xe chạy không?",
         "doc_ids": [
-            303,
             304,
+            303,
             1646,
             314,
             329
@@ -23,9 +23,9 @@
         "question": "Cơ quan nào có thẩm quyền thực hiện thu hồi giấy phép sát hạch?",
         "doc_ids": [
             1882,
-            1697,
-            1881,
             1888,
+            1881,
+            1697,
             1747
         ]
     },
@@ -34,9 +34,9 @@
         "doc_ids": [
             2506,
             1628,
+            392,
             2507,
-            2505,
-            392
+            2505
         ]
     },
     {
@@ -44,9 +44,9 @@
         "doc_ids": [
             453,
             454,
+            391,
             390,
-            393,
-            391
+            393
         ]
     },
     {
@@ -54,18 +54,18 @@
         "doc_ids": [
             355,
             356,
-            1295,
             556,
+            1295,
             1304
         ]
     },
     {
         "question": "Cách nhận biết xe cứu thương đang làm nhiệm vụ cấp cứu?",
         "doc_ids": [
-            317,
+            319,
             1181,
             318,
-            319,
+            317,
             1237
         ]
     },
@@ -74,9 +74,9 @@
         "doc_ids": [
             1422,
             58,
-            34,
             59,
-            1120
+            1120,
+            34
         ]
     },
     {
@@ -84,8 +84,8 @@
         "doc_ids": [
             391,
             1732,
-            1782,
             1682,
+            1782,
             1728
         ]
     },
@@ -95,8 +95,8 @@
             1682,
             391,
             1732,
-            1782,
-            1842
+            1842,
+            1782
         ]
     },
     {
@@ -113,18 +113,18 @@
         "question": "Hệ thống giám sát giao thông là gì?",
         "doc_ids": [
             420,
-            248,
-            2219,
             848,
+            2219,
+            248,
             668
         ]
     },
     {
         "question": "Thiết bị phát tín hiệu xe của lực lượng công an, xe của lực lượng kiểm sát đi làm nhiệm vụ khẩn cấp như thế nào?",
         "doc_ids": [
+            1183,
             1181,
             1193,
-            1183,
             1194,
             1188
         ]
@@ -133,8 +133,8 @@
         "question": "Cơ sở đăng kiểm sẽ bị tạm đình chỉ hoạt động kiểm định trong trường hợp nào? Thời hạn bao lâu?",
         "doc_ids": [
             1933,
-            1936,
             1934,
+            1936,
             2100,
             1921
         ]
@@ -143,20 +143,20 @@
         "question": "Xe cứu thương đang đi cấp cứu có được sử dụng còi liên tục không?",
         "doc_ids": [
             307,
-            643,
-            1181,
             1183,
+            1181,
+            643,
             318
         ]
     },
     {
         "question": "Không chấp hành yêu cầu kiểm tra của người thi hành công vụ trong lĩnh vực giao thông đường bộ là hành vi bị nghiêm cấm đúng không?",
         "doc_ids": [
+            286,
             422,
             423,
             658,
-            866,
-            286
+            866
         ]
     },
     {
@@ -165,18 +165,18 @@
             960,
             1079,
             1131,
-            959,
-            1080
+            1080,
+            959
         ]
     },
     {
         "question": "Người điều khiển phương tiện tham gia giao thông đường bộ là xe thô sơ có phải bật đèn xe từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau không?",
         "doc_ids": [
             306,
-            1201,
+            316,
             298,
             2306,
-            316
+            1201
         ]
     },
     {
@@ -184,47 +184,47 @@
         "doc_ids": [
             1453,
             1454,
+            916,
             1455,
-            909,
-            916
+            909
         ]
     },
     {
         "question": "Đinh phản quang được lắp đặt nhằm mục đích gì?",
         "doc_ids": [
             1012,
-            677,
-            686,
+            1011,
             1013,
-            1011
+            677,
+            686
         ]
     },
     {
         "question": "Niên hạn sử dụng xe cơ giới là bao nhiêu năm?",
         "doc_ids": [
-            351,
             1937,
+            351,
+            352,
             353,
-            354,
-            352
+            354
         ]
     },
     {
         "question": "Khi tham gia giao thông phải ưu tiên chấp hành vạch vàng nét đứt trước đúng không?",
         "doc_ids": [
-            624,
-            1388,
             291,
+            624,
+            308,
             309,
-            308
+            1388
         ]
     },
     {
         "question": "Độ tuổi được điều khiển xe máy điện là bao nhiêu?",
         "doc_ids": [
             393,
-            2318,
             2321,
+            2318,
             2323,
             1937
         ]
@@ -232,11 +232,11 @@
     {
         "question": "Đơn vị kinh doanh vận tải hành khách bằng xe ô tô có cần phải ứng dụng công nghệ thông tin để quản lý điều hành hoạt động vận tải không?",
         "doc_ids": [
-            1605,
             1093,
             1593,
-            52,
-            32
+            1605,
+            32,
+            52
         ]
     },
     {
@@ -244,8 +244,8 @@
         "doc_ids": [
             860,
             866,
-            845,
             861,
+            845,
             630
         ]
     },
@@ -254,8 +254,8 @@
         "doc_ids": [
             1905,
             358,
-            1949,
             1917,
+            1949,
             1932
         ]
     },
@@ -263,30 +263,30 @@
         "question": "Giấy chứng nhận kiểm định cấp lại có thời hạn hiệu lực bao lâu?",
         "doc_ids": [
             1323,
-            600,
+            2099,
             2095,
             2150,
-            2099
+            600
         ]
     },
     {
         "question": "Tên đường bộ bao gồm những gì?",
         "doc_ids": [
             100,
-            976,
             978,
             972,
-            961
+            961,
+            976
         ]
     },
     {
         "question": "Người bao nhiêu tuổi được cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ?",
         "doc_ids": [
-            404,
             393,
-            405,
+            1760,
+            404,
             406,
-            1760
+            405
         ]
     },
     {
@@ -294,38 +294,38 @@
         "doc_ids": [
             2506,
             1628,
+            392,
             2507,
-            2505,
-            392
+            2505
         ]
     },
     {
         "question": "Đơn vị kinh doanh vận tải hàng hóa có được quyết định giá cước vận tải không?",
         "doc_ids": [
-            1460,
-            1106,
             1107,
-            31,
-            1443
+            1106,
+            1460,
+            1443,
+            31
         ]
     },
     {
         "question": "Bằng lái xe B1 có được lái xe mô tô ba bánh không?",
         "doc_ids": [
-            1680,
-            1712,
-            330,
             453,
-            390
+            390,
+            1712,
+            1680,
+            330
         ]
     },
     {
         "question": "Biên bản phân công nhiệm vụ của Hội đồng sát hạch lái xe phải được lưu trữ bao lâu?",
         "doc_ids": [
-            1720,
             1721,
-            1697,
+            1720,
             1782,
+            1697,
             1707
         ]
     },
@@ -333,10 +333,10 @@
         "question": "Hàng hóa ký gửi là gì?",
         "doc_ids": [
             1115,
-            1370,
             1116,
-            949,
-            31
+            31,
+            1370,
+            949
         ]
     },
     {
@@ -344,28 +344,28 @@
         "doc_ids": [
             327,
             326,
-            389,
             359,
+            389,
             333
         ]
     },
     {
         "question": "Tốc độ khai thác tối đa của đường bộ là gì?",
         "doc_ids": [
-            1815,
-            1016,
             1817,
             1819,
-            1816
+            1815,
+            1816,
+            1016
         ]
     },
     {
         "question": "Hệ thống thông tin cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ tại Sở Giao thông vận tải gồm những gì?",
         "doc_ids": [
-            1777,
-            1778,
             1654,
+            1778,
             1655,
+            1777,
             1776
         ]
     },
@@ -375,28 +375,28 @@
             487,
             462,
             488,
-            489,
-            519
+            519,
+            489
         ]
     },
     {
         "question": "Giấy phép lái xe có bao nhiêu điểm?",
         "doc_ids": [
             392,
+            2357,
             2264,
             2503,
-            2297,
-            2357
+            2297
         ]
     },
     {
         "question": "03 Đối tượng nào được giáo dục kiến thức pháp luật về trật tự an toàn giao thông đường bộ theo quy định mới?",
         "doc_ids": [
             282,
-            1150,
             1151,
+            1149,
             1152,
-            1149
+            1150
         ]
     },
     {
@@ -405,18 +405,18 @@
             1818,
             331,
             144,
-            1458,
-            315
+            315,
+            1458
         ]
     },
     {
         "question": "Thanh toán điện tử giao thông là gì?",
         "doc_ids": [
-            668,
             1065,
+            668,
+            670,
             694,
-            703,
-            670
+            703
         ]
     },
     {
@@ -445,8 +445,8 @@
             1782,
             1764,
             1657,
-            1980,
-            1778
+            1778,
+            1980
         ]
     },
     {
@@ -454,8 +454,8 @@
         "doc_ids": [
             1395,
             1396,
-            330,
             328,
+            330,
             1387
         ]
     },
@@ -463,19 +463,19 @@
         "question": "Phương tiện, thiết bị phục vụ quản lý, vận hành, khai thác công trình đường bộ được pháp luật quy định như thế nào?",
         "doc_ids": [
             1010,
-            229,
             130,
+            960,
             131,
-            960
+            229
         ]
     },
     {
         "question": "03 Trường hợp bị thu hồi bằng lái xe theo quy định mới nhất?",
         "doc_ids": [
-            1748,
-            1852,
-            402,
             1747,
+            1748,
+            402,
+            1852,
             1849
         ]
     },
@@ -485,8 +485,8 @@
             1062,
             247,
             252,
-            253,
-            248
+            248,
+            253
         ]
     },
     {
@@ -504,18 +504,18 @@
         "doc_ids": [
             100,
             101,
-            980,
+            102,
             978,
-            102
+            980
         ]
     },
     {
         "question": "Không được quay đầu xe ở những nơi nào?",
         "doc_ids": [
-            303,
             299,
-            2114,
+            303,
             2266,
+            2114,
             329
         ]
     },
@@ -523,60 +523,60 @@
         "question": "Có được bóp còi khi vượt xe không?",
         "doc_ids": [
             298,
-            310,
             307,
             297,
-            329
+            329,
+            310
         ]
     },
     {
         "question": "Nơi không có vạch kẻ đường thì người đi bộ được qua đường khi nào?",
         "doc_ids": [
             326,
-            298,
-            2285,
             294,
+            2285,
+            298,
             329
         ]
     },
     {
         "question": "Người lái xe gắn máy có được sử dụng chân chống xe quệt xuống đường khi xe đang chạy không?",
         "doc_ids": [
-            304,
-            329,
             315,
             357,
-            303
+            304,
+            303,
+            329
         ]
     },
     {
         "question": "Người lái xe ô tô chở người trên 29 chỗ phải có bằng lái xe hạng nào?",
         "doc_ids": [
             390,
-            1203,
-            1682,
             453,
-            1836
+            1682,
+            1836,
+            1203
         ]
     },
     {
         "question": "Nguyên tắc nhường đường khi có chướng ngại vật phía trước thế nào?",
         "doc_ids": [
-            624,
             301,
-            2044,
+            297,
             308,
-            297
+            624,
+            2044
         ]
     },
     {
         "question": "Tem kiểm định xe gắn máy bị mất có bị cảnh báo phương tiện tham gia giao thông không?",
         "doc_ids": [
             1923,
-            2153,
+            1928,
             2146,
-            1926,
-            1928
+            2153,
+            1926
         ]
     },
     {
@@ -593,60 +593,60 @@
         "question": "Xe ô tô tải chuyên dùng có niên hạn sử dụng bao lâu?",
         "doc_ids": [
             1937,
+            1456,
             542,
             352,
-            1456,
             353
         ]
     },
     {
         "question": "Quy hoạch nào cụ thể hóa quy hoạch mạng lưới đường bộ?",
         "doc_ids": [
-            966,
             967,
-            138,
+            966,
             968,
-            969
+            969,
+            138
         ]
     },
     {
         "question": "Hành vi chuyển hướng xe có gồm việc quay đầu xe?",
         "doc_ids": [
             299,
-            1143,
             2277,
             2267,
-            646
+            646,
+            1143
         ]
     },
     {
         "question": "Một xe ô tô có được chở nhiều loại hàng hóa nguy hiểm không?",
         "doc_ids": [
+            2342,
             360,
             371,
-            955,
-            2342,
-            368
+            368,
+            955
         ]
     },
     {
         "question": "Xe ô tô vận chuyển hành khách khi vượt xe cần phải vượt bên nào?",
         "doc_ids": [
             297,
-            361,
-            360,
             368,
-            365
+            360,
+            365,
+            361
         ]
     },
     {
         "question": "Chồng có được phép chở vợ kèm theo 2 con nhỏ khi tham gia giao thông không?",
         "doc_ids": [
-            330,
             328,
             290,
-            1208,
-            327
+            330,
+            327,
+            1208
         ]
     },
     {
@@ -654,19 +654,19 @@
         "doc_ids": [
             299,
             290,
+            293,
             304,
-            303,
-            293
+            303
         ]
     },
     {
         "question": "Xe chở người bốn bánh có gắn động cơ có thời hạn sử dụng là bao lâu?",
         "doc_ids": [
-            1937,
             1458,
+            1937,
             144,
-            1818,
-            352
+            352,
+            1818
         ]
     },
     {
@@ -674,9 +674,9 @@
         "doc_ids": [
             1432,
             38,
-            40,
             29,
-            43
+            43,
+            40
         ]
     },
     {
@@ -694,19 +694,19 @@
         "doc_ids": [
             924,
             933,
-            927,
             935,
+            927,
             926
         ]
     },
     {
         "question": "Việc tổ chức kiểm tra, cấp giấy chứng nhận được thực hiện thế nào?",
         "doc_ids": [
-            193,
-            564,
             792,
             566,
-            804
+            804,
+            193,
+            564
         ]
     },
     {
@@ -714,28 +714,28 @@
         "doc_ids": [
             300,
             316,
-            304,
             303,
+            304,
             1013
         ]
     },
     {
         "question": "Có bắt buộc đặt tên, số hiệu đường bộ đối với đường nội bộ hay không?",
         "doc_ids": [
-            978,
             980,
-            100,
             102,
-            101
+            978,
+            101,
+            100
         ]
     },
     {
         "question": "Xe tải chở hàng hoá xếp hàng vượt phía trước phải có báo hiệu màu gì tại điểm đầu của hàng hóa?",
         "doc_ids": [
-            368,
             365,
-            1395,
+            368,
             1443,
+            1395,
             371
         ]
     },
@@ -754,39 +754,39 @@
         "doc_ids": [
             422,
             423,
+            657,
             653,
-            149,
-            657
+            149
         ]
     },
     {
         "question": "Người điều khiển phương tiện tham gia giao thông đường bộ được vượt xe khi nào?",
         "doc_ids": [
-            1206,
+            297,
             2253,
+            1206,
             389,
-            1809,
-            297
+            1809
         ]
     },
     {
         "question": "Xe ô tô chuyên dùng có niên hạn sử dụng không?",
         "doc_ids": [
             1937,
-            353,
             352,
-            542,
-            1456
+            353,
+            1456,
+            542
         ]
     },
     {
         "question": "Hoạt động vận tải người nội bộ là gì?",
         "doc_ids": [
-            1079,
             1090,
-            1080,
+            1079,
             1491,
-            1492
+            1492,
+            1080
         ]
     },
     {
@@ -803,20 +803,20 @@
         "question": "Chỉ huy giao thông đường bộ là gì?",
         "doc_ids": [
             424,
-            639,
-            642,
             425,
+            642,
+            639,
             641
         ]
     },
     {
         "question": "Khắc phục hậu quả thiên tai đường bộ khi sạt lở ta luy âm như thế nào?",
         "doc_ids": [
-            2044,
-            2027,
             2045,
+            2044,
             2042,
-            2015
+            2015,
+            2027
         ]
     },
     {
@@ -824,39 +824,39 @@
         "doc_ids": [
             288,
             1268,
-            1073,
             1239,
-            436
+            436,
+            1073
         ]
     },
     {
         "question": "Thời hạn cấp lại Giấy chứng nhận kiểm định là bao lâu?",
         "doc_ids": [
             1323,
-            604,
-            2171,
+            1930,
             792,
-            1930
+            2171,
+            604
         ]
     },
     {
         "question": "Xe cứu thương có phải lắp thiết bị giám sát hành trình khi tham gia giao thông?",
         "doc_ids": [
             1202,
-            1203,
             333,
-            384,
-            2360
+            1203,
+            2360,
+            384
         ]
     },
     {
         "question": "Cơ sở đăng kiểm xe cơ giới có hai dây chuyền kiểm định là gì?",
         "doc_ids": [
             1910,
-            1905,
             1907,
-            1932,
-            797
+            1905,
+            797,
+            1932
         ]
     },
     {
@@ -864,18 +864,18 @@
         "doc_ids": [
             627,
             641,
-            629,
+            882,
             642,
-            882
+            629
         ]
     },
     {
         "question": "Bao nhiêu tuổi được cấp giấy phép lái xe hạng C1E?",
         "doc_ids": [
             393,
-            1682,
-            1732,
             391,
+            1732,
+            1682,
             395
         ]
     },
@@ -883,10 +883,10 @@
         "question": "Đèn vàng mà Cảnh sát giao thông ra hiệu được đi thì có được đi tiếp hay không?",
         "doc_ids": [
             291,
-            644,
-            312,
+            1011,
             640,
-            1011
+            312,
+            644
         ]
     },
     {
@@ -924,68 +924,68 @@
         "doc_ids": [
             1910,
             800,
+            1907,
             1915,
-            1905,
-            1907
+            1905
         ]
     },
     {
         "question": "Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ được xây dựng như thế nào?",
         "doc_ids": [
-            1161,
             1160,
+            1161,
+            1178,
             283,
-            284,
-            1178
+            284
         ]
     },
     {
         "question": "Xe mô tô (xe máy) được chở hàng hóa có tải trọng tối đa là bao nhiêu theo quy định của pháp luật hiện nay?",
         "doc_ids": [
+            330,
             1395,
             1396,
             328,
-            330,
             2335
         ]
     },
     {
         "question": "Nâng hạng bằng lái xe từ B lên C1, C khi bằng lái còn hiệu lực được không?",
         "doc_ids": [
-            453,
-            454,
-            395,
             394,
-            1682
+            395,
+            1682,
+            454,
+            453
         ]
     },
     {
         "question": "Phương tiện đo của cơ sở đăng kiểm tại xưởng kiểm định được bố trí thế nào?",
         "doc_ids": [
-            1907,
             1919,
-            800,
+            1907,
             1910,
+            800,
             789
         ]
     },
     {
         "question": "Giấy phép lái xe hạng CE là gì?",
         "doc_ids": [
+            1732,
             1718,
             390,
             454,
-            1732,
             1745
         ]
     },
     {
         "question": "Bằng lái xe quốc tế là gì?",
         "doc_ids": [
-            1752,
-            1755,
-            1751,
             1653,
+            1755,
+            1752,
+            1751,
             1750
         ]
     },
@@ -993,8 +993,8 @@
         "question": "Thời điểm tập huấn nghiệp vụ vận tải cho lái xe kinh doanh vận tải và yêu cầu của cán bộ tập huấn được quy định thế nào?",
         "doc_ids": [
             1453,
-            1455,
             1454,
+            1455,
             1702,
             1612
         ]
@@ -1003,30 +1003,30 @@
         "question": "Phương tiện tham gia giao thông đường bộ di chuyển với tốc độ thấp hơn phải đi về bên nào?",
         "doc_ids": [
             296,
+            312,
             646,
             299,
-            645,
-            312
+            645
         ]
     },
     {
         "question": "Khi xuống phà xe đạp điện có được phép xuống đầu tiên không?",
         "doc_ids": [
             310,
-            311,
             309,
-            2282,
-            2283
+            311,
+            2283,
+            2282
         ]
     },
     {
         "question": "Tạm dừng khai thác đường cao tốc là gì?",
         "doc_ids": [
             1073,
-            2009,
+            222,
             1074,
             221,
-            222
+            2009
         ]
     },
     {
@@ -1034,17 +1034,17 @@
         "doc_ids": [
             2221,
             254,
+            1075,
             1071,
-            145,
-            1075
+            145
         ]
     },
     {
         "question": "Xe chở thực phẩm tươi sống có phải là xe được ưu tiên khi qua phà không?",
         "doc_ids": [
             309,
-            370,
             310,
+            370,
             318,
             317
         ]
@@ -1055,38 +1055,38 @@
             299,
             297,
             296,
-            490,
-            269
+            269,
+            490
         ]
     },
     {
         "question": "Nếu bị trừ hết điểm giấy phép lái xe có được lái xe không?",
         "doc_ids": [
             392,
-            2503,
             2507,
-            2504,
-            2264
+            2503,
+            2264,
+            2504
         ]
     },
     {
         "question": "Điều kiện đăng kiểm viên hạng II của cơ sở đăng kiểm xe cơ giới là gì?",
         "doc_ids": [
-            1909,
             1912,
-            2071,
+            1909,
+            1955,
             1910,
-            1955
+            2071
         ]
     },
     {
         "question": "Sử dụng tạm thời lòng đường gây mất trật tự cơ quan nào có thẩm quyền giải quyết?",
         "doc_ids": [
-            137,
             432,
+            137,
             431,
-            136,
-            430
+            430,
+            136
         ]
     },
     {
@@ -1105,8 +1105,8 @@
             2058,
             2057,
             2059,
-            2038,
-            2013
+            2013,
+            2038
         ]
     },
     {
@@ -1123,18 +1123,18 @@
         "question": "Người bao nhiêu tuổi sẽ được cấp bằng lái xe hạng C1?",
         "doc_ids": [
             393,
-            1682,
             1716,
-            395,
-            394
+            1682,
+            394,
+            395
         ]
     },
     {
         "question": "Bằng lái xe B1 cấp trước đây được đổi sang giấy phép lái xe hạng nào?",
         "doc_ids": [
             454,
-            390,
             453,
+            390,
             1739,
             1742
         ]
@@ -1143,10 +1143,10 @@
         "question": "Phương tiện giao thông thông minh cần đảm bảo điều kiện nào?",
         "doc_ids": [
             666,
-            675,
-            679,
             920,
-            670
+            675,
+            670,
+            679
         ]
     },
     {
@@ -1154,29 +1154,29 @@
         "doc_ids": [
             393,
             1716,
-            1682,
             391,
-            1660
+            1660,
+            1682
         ]
     },
     {
         "question": "Xe ô tô tuần tra, kiểm soát về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông có hình thức như thế nào?",
         "doc_ids": [
+            860,
             369,
-            411,
-            379,
             414,
-            860
+            411,
+            379
         ]
     },
     {
         "question": "Khi đỗ xe ô tô trên đường phải thực hiện quy định nào?",
         "doc_ids": [
-            303,
-            304,
-            69,
             302,
-            1060
+            304,
+            303,
+            1060,
+            69
         ]
     },
     {
@@ -1185,48 +1185,48 @@
             1430,
             1433,
             36,
-            42,
-            1095
+            1095,
+            42
         ]
     },
     {
         "question": "Người điều khiển phương tiện tham gia giao thông đường bộ phải có trách nhiệm gì?",
         "doc_ids": [
-            436,
             421,
+            436,
             389,
-            1809,
-            361
+            361,
+            1809
         ]
     },
     {
         "question": "Thuốc nổ là hàng hóa nguy hiểm có được vận chuyển qua hầm hay không?",
         "doc_ids": [
             922,
+            954,
             907,
             927,
-            954,
             944
         ]
     },
     {
         "question": "Trật tự, an toàn giao thông đường bộ là gì?",
         "doc_ids": [
-            428,
-            434,
             268,
+            420,
             280,
-            420
+            428,
+            434
         ]
     },
     {
         "question": "Khi nào đường dây tải điện xây dựng bên trên đường bộ không cần có văn bản chấp thuận của cơ quan quản lý đường bộ?",
         "doc_ids": [
-            125,
-            155,
             1006,
-            1382,
-            376
+            125,
+            376,
+            155,
+            1382
         ]
     },
     {
@@ -1234,19 +1234,19 @@
         "doc_ids": [
             1850,
             1897,
+            391,
             1856,
-            1728,
-            391
+            1728
         ]
     },
     {
         "question": "Có được cải tạo xe ô tô khác thành xe chở người không?",
         "doc_ids": [
             352,
-            331,
             1903,
-            1203,
-            1491
+            331,
+            1491,
+            1203
         ]
     },
     {
@@ -1254,16 +1254,16 @@
         "doc_ids": [
             977,
             1066,
-            1810,
+            1007,
             1024,
-            1007
+            1810
         ]
     },
     {
         "question": "Vạch kẻ đường có phải là báo hiệu đường bộ không?",
         "doc_ids": [
-            1011,
             292,
+            1011,
             291,
             1012,
             100
@@ -1273,10 +1273,10 @@
         "question": "Cơ sở đăng kiểm xe cơ giới cần tối thiểu bao nhiêu lãnh đạo là đăng kiểm viên hạng II trở lên?",
         "doc_ids": [
             1911,
-            1912,
             1909,
-            2071,
-            1932
+            1912,
+            1932,
+            2071
         ]
     },
     {
@@ -1285,18 +1285,18 @@
             1017,
             1371,
             1373,
-            1374,
-            1375
+            1375,
+            1374
         ]
     },
     {
         "question": "Xe taxi đón trả hành khách như thế nào?",
         "doc_ids": [
             47,
-            46,
-            10,
             49,
-            50
+            46,
+            50,
+            10
         ]
     },
     {
@@ -1313,29 +1313,29 @@
         "question": "Người đi bộ phải tuân thủ những quy định gì khi tham gia giao thông đường bộ?",
         "doc_ids": [
             326,
-            389,
-            290,
             327,
-            291
+            290,
+            291,
+            389
         ]
     },
     {
         "question": "Đường quốc lộ được hiểu là gì?",
         "doc_ids": [
             972,
-            973,
-            1807,
             97,
-            87
+            87,
+            973,
+            1807
         ]
     },
     {
         "question": "Tín hiệu được sử dụng đối với thiết bị phát tín hiệu của xe cứu thương là gì?",
         "doc_ids": [
             1183,
+            1182,
             1185,
             1181,
-            1182,
             1180
         ]
     },
@@ -1344,27 +1344,27 @@
         "doc_ids": [
             402,
             1748,
+            1860,
             1852,
-            1849,
-            1860
+            1849
         ]
     },
     {
         "question": "Xe gắn máy được phép đậu xe cách vỉa hè ít nhất bao nhiêu mét?",
         "doc_ids": [
             304,
-            2274,
             303,
-            2290,
-            2289
+            2274,
+            2289,
+            2290
         ]
     },
     {
         "question": "Xe nhập khẩu không có số máy thì cơ quan đăng ký xe đóng lại số máy như thế nào?",
         "doc_ids": [
             522,
-            524,
             523,
+            524,
             568,
             461
         ]
@@ -1372,19 +1372,19 @@
     {
         "question": "Các hành vi bị cấm của người được chở khi tham gia giao thông là gì?",
         "doc_ids": [
-            289,
             286,
             330,
             287,
-            328
+            328,
+            289
         ]
     },
     {
         "question": "Người điều khiển phương tiện tham gia giao thông đường bộ có bao gồm người điều khiển xe thô sơ không?",
         "doc_ids": [
-            332,
             269,
             328,
+            332,
             333,
             1809
         ]
@@ -1392,11 +1392,11 @@
     {
         "question": "Hoạt động sát hạch lái xe ô tô được thực hiện ở đâu?",
         "doc_ids": [
-            1690,
             397,
             1691,
+            1884,
             1714,
-            1884
+            1690
         ]
     },
     {
@@ -1404,8 +1404,8 @@
         "doc_ids": [
             1696,
             1699,
-            1700,
             1707,
+            1700,
             1698
         ]
     },
@@ -1414,29 +1414,29 @@
         "doc_ids": [
             297,
             298,
-            1206,
             301,
+            1206,
             374
         ]
     },
     {
         "question": "Xe đã đi qua vạch dừng mà tín hiệu đèn vàng có được đi tiếp?",
         "doc_ids": [
-            298,
             291,
             320,
             312,
-            306
+            306,
+            298
         ]
     },
     {
         "question": "Có tịch thu xe máy chạy quá tốc độ gây tai nạn giao thông?",
         "doc_ids": [
-            1817,
-            378,
             2280,
+            315,
+            1817,
             379,
-            315
+            378
         ]
     },
     {
@@ -1453,29 +1453,29 @@
         "question": "Công trình đường bộ bao gồm những gì theo Luật Đường bộ mới nhất?",
         "doc_ids": [
             960,
-            125,
-            1020,
+            140,
             1036,
-            140
+            125,
+            1020
         ]
     },
     {
         "question": "Số IDP bao gồm những gì theo quy định?",
         "doc_ids": [
             1749,
-            1653,
-            1751,
             1752,
+            1751,
+            1653,
             83
         ]
     },
     {
         "question": "Hành vi bị nghiêm cấm đối với thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông là gì?",
         "doc_ids": [
-            622,
-            637,
-            630,
             287,
+            630,
+            637,
+            622,
             631
         ]
     },
@@ -1484,8 +1484,8 @@
         "doc_ids": [
             290,
             326,
-            1809,
             312,
+            1809,
             316
         ]
     },
@@ -1493,9 +1493,9 @@
         "question": "Người có giấy phép lái xe quốc tế khi lái xe tham gia giao thông tại Việt Nam phải mang theo giấy tờ gì?",
         "doc_ids": [
             1213,
-            1751,
-            1745,
             389,
+            1745,
+            1751,
             1752
         ]
     },
@@ -1503,9 +1503,9 @@
         "question": "Có được chở người trên xe ô tô được kéo không?",
         "doc_ids": [
             325,
+            1903,
             324,
             330,
-            1903,
             1491
         ]
     },
@@ -1514,27 +1514,27 @@
         "doc_ids": [
             437,
             1227,
-            1235,
             1236,
+            1235,
             438
         ]
     },
     {
         "question": "Lắp loa trên xe ô tô gây mất trật tự an toàn giao thông đường bộ là hành vi vi phạm pháp luật đúng không?",
         "doc_ids": [
-            2406,
-            2388,
             2442,
+            2388,
             2370,
-            2424
+            2424,
+            2406
         ]
     },
     {
         "question": "Bằng lái xe hạng C1 có thời hạn bao lâu kể từ ngay được cấp?",
         "doc_ids": [
-            1682,
-            1732,
             391,
+            1732,
+            1682,
             1668,
             1660
         ]
@@ -1543,40 +1543,40 @@
         "question": "Đường đô thị bao gồm những đường nào?",
         "doc_ids": [
             972,
-            986,
-            1807,
             973,
-            975
+            986,
+            975,
+            1807
         ]
     },
     {
         "question": "Chưa đổi, cấp lại giấy phép lái xe trong trường hợp nào?",
         "doc_ids": [
-            1734,
             401,
+            1734,
+            400,
             1735,
-            1733,
-            400
+            1733
         ]
     },
     {
         "question": "Xe ô tô được kéo xe ô tô khác khi nào? Được kéo bao nhiêu xe?",
         "doc_ids": [
             325,
-            331,
+            381,
             1393,
-            2299,
-            381
+            331,
+            2299
         ]
     },
     {
         "question": "Tem kiểm định bị mất thì có phải mang xe đến cơ sở đăng kiểm kiểm tra, đánh giá lại không?",
         "doc_ids": [
             2142,
-            2141,
             2146,
             2136,
-            2140
+            2140,
+            2141
         ]
     },
     {
@@ -1584,8 +1584,8 @@
         "doc_ids": [
             937,
             916,
-            906,
             955,
+            906,
             927
         ]
     },
@@ -1594,9 +1594,9 @@
         "doc_ids": [
             306,
             316,
-            325,
+            2251,
             303,
-            2251
+            325
         ]
     },
     {
@@ -1605,8 +1605,8 @@
             2198,
             2206,
             2203,
-            2005,
-            2211
+            2211,
+            2005
         ]
     },
     {
@@ -1625,17 +1625,17 @@
             857,
             870,
             1252,
-            1207,
-            1259
+            1259,
+            1207
         ]
     },
     {
         "question": "Người điều khiển phương tiện tham gia giao thông có phải giảm tốc độ để tránh xe đi ngược chiều không?",
         "doc_ids": [
             301,
+            294,
             299,
             296,
-            294,
             1809
         ]
     },
@@ -1644,17 +1644,17 @@
         "doc_ids": [
             1461,
             1440,
-            1980,
+            1462,
             1782,
-            1462
+            1980
         ]
     },
     {
         "question": "Người đi bộ qua đường phải có tín hiệu bằng tay theo quy định mới?",
         "doc_ids": [
             326,
-            291,
             2285,
+            291,
             327,
             644
         ]
@@ -1673,10 +1673,10 @@
         "question": "Cấp kỹ thuật của đường bộ được xác định như thế nào?",
         "doc_ids": [
             977,
-            1810,
-            1016,
             991,
-            1066
+            1066,
+            1810,
+            1016
         ]
     },
     {
@@ -1692,10 +1692,10 @@
     {
         "question": "Khi nào được đi vào làn khẩn cấp trên cao tốc?",
         "doc_ids": [
-            313,
-            1066,
             314,
+            313,
             1073,
+            1066,
             296
         ]
     },
@@ -1703,8 +1703,8 @@
         "question": "Cơ sở đăng kiểm xe cơ giới có hai dây chuyền kiểm định thì diện tích mặt bằng cơ sở tối thiểu là bao nhiêu?",
         "doc_ids": [
             1910,
-            800,
             1915,
+            800,
             802,
             2114
         ]
@@ -1712,10 +1712,10 @@
     {
         "question": "Thiết bị an toàn cho trẻ em trên ô tô là gì?",
         "doc_ids": [
-            362,
-            363,
             270,
             290,
+            362,
+            363,
             364
         ]
     },
@@ -1734,9 +1734,9 @@
         "doc_ids": [
             286,
             2253,
-            2442,
             2370,
-            2406
+            2424,
+            2388
         ]
     },
     {
@@ -1744,8 +1744,8 @@
         "doc_ids": [
             317,
             318,
-            2195,
             319,
+            2195,
             1181
         ]
     },
@@ -1754,8 +1754,8 @@
         "doc_ids": [
             978,
             100,
-            979,
             102,
+            979,
             980
         ]
     },
@@ -1763,9 +1763,9 @@
         "question": "Trách nhiệm của người gây tai nạn giao thông là gì?",
         "doc_ids": [
             436,
+            439,
             438,
             1237,
-            439,
             1241
         ]
     },
@@ -1773,29 +1773,29 @@
         "question": "Hoạt động tuần tra kiểm soát về trật tự an toàn giao thông đường bộ được thực hiện thế nào?",
         "doc_ids": [
             408,
-            409,
+            414,
             411,
-            413,
-            414
+            409,
+            413
         ]
     },
     {
         "question": "Hành vi điểu khiển phương tiện giao thông đường bộ mà trong cơ thể có chất ma túy có bị pháp luật nghiêm cấm không?",
         "doc_ids": [
             286,
-            289,
-            288,
             2281,
-            440
+            440,
+            289,
+            288
         ]
     },
     {
         "question": "Trách nhiệm của người gây ra tai nạn giao thông là gì?",
         "doc_ids": [
             436,
-            1237,
-            438,
             439,
+            438,
+            1237,
             1241
         ]
     },
@@ -1804,19 +1804,19 @@
         "doc_ids": [
             2199,
             2189,
-            2203,
             1072,
+            2203,
             2198
         ]
     },
     {
         "question": "Cơ quan nào có thẩm quyền quyết định vị trí lắp đặt công trình kiểm soát tải trọng xe?",
         "doc_ids": [
-            2039,
             1061,
+            2039,
             1944,
-            800,
-            1939
+            1939,
+            800
         ]
     },
     {
@@ -1824,19 +1824,19 @@
         "doc_ids": [
             393,
             1716,
-            1682,
             391,
+            1682,
             390
         ]
     },
     {
         "question": "Khi vận chuyển hàng rời người điều khiển xe gắn máy có trách nhiệm gì?",
         "doc_ids": [
+            57,
             1413,
             1412,
-            57,
-            1447,
-            358
+            358,
+            1447
         ]
     },
     {
@@ -1844,8 +1844,8 @@
         "doc_ids": [
             1927,
             1928,
-            2150,
             824,
+            2150,
             794
         ]
     },
@@ -1853,30 +1853,30 @@
         "question": "Giấy phép lái xe được phục hồi khi nào?",
         "doc_ids": [
             2506,
-            1748,
-            1747,
             1628,
+            1747,
+            1748,
             400
         ]
     },
     {
         "question": "Có được vượt xe tại nơi đường giao nhau với đường sắt không?",
         "doc_ids": [
-            1041,
             298,
+            294,
+            1041,
             297,
-            308,
-            294
+            308
         ]
     },
     {
         "question": "Đua xe trái phép là một hành vi bị pháp luật nghiêm cấm trong lĩnh vực giao thông đường bộ đúng không?",
         "doc_ids": [
             286,
-            971,
             2460,
-            2253,
-            288
+            288,
+            971,
+            2253
         ]
     },
     {
@@ -1884,9 +1884,9 @@
         "doc_ids": [
             1772,
             1773,
-            1771,
             1770,
-            1797
+            1797,
+            1771
         ]
     },
     {
@@ -1894,19 +1894,19 @@
         "doc_ids": [
             285,
             273,
-            265,
             434,
-            1015
+            1015,
+            265
         ]
     },
     {
         "question": "Thứ tự ưu tiên của việc chấp hành hiệu lệnh của tín hiệu đèn giao thông?",
         "doc_ids": [
-            644,
             291,
             1182,
-            645,
-            635
+            635,
+            644,
+            645
         ]
     },
     {
@@ -1914,19 +1914,19 @@
         "doc_ids": [
             462,
             487,
-            489,
+            519,
             505,
-            519
+            489
         ]
     },
     {
         "question": "Vận tải trung chuyển hành khách là gì?",
         "doc_ids": [
-            1460,
-            17,
             1422,
-            1552,
-            1532
+            17,
+            1460,
+            1532,
+            1552
         ]
     },
     {
@@ -1934,39 +1934,39 @@
         "doc_ids": [
             291,
             292,
-            389,
+            316,
             333,
-            316
+            389
         ]
     },
     {
         "question": "Cảnh sát chỉ huy, điều khiển giao thông có nhiệm vụ giải quyết ùn tắc giao thông đường bộ không?",
         "doc_ids": [
-            641,
             627,
-            628,
             882,
+            641,
+            628,
             629
         ]
     },
     {
         "question": "Xe ô tô có được lùi xe ở khu vực cấm dừng không?",
         "doc_ids": [
-            303,
             300,
-            304,
             2252,
+            303,
+            304,
             302
         ]
     },
     {
         "question": "Việc nhận kết quả đăng ký xe được thực hiện qua đâu?",
         "doc_ids": [
-            487,
             462,
             493,
-            490,
-            489
+            487,
+            489,
+            490
         ]
     },
     {
@@ -1975,17 +1975,17 @@
             316,
             304,
             303,
-            302,
-            314
+            314,
+            302
         ]
     },
     {
         "question": "Khi chuyển làn đường có cần phải bảo đảm khoảng cách an toàn với các xe khác không?",
         "doc_ids": [
             296,
+            299,
             293,
             313,
-            299,
             294
         ]
     },
@@ -1993,30 +1993,30 @@
         "question": "Xe gắn máy bao gồm những loại xe nào theo quy định của pháp luật?",
         "doc_ids": [
             465,
-            557,
-            331,
             332,
-            333
+            557,
+            333,
+            331
         ]
     },
     {
         "question": "Điều khiển xe gắn máy tham gia giao thông nẹt pô liên tục có phải là hành vi bị cấm không?",
         "doc_ids": [
             286,
-            329,
-            2309,
             2311,
-            2307
+            2309,
+            2307,
+            329
         ]
     },
     {
         "question": "Lái xe 8 chỗ cần bằng lái xe hạng gì? Xe 8 chỗ chở được mấy người?",
         "doc_ids": [
             390,
-            1673,
-            1203,
+            394,
             454,
-            394
+            1673,
+            1203
         ]
     },
     {
@@ -2024,16 +2024,16 @@
         "doc_ids": [
             1668,
             1676,
-            1663,
             1667,
+            1663,
             1665
         ]
     },
     {
         "question": "Có được chở trẻ em ngồi cùng hàng ghế ô tô với người lái xe theo quy định mới nhất không?",
         "doc_ids": [
-            363,
             290,
+            363,
             364,
             362,
             330
@@ -2043,9 +2043,9 @@
         "question": "CSGT có được dừng phương tiện tham gia giao thông đường bộ để phục vụ việc phòng cháy, chữa cháy và cứu nạn, cứu hộ không?",
         "doc_ids": [
             1073,
-            317,
-            884,
             1289,
+            884,
+            317,
             318
         ]
     },
@@ -2053,8 +2053,8 @@
         "question": "Chủ xe là người Việt Nam sử dụng tài khoản định danh điện tử mức độ mấy khi thực hiện đăng ký xe trên cổng dịch vụ công?",
         "doc_ids": [
             482,
-            481,
             483,
+            481,
             487,
             462
         ]
@@ -2062,9 +2062,9 @@
     {
         "question": "Hình thức thanh toán tiền sử dụng đường bộ trên đường cao tốc?",
         "doc_ids": [
-            686,
             1065,
             687,
+            686,
             681,
             1986
         ]
@@ -2072,21 +2072,21 @@
     {
         "question": "Hàng rời là gì?",
         "doc_ids": [
-            1397,
             1369,
-            1399,
+            1397,
+            381,
             1370,
-            381
+            1399
         ]
     },
     {
         "question": "Năm 2025, điều khiển, dẫn dắt thú cưng phải đảm bảo điều kiện gì?",
         "doc_ids": [
             329,
-            1891,
-            1864,
+            2286,
             1898,
-            2286
+            1864,
+            1891
         ]
     },
     {
@@ -2103,9 +2103,9 @@
         "question": "Việc kiểm soát tại một điểm trên đường giao thông, tại Trạm Cảnh sát giao thông được thực hiện thế nào?",
         "doc_ids": [
             852,
-            868,
             866,
             853,
+            868,
             640
         ]
     },
@@ -2113,8 +2113,8 @@
         "question": "Giấy phép lái xe quốc gia bị tẩy xóa thì có được cấp IDP không?",
         "doc_ids": [
             1753,
-            1751,
             1752,
+            1751,
             1749,
             2242
         ]
@@ -2122,8 +2122,8 @@
     {
         "question": "Xe không có số máy số khung đều do cơ quan đăng ký xe thực hiện đóng lại đúng không?",
         "doc_ids": [
-            522,
             524,
+            522,
             523,
             568,
             461
@@ -2133,8 +2133,8 @@
         "question": "Hai xe đi ngược chiều nhường đường khi tránh nhau như thế nào là đúng quy tắc giao thông hiện nay?",
         "doc_ids": [
             301,
-            308,
             297,
+            308,
             299,
             296
         ]
@@ -2144,9 +2144,9 @@
         "doc_ids": [
             982,
             961,
-            105,
             108,
-            989
+            989,
+            105
         ]
     },
     {
@@ -2155,16 +2155,16 @@
             1926,
             2152,
             2153,
-            795,
-            792
+            792,
+            795
         ]
     },
     {
         "question": "Thiết bị thông minh hỗ trợ chỉ huy điều khiển giao thông là gì?",
         "doc_ids": [
             637,
-            424,
             630,
+            424,
             426,
             622
         ]
@@ -2173,49 +2173,49 @@
         "question": "Phương tiện giao thông thông minh cần gắn biển số xe hay không?",
         "doc_ids": [
             333,
-            334,
-            2411,
+            2447,
             2375,
-            2447
+            2429,
+            334
         ]
     },
     {
         "question": "Thời gian nghỉ giữa 2 lần lái xe liên tục đối với tài xế lái xe ô tô đầu kéo Container vận chuyển hàng hóa là bao lâu?",
         "doc_ids": [
             1452,
+            2335,
             407,
             1494,
-            2337,
-            2335
+            2337
         ]
     },
     {
         "question": "Đèn tín hiệu giao thông màu vàng có được đi hay không?",
         "doc_ids": [
             291,
+            306,
             1011,
             326,
-            1205,
-            306
+            1205
         ]
     },
     {
         "question": "Theo nguyên tắc, mọi hành vi vi phạm pháp luật về trật tự an toàn giao thông đường bộ phải được xử lý như thế nào?",
         "doc_ids": [
             273,
+            846,
             272,
-            434,
             439,
-            846
+            434
         ]
     },
     {
         "question": "Thay đổi thông tin ghi trên giấy phép lái xe có được đổi giấy phép lái xe không?",
         "doc_ids": [
             1735,
-            1775,
             1729,
             1784,
+            1775,
             1736
         ]
     },
@@ -2223,18 +2223,18 @@
         "question": "đạp điện có phải là xe thô sơ không?",
         "doc_ids": [
             332,
-            1201,
             328,
             2282,
-            365
+            365,
+            1201
         ]
     },
     {
         "question": "Khối lượng toàn bộ của xe bao gồm những gì?",
         "doc_ids": [
+            1368,
             1391,
             1393,
-            1368,
             1392,
             2158
         ]
@@ -2253,9 +2253,9 @@
         "question": "Người lái xe đạp được chở tối đa hai người tromng trường hợp chở một trẻ em dưới 07 tuổi đúng không?",
         "doc_ids": [
             328,
-            363,
             330,
             290,
+            363,
             364
         ]
     },
@@ -2273,29 +2273,29 @@
         "question": "Những loại hình kinh doanh vận tải hành khách bằng xe ô tô được pháp luật quy định như thế nào?",
         "doc_ids": [
             1084,
-            1085,
-            1438,
             1088,
+            1438,
+            1085,
             1097
         ]
     },
     {
         "question": "Xếp hàng hóa trên xe tải chở hàng có được che khuất cảnh báo an toàn của phương tiện không?",
         "doc_ids": [
-            1395,
             1388,
-            368,
+            1395,
+            1389,
             1396,
-            1389
+            368
         ]
     },
     {
         "question": "Xây dựng cơ sở dữ liệu về trật tự an toàn giao thông đường bộ có nằm trong nội dung quản lý nhà nước không?",
         "doc_ids": [
+            446,
             1178,
             1161,
             1160,
-            446,
             1163
         ]
     },
@@ -2305,8 +2305,8 @@
             422,
             423,
             658,
-            866,
-            653
+            653,
+            866
         ]
     },
     {
@@ -2314,37 +2314,37 @@
         "doc_ids": [
             203,
             202,
-            198,
             204,
+            198,
             200
         ]
     },
     {
         "question": "Điều kiện đối với xe ô tô kinh doanh vận tải hành khách theo hợp đồng được quy định thế nào?",
         "doc_ids": [
-            1438,
-            51,
             1456,
-            1457,
-            1439
+            51,
+            1438,
+            1439,
+            1457
         ]
     },
     {
         "question": "Xe ô tô bao gồm những loại xe nào?",
         "doc_ids": [
-            465,
             331,
+            465,
+            1296,
             390,
-            557,
-            1296
+            557
         ]
     },
     {
         "question": "Nội dung tập huấn an toàn hàng hóa nguy hiểm được pháp luật quy định như thế nào?",
         "doc_ids": [
             917,
-            916,
             919,
+            916,
             918,
             949
         ]
@@ -2355,8 +2355,8 @@
             1676,
             1675,
             1668,
-            1857,
-            395
+            395,
+            1857
         ]
     },
     {
@@ -2365,8 +2365,8 @@
             328,
             330,
             331,
-            363,
-            2332
+            2332,
+            363
         ]
     },
     {
@@ -2375,38 +2375,38 @@
             328,
             2284,
             330,
-            1491,
-            1383
+            1383,
+            1491
         ]
     },
     {
         "question": "Thông tin trong Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ được cập nhật từ những nguồn nào?",
         "doc_ids": [
-            1174,
-            1173,
             1176,
-            1175,
-            284
+            1173,
+            1174,
+            284,
+            1175
         ]
     },
     {
         "question": "Có được lùi xe trên đường 1 chiều không?",
         "doc_ids": [
             300,
-            301,
             303,
             304,
-            296
+            296,
+            301
         ]
     },
     {
         "question": "Có được dừng xe đổ xe tại điểm đón trả khách không?",
         "doc_ids": [
             10,
-            47,
             9,
-            1061,
-            3
+            3,
+            47,
+            1061
         ]
     },
     {
@@ -2414,29 +2414,29 @@
         "doc_ids": [
             962,
             973,
-            972,
+            2005,
             1178,
-            2005
+            972
         ]
     },
     {
         "question": "Giấy phép lái xe sau khi đổi, cấp lại, nâng hạng có được giữ nguyên số điểm không?",
         "doc_ids": [
-            454,
-            2502,
-            1726,
             392,
+            454,
+            1726,
+            2502,
             400
         ]
     },
     {
         "question": "Lái xe buýt thì tài xế cần có bằng lái xe hạng nào?",
         "doc_ids": [
-            1841,
-            1842,
             1682,
-            1712,
-            1701
+            1842,
+            1701,
+            1841,
+            1712
         ]
     },
     {
@@ -2444,17 +2444,17 @@
         "doc_ids": [
             412,
             411,
+            410,
             866,
-            628,
-            410
+            628
         ]
     },
     {
         "question": "Người khuyết tật lái xe ô tô số tự động được cấp giáy phép lái xe không?",
         "doc_ids": [
-            1712,
-            1680,
             391,
+            1680,
+            1712,
             1839,
             1705
         ]
@@ -2462,10 +2462,10 @@
     {
         "question": "Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe máy chuyên dùng gồm những gì?",
         "doc_ids": [
+            1908,
             729,
             728,
             730,
-            1908,
             727
         ]
     },
@@ -2473,29 +2473,29 @@
         "question": "Cơ quan nào có thẩm quyền cấp Giấy phép kinh doanh vận tải theo quy định?",
         "doc_ids": [
             1463,
-            1512,
             1519,
             1505,
-            1547
+            1547,
+            1512
         ]
     },
     {
         "question": "Việc kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới do ai thực hiện?",
         "doc_ids": [
             357,
-            358,
-            356,
+            721,
             355,
-            721
+            358,
+            356
         ]
     },
     {
         "question": "Vận tốc thiết kế của xe bốn bánh có gắn động cơ vận chuyển hàng hóa có được lớn hơn 60 km/h không?",
         "doc_ids": [
-            1818,
             331,
-            1459,
+            1818,
             367,
+            1459,
             1113
         ]
     }

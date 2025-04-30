@@ -8,6 +8,12 @@ def get_documents(query, limit=5):
     return response.json()["ids"]
 
 
+def get_documents_rerank(query, limit=5, top_n=5):
+    body = {"query": query, "limit": limit, "top_n": top_n}
+    response = requests.post("http://localhost:8000/search_ids_rerank", json=body)
+    return response.json()["ids"]
+
+
 def main():
     questions: list[str] = []
     with open("test_set.json", "r", encoding="utf-8") as f:
@@ -19,7 +25,7 @@ def main():
 
     predictions: list[dict] = []
     for question in questions:
-        doc_ids = get_documents(question)
+        doc_ids = get_documents_rerank(question)
         predictions.append({"question": question, "doc_ids": doc_ids})
 
     with open("predictions.json", "w", encoding="utf-8") as f:
