@@ -2,6 +2,7 @@ from rerank import rerank_documents_v2
 from brain import get_embedding
 from vectorize import search_vector_ids, search_vector_ids_payloads
 from configs import DEFAULT_COLLECTION_NAME
+from search_hybrid import hybrid_search
 
 
 def search_documents_ids(query, limit=5):
@@ -27,3 +28,7 @@ def search_documents_ids_rerank(query, limit=5, top_n=5):
     ]
     ranked = rerank_documents_v2(docs, query, top_n)
     return [doc["id"] for doc in ranked]
+
+def search_documents_ids_hybrid(query, limit=5, top_n=5):
+    results = hybrid_search(query, limit, top_n)
+    return [doc["id"] for doc in results]

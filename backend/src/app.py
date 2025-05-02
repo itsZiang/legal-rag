@@ -8,11 +8,12 @@ from fastapi import Depends, FastAPI, HTTPException, Query
 from indexing import indexing
 from models import ChatConversation, insert_document
 from pydantic import BaseModel
-from search import search_documents_ids, search_documents_ids_rerank
+from search import search_documents_ids, search_documents_ids_hybrid, search_documents_ids_rerank
 from sqlalchemy.orm import Session
 from tasks import index_single_node, llm_handle_message
 from utils import setup_logging
 from vectorize import create_collection
+from search_hybrid import hybrid_search
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -134,7 +135,21 @@ async def search_documents_ids_rerank_api(data: Dict):
         return {"error": "Missing 'query' field."}
 
     results = search_documents_ids_rerank(query, limit, top_n)
-    logging.info(f"Search query: '{query}' with limit {limit}")
+    logging.info(f"Search query: '{query}' with limit {limit} and top_n {top_n}")
+    return {"ids": results}
+
+
+@app.post("/search_hybrid")
+async def search_hybrid_api(data: Dict):
+    query = data.get("query")
+    limit = data.get("limit", 5)
+    top_n = data.get("top_n", 5)
+
+    if not query:
+        return {"error": "Missing 'query' field."}
+
+    results = search_documents_ids_hybrid(query, limit, top_n)
+    logging.info(f"Search query: '{query}' with limit {limit} and top_n {top_n}")
     return {"ids": results}
 
 

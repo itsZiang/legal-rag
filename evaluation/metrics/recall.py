@@ -16,15 +16,21 @@ if __name__ == "__main__":
     test_data = json.load(open("../test_set.json", "r", encoding="utf-8"))
     pred_data = json.load(open("../predictions.json", "r", encoding="utf-8"))
     pred_rerank_data = json.load(open("../predictions_rerank.json", "r", encoding="utf-8"))
+    pred_hybrid_data = json.load(open("../predictions_hybrid.json", "r", encoding="utf-8"))
 
     print("No rerank")
-    for k in [1, 3, 5, 10]:
+    for k in [1, 3, 5, 10, 15, 20]:
         recall_at_k = compute_recall_at_k(test_data, pred_data, k=k)
         print(f"\tRecall@{k}: {recall_at_k:.4f}")
 
     print("With rerank")
-    for k in [1, 3, 5, 10]:
+    for k in [1, 3, 5, 10, 15, 20]:
         recall_at_k = compute_recall_at_k(test_data, pred_rerank_data, k=k)
+        print(f"\tRecall@{k}: {recall_at_k:.4f}")
+        
+    print("With hybrid")
+    for k in [1, 3, 5, 10, 15, 20]:
+        recall_at_k = compute_recall_at_k(test_data, pred_hybrid_data, k=k)
         print(f"\tRecall@{k}: {recall_at_k:.4f}")
         
     

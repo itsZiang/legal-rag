@@ -26,13 +26,22 @@ if __name__ == "__main__":
 
     with open("../predictions_rerank.json", "r", encoding="utf-8") as f:
         pred_rerank_data = json.load(f)
+        
+    with open("../predictions_hybrid.json", "r", encoding="utf-8") as f:
+        pred_hybrid_data = json.load(f)
 
     print("No rerank")
-    for k in [1, 3, 5, 10]:
+    for k in [1, 3, 5, 10, 15, 20]:
         mrr = compute_mrr_at_k(test_data, pred_data, k)
         print(f"\tMRR@{k}: {mrr:.4f}")
 
     print("With rerank")
-    for k in [1, 3, 5, 10]:
+    for k in [1, 3, 5, 10, 15, 20]:
         mrr = compute_mrr_at_k(test_data, pred_rerank_data, k)
         print(f"\tMRR@{k}: {mrr:.4f}")
+        
+    print("With hybrid")
+    for k in [1, 3, 5, 10, 15, 20]:
+        mrr = compute_mrr_at_k(test_data, pred_hybrid_data, k)
+        print(f"\tMRR@{k}: {mrr:.4f}")
+    
