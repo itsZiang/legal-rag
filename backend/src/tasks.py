@@ -23,6 +23,7 @@ from splitter import split_document
 from summarizer import summarize_text
 from utils import setup_logging
 from vectorize import add_vector, search_vector
+from search_hybrid import multi_query_hybrid_search
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -45,16 +46,18 @@ def follow_up_question(history, question):
 def bot_rag_answer_message(history, question):
     # Follow-up question
     new_question = follow_up_question(history, question)
-    # Embedding text
-    vector = get_embedding(new_question)
-    logger.info(f"Get vector: {new_question}")
+    # # Embedding text
+    # vector = get_embedding(new_question)
+    # logger.info(f"Get vector: {new_question}")
 
-    # Search documents
-    top_docs = search_vector(DEFAULT_COLLECTION_NAME, vector, 5)
-    logger.info("Top docs:\n%s", pprint.pformat(top_docs))
+    # # Search documents
+    # top_docs = search_vector(DEFAULT_COLLECTION_NAME, vector, 5)
+    # logger.info("Top docs:\n%s", pprint.pformat(top_docs))
 
-    # Rerank documents
-    ranked_docs = rerank_documents(top_docs, new_question, top_n=3)
+    # # Rerank documents
+    # ranked_docs = rerank_documents(top_docs, new_question, top_n=3)
+    
+    ranked_docs = multi_query_hybrid_search(new_question, limit=20, top_n=3)
 
     # append history to ranked_docs
     openai_messages = [

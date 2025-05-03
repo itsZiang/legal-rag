@@ -159,6 +159,28 @@ def detect_route(history, message):
     return response
 
 
+def query_rewriter(query, num_queries=3):
+    user_prompt = f"""
+Generate {num_queries} alternative search queries based on the following input query. Each query should:
+- Preserve the core meaning of the original query.
+- Use different phrasing, synonyms, or sentence structures to increase diversity.
+- Be concise and suitable for a retrieval system.
+- Be listed on a new line without any prefix like "Query:".
+
+Input Query: {query}
+Alternative Queries:
+    """
+    openai_messages = [
+        {
+            "role": "system",
+            "content": "You are an expert assistant that rewrites search queries for retrieval-augmented generation (RAG) systems, ensuring diverse phrasing while maintaining the original meaning.",
+        },
+        {"role": "user", "content": user_prompt},
+    ]
+    response = openai_chat_complete(openai_messages)
+    return response
+
+
 available_tools = {
     "calculate_fixed_monthly_payment": calculate_fixed_monthly_payment,
     "calculate_future_value": calculate_future_value,

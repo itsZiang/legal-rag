@@ -4,6 +4,7 @@ from brain import get_embedding
 from qdrant_client import models
 from configs import DEFAULT_COLLECTION_NAME
 from qdrant_client import QdrantClient
+from brain import query_rewriter
 
 # Khởi tạo Qdrant client và mô hình BM25
 client = QdrantClient(url="http://qdrant-db:6333")
@@ -67,4 +68,30 @@ def hybrid_search(query: str, limit=20, top_n=20):
         top_n=top_n,
     )
 
+    return reranked_results
+
+
+def multi_query_hybrid_search(query: str, limit=20, top_n=20):
+    response_query_rewriter = query_rewriter(query)
+    queries = [query.strip() for query in str(response_query_rewriter).split("\n")]
+    queries = [query] + queries
+
+    docs = []
+    for q in queries:
+        docs = docs + hybrid_search(q, limit, top_n)
+    unique_docs = {doc["id"]: doc for doc in docs}.values()
+    unique_docs = list(unique_docs)
+    # rerank
+    reranked_results = rerank_documents_v2(
+        docs=[
+            {
+                "id": it["id"],
+                "title": it["title"],
+                "content": it["content"],
+            }
+            for it in unique_docs
+        ],
+        query=query,
+        top_n=top_n,
+    )
     return reranked_results

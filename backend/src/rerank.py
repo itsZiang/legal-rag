@@ -33,7 +33,7 @@ def rerank_documents(docs, query, top_n=3, rank_model=DEFAULT_RANK_MODEL):
     return ranked_docs
 
 
-def rerank_documents_v2(docs, query, top_n=3, rank_model=DEFAULT_RANK_MODEL):
+def rerank_documents_v2(docs, query, top_n=3):
     """
     Rerank documents based on the query
     """
