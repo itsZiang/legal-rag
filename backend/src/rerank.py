@@ -23,10 +23,10 @@ def rerank_documents(docs, query, top_n=3, rank_model=DEFAULT_RANK_MODEL):
     results = co.rerank(
         query=query, documents=process_docs, top_n=top_n, model=rank_model
     )
-    for item in results.results:
-        # print(f"Document Index: {item.index}")
-        print(f"Rerank. Document: {docs[item.index]}")
-        print(f"Relevance Score: {item.relevance_score:.5f}")
+    # for item in results.results:
+    #     # print(f"Document Index: {item.index}")
+    #     print(f"Rerank. Document: {docs[item.index]}")
+    #     print(f"Relevance Score: {item.relevance_score:.5f}")
 
     ranked_docs = [docs[item.index] for item in results.results]
 
@@ -47,13 +47,13 @@ def rerank_documents_v2(docs, query, top_n=3):
         }
     )
     results_json = response.json()
-    for item in results_json.get("results", []):
-        idx = item.get("index")
-        score = item.get("relevance_score")
+    # for item in results_json.get("results", []):
+    #     idx = item.get("index")
+    #     score = item.get("relevance_score")
         # print(f"Document Index: {idx}")
-        print(f"Rerank. Document: {docs[idx]}")
-        if score is not None:
-            print(f"Relevance Score: {score:.5f}")
+        # print(f"Rerank. Document: {docs[idx]}")
+        # if score is not None:
+        #     print(f"Relevance Score: {score:.5f}")
 
     ranked_docs = [docs[item.get("index")] for item in results_json.get("results", [])]
     return ranked_docs

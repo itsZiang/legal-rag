@@ -69,31 +69,31 @@ def bot_rag_answer_message(history, question):
         {"role": "user", "content": new_question},
     ]
 
-    # just reranked docs
-    vistral_prompt = f"""Bạn là một trợ lý AI thông minh về lĩnh vực luật pháp. 
+#     # just reranked docs
+#     vistral_prompt = f"""Bạn là một trợ lý AI thông minh về lĩnh vực luật pháp. 
 
-Hãy trích xuất thông tin liên quan đến câu hỏi, sau đó trả lời câu hỏi pháp luật sau dựa trên tài liệu được cung cấp, nhớ phải đề cập chính xác phần trích dẫn để trả lời câu hỏi. Nếu không thể trả lời, hãy nói rằng bạn không thể trả lời và cung cấp lý do.
+# Hãy trích xuất thông tin liên quan đến câu hỏi, sau đó trả lời câu hỏi pháp luật sau dựa trên tài liệu được cung cấp, nhớ phải đề cập chính xác phần trích dẫn để trả lời câu hỏi. Nếu không thể trả lời, hãy nói rằng bạn không thể trả lời và cung cấp lý do.
 
-### Question:
-{new_question}
+# ### Question:
+# {new_question}
 
-### Context:
-{gen_doc_prompt(ranked_docs)}
+# ### Context:
+# {gen_doc_prompt(ranked_docs)}
 
-### Response:
-"""
-    vistral_messages = [
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": vistral_prompt},
-            ],
-        }
-    ]
+# ### Response:
+# """
+#     vistral_messages = [
+#         {
+#             "role": "user",
+#             "content": [
+#                 {"type": "text", "text": vistral_prompt},
+#             ],
+#         }
+#     ]
 
-    logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
+#     logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
 
-    assistant_answer = cohere_chat_complete(vistral_messages)
+    assistant_answer = openai_chat_complete(openai_messages)
 
     logger.info("Bot RAG reply:\n%s", pprint.pformat(assistant_answer))
     return assistant_answer

@@ -40,10 +40,10 @@ def evaluate_all_metrics(name, test_data, pred_data, ks=[1, 3, 5, 10, 15, 20]):
 
 if __name__ == "__main__":
     test_data = json.load(open("../test_set.json", "r", encoding="utf-8"))
-    pred_data = json.load(open("../predictions.json", "r", encoding="utf-8"))
-    pred_rerank_data = json.load(open("../predictions_rerank.json", "r", encoding="utf-8"))
-    pred_hybrid_data = json.load(open("../predictions_hybrid.json", "r", encoding="utf-8"))
-    pred_multi_queries_data = json.load(open("../predictions_multi_queries.json", "r", encoding="utf-8"))
+    pred_data = json.load(open("../predictions-3300.json", "r", encoding="utf-8"))
+    pred_rerank_data = json.load(open("../predictions_rerank-3300.json", "r", encoding="utf-8"))
+    pred_hybrid_data = json.load(open("../predictions_hybrid-3300.json", "r", encoding="utf-8"))
+    pred_multi_queries_data = json.load(open("../predictions_multi_queries-3300.json", "r", encoding="utf-8"))
 
     evaluate_all_metrics("No rerank", test_data, pred_data)
     evaluate_all_metrics("With rerank", test_data, pred_rerank_data)

@@ -11,7 +11,7 @@ st.title("Chatbot UI")
 
 
 # Input bot
-bot_id = "botFinance"
+bot_id = "botLegal"
 user_id = "1"
 
 

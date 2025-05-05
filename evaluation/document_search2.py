@@ -22,7 +22,7 @@ def main():
         doc_ids_multi_queries = get_documents_multi_queries(question)
         predictions_multi_queries.append({"question": question, "doc_ids": doc_ids_multi_queries})
 
-    with open("predictions_multi_queries.json", "w", encoding="utf-8") as f:
+    with open("predictions_multi_queries-3300.json", "w", encoding="utf-8") as f:
         json.dump(predictions_multi_queries, f, ensure_ascii=False, indent=4)
 
     print("Done")

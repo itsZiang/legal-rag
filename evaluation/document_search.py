@@ -20,11 +20,6 @@ def get_documents_hybrid(query, limit=20, top_n=20):
     return response.json()["ids"]
 
 
-def get_documents_multi_queries(query, limit=20, top_n=20):
-    body = {"query": query, "limit": limit, "top_n": top_n}
-    response = requests.post("http://localhost:8000/search_ids_multi_queries", json=body)
-    return response.json()["ids"]
-
 
 def main():
     questions: list[str] = []
@@ -38,7 +33,6 @@ def main():
     predictions: list[dict] = []
     predictions_rerank: list[dict] = []
     predictions_hybrid: list[dict] = []
-    predictions_multi_queries: list[dict] = []
     for question in questions:
         doc_ids = get_documents(question)
         predictions.append({"question": question, "doc_ids": doc_ids})
@@ -46,20 +40,15 @@ def main():
         predictions_rerank.append({"question": question, "doc_ids": doc_ids_rerank})
         doc_ids_hybrid = get_documents_hybrid(question)
         predictions_hybrid.append({"question": question, "doc_ids": doc_ids_hybrid})
-        doc_ids_multi_queries = get_documents_multi_queries(question)
-        predictions_multi_queries.append({"question": question, "doc_ids": doc_ids_multi_queries})
 
-    with open("predictions.json", "w", encoding="utf-8") as f:
+    with open("predictions-3300.json", "w", encoding="utf-8") as f:
         json.dump(predictions, f, ensure_ascii=False, indent=4)
 
-    with open("predictions_rerank.json", "w", encoding="utf-8") as f:
+    with open("predictions_rerank-3300.json", "w", encoding="utf-8") as f:
         json.dump(predictions_rerank, f, ensure_ascii=False, indent=4)
 
-    with open("predictions_hybrid.json", "w", encoding="utf-8") as f:
+    with open("predictions_hybrid-3300.json", "w", encoding="utf-8") as f:
         json.dump(predictions_hybrid, f, ensure_ascii=False, indent=4)
-
-    with open("predictions_multi_queries.json", "w", encoding="utf-8") as f:
-        json.dump(predictions_multi_queries, f, ensure_ascii=False, indent=4)
 
     print("Done")
 
