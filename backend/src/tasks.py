@@ -1,29 +1,23 @@
 import logging
-import time
-
-from click import prompt
-from agent import ai_agent_handle
 import os
 import pprint
-from brain import (
-    detect_route,
-    detect_user_intent,
-    gen_doc_prompt,
-    get_embedding,
-    openai_chat_complete,
-    vistral_chat_complete,
-    cohere_chat_complete
-)
+import time
+
+from agent import ai_agent_handle
+from brain import (cohere_chat_complete, detect_route, detect_user_intent,
+                   gen_doc_prompt, get_embedding, openai_chat_complete,
+                   vistral_chat_complete)
 from celery import shared_task
+from click import prompt
 from configs import DEFAULT_COLLECTION_NAME
 from database import get_celery_app
 from models import get_conversation_history, update_chat_conversation
 from rerank import rerank_documents
+from search_hybrid import hybrid_search
 from splitter import split_document
 from summarizer import summarize_text
 from utils import setup_logging
 from vectorize import add_vector, search_vector
-from search_hybrid import hybrid_search
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -56,7 +50,7 @@ def bot_rag_answer_message(history, question):
 
     # # Rerank documents
     # ranked_docs = rerank_documents(top_docs, new_question, top_n=3)
-    
+
     ranked_docs = hybrid_search(new_question, limit=20, top_n=3)
 
     # append history to ranked_docs
@@ -69,29 +63,29 @@ def bot_rag_answer_message(history, question):
         {"role": "user", "content": new_question},
     ]
 
-#     # just reranked docs
-#     vistral_prompt = f"""Bạn là một trợ lý AI thông minh về lĩnh vực luật pháp. 
+    #     # just reranked docs
+    #     vistral_prompt = f"""Bạn là một trợ lý AI thông minh về lĩnh vực luật pháp.
 
-# Hãy trích xuất thông tin liên quan đến câu hỏi, sau đó trả lời câu hỏi pháp luật sau dựa trên tài liệu được cung cấp, nhớ phải đề cập chính xác phần trích dẫn để trả lời câu hỏi. Nếu không thể trả lời, hãy nói rằng bạn không thể trả lời và cung cấp lý do.
+    # Hãy trích xuất thông tin liên quan đến câu hỏi, sau đó trả lời câu hỏi pháp luật sau dựa trên tài liệu được cung cấp, nhớ phải đề cập chính xác phần trích dẫn để trả lời câu hỏi. Nếu không thể trả lời, hãy nói rằng bạn không thể trả lời và cung cấp lý do.
 
-# ### Question:
-# {new_question}
+    # ### Question:
+    # {new_question}
 
-# ### Context:
-# {gen_doc_prompt(ranked_docs)}
+    # ### Context:
+    # {gen_doc_prompt(ranked_docs)}
 
-# ### Response:
-# """
-#     vistral_messages = [
-#         {
-#             "role": "user",
-#             "content": [
-#                 {"type": "text", "text": vistral_prompt},
-#             ],
-#         }
-#     ]
+    # ### Response:
+    # """
+    #     vistral_messages = [
+    #         {
+    #             "role": "user",
+    #             "content": [
+    #                 {"type": "text", "text": vistral_prompt},
+    #             ],
+    #         }
+    #     ]
 
-#     logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
+    #     logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
 
     assistant_answer = openai_chat_complete(openai_messages)
 

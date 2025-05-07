@@ -248,25 +248,59 @@ Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trườ
 Cơ quan nào có thẩm quyền cấp Giấy phép kinh doanh vận tải theo quy định?; 1463
 Việc kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới do ai thực hiện?; 357
 Vận tốc thiết kế của xe bốn bánh có gắn động cơ vận chuyển hàng hóa có được lớn hơn 60 km/h không?; 331
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
-
-
-
+Nghị định 168 xử phạt đối với ô tô, xe máy có hiệu lực kể từ ngày nào?; 2595
+Lùi xe ở đường một chiều, tài xế ô tô có bị trừ điểm giấy phép lái xe không?; 2273
+Chở trẻ em ngồi trước xe máy có bị phạt không theo Nghị định 168?; 2296
+Xe máy chạy quá tốc độ dưới 10 km/h có bị phạt không?; 2283, 2297
+Người điều khiển xe đưa đón trẻ em mầm non bị phạt bao nhiêu tiền nếu cho trẻ em 5 tuổi ngồi cùng hàng ghế với mình?; 2260
+Lỗi đỗ xe ngược chiều phạt bao nhiêu tiền?; 2256, 2302
+Xe máy chở 3 mà không thuộc trường hợp ngoại lệ theo luật định thì bị phạt bao nhiêu theo Nghị định 168?; 2284
+Các hình thức xử phạt giao thông chính tại Nghị định 168 là gì?; 2236
+ trừ điểm giấy phép lái xe khi xe ô tô vượt đèn đỏ không?; 2271
+ Chở người trên thùng xe ô tô chở hàng trái quy định bị phạt bao nhiêu?; 2268
+ Lỗi chở hàng vượt quá chiều cao thùng xe tải Nghị định 168?; 2415
+Xe ưu tiên gồm những xe nào?; 1915
+Người từ đủ 14 tuổi đến dưới 16 tuổi lái xe chở hàng bốn bánh có gắn động cơ có bị phạt tiền không?; 2386
+Đăng kiểm viên không thực hiện đúng quy trình, đưa ra các yêu cầu trái quy định có bị tước bằng không?; 2543
+Không chấp hành kiểm tra nồng độ cồn có bị trừ điểm giấy phép lái xe không?; 2295
+Lỗi đỗ xe ô tô trên vỉa hè theo Nghị định 168 bị phạt như thế nào?; 2258
+Lỗi chuyển làn đường không đúng quy định có bị trừ điểm giấy phép lái xe không?; 2266
+Mang thú cưng lên xe khách bị phạt bao nhiêu theo Nghị định 168?; 2408
+Xe máy chuyên dùng không có giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường thì bị phạt bao nhiêu tiền?; 2375
+Xe máy không bật đèn khi trời mưa có bị phạt không?; 2281
+Xe ô tô chạy quá tốc độ từ 5km đến dưới 10km có bị trừ điểm giấy phép lái xe không theo Nghị định 168?; 2257
+Người điều khiển xe gắn máy tống 3 bị phạt bao nhiêu?; 2284
+Người xúi giục xe máy chạy quá tốc độ quy định có bị xử phạt không?; 2523
+Lỗi quay đầu xe trên cầu, xe ô tô có bị trừ điểm giấy phép lái xe không?; 2273
+Mức phạt lỗi không chấp hành hiệu lệnh của cảnh sát giao thông Nghị định 168 đối với xe ô tô?; 2272
+Xe mô tô sử dụng chân chống quẹt xuống đường khi đang chạy bị phạt bao nhiêu?; 2294
+Không thắt dây an toàn khi điều khiển xe ô tô trên đường có bị trừ điểm giấy phép lái xe hay không?; 2260
+Lạng lách đánh võng trên đường bị trừ bao nhiêu điểm bằng lái?; 2276, 2294
+Cơ sở đăng kiểm đưa ra nhiều yêu cầu trái với quy định về thủ tục đăng kiểm có thể bị phạt lên đến 20 triệu đồng?; 2547
+Lỗi Quay đầu xe máy có bị trừ điểm giấy phép lái xe theo Nghị định 168?; 2297
+Xe gắn máy vận chuyển hàng rời để rơi vãi xuống đường có bị phạt tiền không theo Nghị định 168?; 2524
+Lỗi dừng xe đỗ xe máy dưới lòng đường phạt bao nhiêu?; 2283
+Bị phạt bao nhiêu tiền nếu điều khiển xe do trâu kéo đi vào làn đường dành cho xe cơ giới?; 2327
+Xe máy chạy quá tốc độ trong trường hợp nào thì bị trừ điểm giấy phép lái xe?;2293, 2297, 2294
+Người vận chuyển không đem theo giấy chứng nhận hoàn thành chương trình tập huấn an toàn hàng hóa nguy hiểm thì bị phạt bao nhiêu tiền?; 2430
+Lỗi vượt xe trên cầu phạt bao nhiêu? Lỗi ô tô vượt xe trên cầu theo Nghị định 168?; 2264
+Người điều khiển xe gắn máy bị trừ hết điểm giấy phép lái xe nhưng vẫn lái xe bị phạt thế nào?;2390
+Có áp dụng Nghị định 168 2024 đối với cơ quan nhà nước có hành vi vi phạm?; 2233
+Việc trừ điểm giấy phép lái xe được thực hiện khi nào?; 2581
+Phạt nồng độ cồn xe máy có giam bằng lái không?; 2295
+Lỗi vượt đèn vàng xe máy phạt bị bao nhiêu tiền?; 2292
+Người đi bộ qua đường không giơ tay xin đường có thể bị phạt tiền theo quy định mới tại Nghị định 168?; 2325
+Quay đầu xe trên cầu, người lái xe máy có bị trừ điểm giấy phép lái xe không?; 2297
+Đua xe đạp máy trái phép trên đường giao thông có bị tịch thu phương tiện không?; 2523
+Xe máy đè vạch kẻ đường bị phạt bao nhiêu tiền?; 2280
+Xe ô tô chạy dưới tốc độ tối thiểu bị phạt bao nhiêu tiền?; 2260
+Xe ô tô tránh xe đi ngược chiều không đúng quy định bị phạt bao nhiêu?; 2264
+Xe ô tô tránh xe đi ngược chiều không đúng quy định bị trừ bao nhiêu điểm giấy phép lái xe?; 2264
+Lỗi đỗ xe ngược chiều ô tô có bị trừ điểm giấy phép lái xe không?; 2256
+Sử dụng điện thoại khi đang điều khiển xe máy có bị trừ điểm giấy phép lái xe không?; 2289
+Điều khiển xe không có kính chắn gió bị phạt bao nhiêu?; 2346
+Xe máy đăng ký tạm thời mà chạy quá thời hạn cho phép thì bị phạt bao nhiêu tiền theo Nghị định 168?; 2365
+Lái ô tô gây tai nạn rồi bỏ trốn, không trợ giúp người bị nạn bị trừ bao nhiêu điểm giấy phép lái xe?; 2271
 
 
 

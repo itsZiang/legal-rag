@@ -118,7 +118,8 @@ if not os.path.exists(output_folder):
 
 # Duyệt qua tất cả file .txt trong thư mục txt
 for filename in os.listdir(txt_folder):
-    if filename.endswith(".txt"):
+    # if filename.endswith(".txt"):
+    if filename == "168-ndcp.txt":
         # Đường dẫn file txt
         txt_path = os.path.join(txt_folder, filename)
 
