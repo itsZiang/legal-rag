@@ -6,6 +6,12 @@
         ]
     },
     {
+        "question": "Xe ưu tiên gồm những xe nào?",
+        "doc_ids": [
+            317
+        ]
+    },
+    {
         "question": "Xe ô tô có được dừng xe tại khu đất ở bên ngoài phần đường xe chạy không?",
         "doc_ids": [
             304
@@ -1510,6 +1516,325 @@
         "question": "Vận tốc thiết kế của xe bốn bánh có gắn động cơ vận chuyển hàng hóa có được lớn hơn 60 km/h không?",
         "doc_ids": [
             331
+        ]
+    },
+    {
+        "question": "Nghị định 168 xử phạt đối với ô tô, xe máy có hiệu lực kể từ ngày nào?",
+        "doc_ids": [
+            2595
+        ]
+    },
+    {
+        "question": "Lùi xe ở đường một chiều, tài xế ô tô có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2273
+        ]
+    },
+    {
+        "question": "Chở trẻ em ngồi trước xe máy có bị phạt không theo Nghị định 168?",
+        "doc_ids": [
+            2296
+        ]
+    },
+    {
+        "question": "Xe máy chạy quá tốc độ dưới 10 km/h có bị phạt không?",
+        "doc_ids": [
+            2283,
+            2297
+        ]
+    },
+    {
+        "question": "Người điều khiển xe đưa đón trẻ em mầm non bị phạt bao nhiêu tiền nếu cho trẻ em 5 tuổi ngồi cùng hàng ghế với mình?",
+        "doc_ids": [
+            2260
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ngược chiều ô tô phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2256
+        ]
+    },
+    {
+        "question": "Xe máy chở 3 mà không thuộc trường hợp ngoại lệ theo luật định thì bị phạt bao nhiêu theo Nghị định 168?",
+        "doc_ids": [
+            2284
+        ]
+    },
+    {
+        "question": "Các hình thức xử phạt giao thông chính tại Nghị định 168 là gì?",
+        "doc_ids": [
+            2236
+        ]
+    },
+    {
+        "question": "Có bị trừ điểm giấy phép lái xe khi xe ô tô vượt đèn đỏ không?",
+        "doc_ids": [
+            2271
+        ]
+    },
+    {
+        "question": "Chở người trên thùng xe ô tô chở hàng trái quy định bị phạt bao nhiêu?",
+        "doc_ids": [
+            2268
+        ]
+    },
+    {
+        "question": "Lỗi chở hàng vượt quá chiều cao thùng xe tải Nghị định 168?",
+        "doc_ids": [
+            2415
+        ]
+    },
+    {
+        "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi lái xe chở hàng bốn bánh có gắn động cơ có bị phạt tiền không?",
+        "doc_ids": [
+            2386
+        ]
+    },
+    {
+        "question": "Đăng kiểm viên không thực hiện đúng quy trình, đưa ra các yêu cầu trái quy định có bị tước bằng không?",
+        "doc_ids": [
+            2543
+        ]
+    },
+    {
+        "question": "Không chấp hành kiểm tra nồng độ cồn có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2295
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ô tô trên vỉa hè theo Nghị định 168 bị phạt như thế nào?",
+        "doc_ids": [
+            2258
+        ]
+    },
+    {
+        "question": "Lỗi chuyển làn đường không đúng quy định có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2266
+        ]
+    },
+    {
+        "question": "Mang thú cưng lên xe khách bị phạt bao nhiêu theo Nghị định 168?",
+        "doc_ids": [
+            2408
+        ]
+    },
+    {
+        "question": "Xe máy chuyên dùng không có giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường thì bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2375
+        ]
+    },
+    {
+        "question": "Xe máy không bật đèn khi trời mưa có bị phạt không?",
+        "doc_ids": [
+            2281
+        ]
+    },
+    {
+        "question": "Xe ô tô chạy quá tốc độ từ 5km đến dưới 10km có bị trừ điểm giấy phép lái xe không theo Nghị định 168?",
+        "doc_ids": [
+            2257
+        ]
+    },
+    {
+        "question": "Người điều khiển xe gắn máy tống 3 bị phạt bao nhiêu?",
+        "doc_ids": [
+            2284
+        ]
+    },
+    {
+        "question": "Người xúi giục xe máy chạy quá tốc độ quy định có bị xử phạt không?",
+        "doc_ids": [
+            2523
+        ]
+    },
+    {
+        "question": "Lỗi quay đầu xe trên cầu, xe ô tô có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2273
+        ]
+    },
+    {
+        "question": "Mức phạt lỗi không chấp hành hiệu lệnh của cảnh sát giao thông Nghị định 168 đối với xe ô tô?",
+        "doc_ids": [
+            2272
+        ]
+    },
+    {
+        "question": "Xe mô tô sử dụng chân chống quẹt xuống đường khi đang chạy bị phạt bao nhiêu?",
+        "doc_ids": [
+            2294
+        ]
+    },
+    {
+        "question": "Không thắt dây an toàn khi điều khiển xe ô tô trên đường có bị trừ điểm giấy phép lái xe hay không?",
+        "doc_ids": [
+            2260
+        ]
+    },
+    {
+        "question": "Lạng lách đánh võng ô tô bị trừ bao nhiêu điểm bằng lái?",
+        "doc_ids": [
+            2276
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm đưa ra nhiều yêu cầu trái với quy định về thủ tục đăng kiểm có thể bị phạt lên đến 20 triệu đồng?",
+        "doc_ids": [
+            2547
+        ]
+    },
+    {
+        "question": "Lỗi Quay đầu xe máy có bị trừ điểm giấy phép lái xe theo Nghị định 168?",
+        "doc_ids": [
+            2297
+        ]
+    },
+    {
+        "question": "Xe gắn máy vận chuyển hàng rời để rơi vãi xuống đường có bị phạt tiền không theo Nghị định 168?",
+        "doc_ids": [
+            2524
+        ]
+    },
+    {
+        "question": "Lỗi dừng xe đỗ xe máy dưới lòng đường phạt bao nhiêu?",
+        "doc_ids": [
+            2283
+        ]
+    },
+    {
+        "question": "Bị phạt bao nhiêu tiền nếu điều khiển xe do trâu kéo đi vào làn đường dành cho xe cơ giới?",
+        "doc_ids": [
+            2327
+        ]
+    },
+    {
+        "question": "Người vận chuyển không đem theo giấy chứng nhận hoàn thành chương trình tập huấn an toàn hàng hóa nguy hiểm thì bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2430
+        ]
+    },
+    {
+        "question": "Lỗi vượt xe trên cầu phạt bao nhiêu? Lỗi ô tô vượt xe trên cầu theo Nghị định 168?",
+        "doc_ids": [
+            2264
+        ]
+    },
+    {
+        "question": "Người điều khiển xe gắn máy bị trừ hết điểm giấy phép lái xe nhưng vẫn lái xe bị phạt thế nào?",
+        "doc_ids": [
+            2390
+        ]
+    },
+    {
+        "question": "Có áp dụng Nghị định 168 2024 đối với cơ quan nhà nước có hành vi vi phạm?",
+        "doc_ids": [
+            2233
+        ]
+    },
+    {
+        "question": "Việc trừ điểm giấy phép lái xe được thực hiện khi nào?",
+        "doc_ids": [
+            2581
+        ]
+    },
+    {
+        "question": "Phạt nồng độ cồn xe máy có giam bằng lái không?",
+        "doc_ids": [
+            2295
+        ]
+    },
+    {
+        "question": "Lỗi vượt đèn vàng xe máy phạt bị bao nhiêu tiền?",
+        "doc_ids": [
+            2292
+        ]
+    },
+    {
+        "question": "Người đi bộ qua đường không giơ tay xin đường có thể bị phạt tiền theo quy định mới tại Nghị định 168?",
+        "doc_ids": [
+            2325
+        ]
+    },
+    {
+        "question": "Quay đầu xe trên cầu, người lái xe máy có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2297
+        ]
+    },
+    {
+        "question": "Đua xe đạp máy trái phép trên đường giao thông có bị tịch thu phương tiện không?",
+        "doc_ids": [
+            2523
+        ]
+    },
+    {
+        "question": "Xe máy đè vạch kẻ đường bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2280
+        ]
+    },
+    {
+        "question": "Xe ô tô chạy dưới tốc độ tối thiểu bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2260
+        ]
+    },
+    {
+        "question": "Xe ô tô tránh xe đi ngược chiều không đúng quy định bị phạt bao nhiêu?",
+        "doc_ids": [
+            2264
+        ]
+    },
+    {
+        "question": "Xe ô tô tránh xe đi ngược chiều không đúng quy định bị trừ bao nhiêu điểm giấy phép lái xe?",
+        "doc_ids": [
+            2264
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ngược chiều ô tô có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2256
+        ]
+    },
+    {
+        "question": "Sử dụng điện thoại khi đang điều khiển xe máy có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2289
+        ]
+    },
+    {
+        "question": "Điều khiển xe không có kính chắn gió bị phạt bao nhiêu?",
+        "doc_ids": [
+            2346
+        ]
+    },
+    {
+        "question": "Xe máy đăng ký tạm thời mà chạy quá thời hạn cho phép thì bị phạt bao nhiêu tiền theo Nghị định 168?",
+        "doc_ids": [
+            2365
+        ]
+    },
+    {
+        "question": "Lái ô tô gây tai nạn rồi bỏ trốn, không trợ giúp người bị nạn bị trừ bao nhiêu điểm giấy phép lái xe?",
+        "doc_ids": [
+            2271
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ngược chiều xe máy phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2302
+        ]
+    },
+    {
+        "question": "Lạng lách đánh võng xe máy bị trừ bao nhiêu điểm bằng lái?",
+        "doc_ids": [
+            2294
         ]
     }
 ]

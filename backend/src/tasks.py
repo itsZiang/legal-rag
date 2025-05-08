@@ -13,7 +13,7 @@ from configs import DEFAULT_COLLECTION_NAME
 from database import get_celery_app
 from models import get_conversation_history, update_chat_conversation
 from rerank import rerank_documents
-from search_hybrid import hybrid_search
+from search_hybrid import multi_query_hybrid_search, hybrid_search
 from splitter import split_document
 from summarizer import summarize_text
 from utils import setup_logging
@@ -51,7 +51,7 @@ def bot_rag_answer_message(history, question):
     # # Rerank documents
     # ranked_docs = rerank_documents(top_docs, new_question, top_n=3)
 
-    ranked_docs = hybrid_search(new_question, limit=20, top_n=3)
+    ranked_docs = hybrid_search(new_question, limit=25, top_n=3)
 
     # append history to ranked_docs
     openai_messages = [
