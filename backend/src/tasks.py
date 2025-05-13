@@ -4,9 +4,16 @@ import pprint
 import time
 
 from agent import ai_agent_handle
-from brain import (cohere_chat_complete, detect_route, detect_user_intent,
-                   gen_doc_prompt, get_embedding, openai_chat_complete,
-                   vistral_chat_complete)
+from brain import (
+    detect_route,
+    detect_user_intent,
+    gen_doc_prompt,
+    get_embedding,
+    openai_chat_complete,
+    cohere_chat_complete,
+    qwen_chat_complete,
+    deepseek_chat_complete,
+)
 from celery import shared_task
 from click import prompt
 from configs import DEFAULT_COLLECTION_NAME
@@ -87,10 +94,106 @@ def bot_rag_answer_message(history, question):
 
     #     logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
 
-    assistant_answer = openai_chat_complete(openai_messages)
+    assistant_answer = cohere_chat_complete(openai_messages)
 
     logger.info("Bot RAG reply:\n%s", pprint.pformat(assistant_answer))
     return assistant_answer
+
+
+@shared_task()
+def generate_answer(question):
+    ranked_docs = hybrid_search(question, limit=25, top_n=3)
+    # just reranked docs
+    qwen_prompt = f"""
+    ### Documents:
+    {gen_doc_prompt(ranked_docs)}
+    
+    ### Question:
+    {question}
+    
+    ### Response:
+"""
+    qwen_messages = [
+        {
+            "role": "system",
+            "content": "You are a highly intelligent Vietnamese legal assistant that helps answer questions based on documents. Please give a detailed answer for the question with references to the documents in Vietnamese.",
+        },
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": qwen_prompt},
+            ],
+        }
+    ]
+
+    logger.info("Qwen messages:\n%s", pprint.pformat(qwen_prompt))
+    assistant_answer = qwen_chat_complete(qwen_messages)
+    logger.info("Bot RAG reply:\n%s", pprint.pformat(assistant_answer))
+    return assistant_answer
+
+# def generate_answer(question: str) -> str:
+#     # Kiểm tra đầu vào
+#     if not question or not isinstance(question, str):
+#         logger.error("Câu hỏi không hợp lệ: %s", question)
+#         return "Vui lòng cung cấp câu hỏi hợp lệ."
+
+#     # Tìm kiếm tài liệu
+#     try:
+#         ranked_docs = hybrid_search(question, limit=25, top_n=3)
+#         if not ranked_docs:
+#             logger.warning("Không tìm thấy tài liệu liên quan cho câu hỏi: %s", question)
+#             return "Không tìm thấy thông tin liên quan để trả lời câu hỏi."
+#     except Exception as e:
+#         logger.error("Lỗi khi tìm kiếm tài liệu: %s", str(e))
+#         return "Đã xảy ra lỗi khi xử lý câu hỏi. Vui lòng thử lại sau."
+
+#     # Tạo prompt tài liệu
+#     cohere_prompt = f"""
+#     ### Tài liệu:
+#     {gen_doc_prompt(ranked_docs)}
+    
+#     ### Câu hỏi:
+#     {question}
+    
+#     ### Trả lời:
+#     """
+
+#     # Cấu trúc messages
+#     cohere_messages = [
+#         {
+#             "role": "system",
+#             "content": """
+#             Bạn là một trợ lý pháp lý thông minh, chuyên trả lời các câu hỏi pháp luật bằng tiếng Việt. 
+#             Vui lòng cung cấp câu trả lời:
+#             - Chi tiết, chính xác, và dựa trên các tài liệu được cung cấp.
+#             - Sử dụng ngôn ngữ trang trọng, rõ ràng, và phù hợp với lĩnh vực pháp lý.
+#             - Trích dẫn cụ thể các tài liệu (ví dụ: [Tài liệu 1]) khi sử dụng thông tin.
+#             - Cấu trúc câu trả lời gồm:
+#               1. Giới thiệu ngắn gọn về vấn đề.
+#               2. Phân tích chi tiết dựa trên tài liệu.
+#               3. Kết luận hoặc khuyến nghị (nếu phù hợp).
+#             Nếu không có đủ thông tin trong tài liệu, hãy nêu rõ và trả lời dựa trên kiến thức chung, nhưng vẫn đảm bảo tính chính xác.
+#             """
+#         },
+#         {
+#             "role": "user",
+#             "content": [
+#                 {"type": "text", "text": cohere_prompt},
+#             ],
+#         }
+#     ]
+
+#     # Ghi log
+#     logger.info("Cohere messages:\n%s", pprint.pformat(cohere_messages))
+
+#     # Gọi API Cohere
+#     try:
+#         assistant_answer = cohere_chat_complete(cohere_messages)
+#         logger.info("Câu trả lời từ RAG:\n%s", assistant_answer)
+#         return assistant_answer
+#     except Exception as e:
+#         logger.error("Lỗi khi gọi Cohere API: %s", str(e))
+#         return "Đã xảy ra lỗi khi tạo câu trả lời. Vui lòng thử lại sau."
 
 
 def index_single_node(

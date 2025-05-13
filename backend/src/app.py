@@ -16,7 +16,7 @@ from search import (
     search_documents_ids_rerank,
 )
 from sqlalchemy.orm import Session
-from tasks import index_single_node, llm_handle_message
+from tasks import index_single_node, llm_handle_message, generate_answer
 from utils import setup_logging
 from vectorize import create_collection
 from search_hybrid import hybrid_search
@@ -184,6 +184,13 @@ async def search_multi_queries_api(data: Dict):
     results = search_documents_ids_multi_queries(query, limit, top_n)
     logging.info(f"Search query: '{query}' with limit {limit} and top_n {top_n}")
     return {"ids": results}
+
+
+@app.post("/generate_answer")
+async def generate_answer_api(data: Dict):
+    question = data.get("question")
+    answer = generate_answer(question)
+    return {"answer": answer}
 
 
 if __name__ == "__main__":

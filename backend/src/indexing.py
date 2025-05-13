@@ -57,7 +57,7 @@ def process_embeddings(data):
 
 
 def indexing():
-    file_path = os.path.join(DATA_DIR, "embeddings_output.json")
+    file_path = os.path.join(DATA_DIR, "embeddings_bge_m3.json")
     data = read_embeddings_file(file_path)
 
     if data:

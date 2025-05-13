@@ -22,11 +22,7 @@ logger = logging.getLogger(__name__)
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", default=None)
 
 
-vistral_client = OpenAI(
-    api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS_LLM}:{VAST_PORT_LLM}/v1"
-)
-
-cohere_client = OpenAI(
+custom_client = OpenAI(
     api_key=OPENAI_API_KEY, base_url=f"http://{VAST_IP_ADDRESS_LLM}:{VAST_PORT_LLM}/v1"
 )
 
@@ -48,22 +44,33 @@ def openai_chat_complete(messages=(), model="gpt-4o-mini", raw=False):
     return output.content
 
 
-def vistral_chat_complete(messages=()):
-    chat_response = vistral_client.chat.completions.create(
-        model="davicn81/vistral-7b-legal",
-        messages=messages,
-    )
-    output = chat_response.choices[0].message
-    return output.content
-
-
 def cohere_chat_complete(messages=()):
-    chat_response = cohere_client.chat.completions.create(
+    chat_response = custom_client.chat.completions.create(
         model="CohereLabs/aya-expanse-8b",
         messages=messages,
     )
     output = chat_response.choices[0].message
     return output.content
+
+
+def qwen_chat_complete(messages=()):
+    chat_response = custom_client.chat.completions.create(
+        model="Qwen/Qwen3-8B",
+        messages=messages,
+    )
+    reasoning_content = chat_response.choices[0].message.reasoning_content
+    content = chat_response.choices[0].message.content
+    return content
+
+
+def deepseek_chat_complete(messages=()):
+    chat_response = custom_client.chat.completions.create(
+        model="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        messages=messages,
+    )
+    reasoning_content = chat_response.choices[0].message.reasoning_content
+    content = chat_response.choices[0].message.content
+    return content
 
 
 def get_embedding(text: str):
@@ -91,10 +98,10 @@ def gen_doc_prompt(docs):
     Content: ....
     """
     doc_prompt = ""
-    for doc in docs:
-        doc_prompt += f"Theo {doc['title']}: {doc['content']}\n\n"
+    for idx, doc in enumerate(docs):
+        doc_prompt += f"Tài liệu {idx + 1}: {doc['title']}: {doc['content']}\n\n"
 
-    return "Document:\n{}".format(doc_prompt)
+    return "{}".format(doc_prompt)
 
 
 def generate_conversation_text(conversations):

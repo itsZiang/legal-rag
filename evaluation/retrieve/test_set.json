@@ -1,0 +1,1840 @@
+[
+    {
+        "question": "Xe quá tải trọng bao gồm loại xe nào?",
+        "doc_ids": [
+            373
+        ]
+    },
+    {
+        "question": "Xe ưu tiên gồm những xe nào?",
+        "doc_ids": [
+            317
+        ]
+    },
+    {
+        "question": "Xe ô tô có được dừng xe tại khu đất ở bên ngoài phần đường xe chạy không?",
+        "doc_ids": [
+            304
+        ]
+    },
+    {
+        "question": "Cơ quan nào có thẩm quyền thực hiện thu hồi giấy phép sát hạch?",
+        "doc_ids": [
+            1882
+        ]
+    },
+    {
+        "question": "Khi nào được phục hồi điểm giấy phép lái xe?",
+        "doc_ids": [
+            392
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe hạng C được điều khiển xe gì?",
+        "doc_ids": [
+            390
+        ]
+    },
+    {
+        "question": "Đối tượng nào phải bảo đảm chất lượng an toàn kỹ thuật và bảo vệ môi trường?",
+        "doc_ids": [
+            355
+        ]
+    },
+    {
+        "question": "Cách nhận biết xe cứu thương đang làm nhiệm vụ cấp cứu?",
+        "doc_ids": [
+            319
+        ]
+    },
+    {
+        "question": "Bến xe khách có chức năng gì?",
+        "doc_ids": [
+            1422
+        ]
+    },
+    {
+        "question": "Thời hạn của giấy phép lái xe được quy định là bao lâu?",
+        "doc_ids": [
+            391
+        ]
+    },
+    {
+        "question": "Thời hạn của bằng lái xe hạng D là bao nhiêu năm?",
+        "doc_ids": [
+            391
+        ]
+    },
+    {
+        "question": "Dây chuyền kiểm định là gì?",
+        "doc_ids": [
+            1907
+        ]
+    },
+    {
+        "question": "Hệ thống giám sát giao thông là gì?",
+        "doc_ids": [
+            420
+        ]
+    },
+    {
+        "question": "Thiết bị phát tín hiệu xe của lực lượng công an, xe của lực lượng kiểm sát đi làm nhiệm vụ khẩn cấp như thế nào?",
+        "doc_ids": [
+            1183
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm sẽ bị tạm đình chỉ hoạt động kiểm định trong trường hợp nào? Thời hạn bao lâu?",
+        "doc_ids": [
+            1933
+        ]
+    },
+    {
+        "question": "Xe cứu thương đang đi cấp cứu có được sử dụng còi liên tục không?",
+        "doc_ids": [
+            307,
+            317
+        ]
+    },
+    {
+        "question": "Không chấp hành yêu cầu kiểm tra của người thi hành công vụ trong lĩnh vực giao thông đường bộ là hành vi bị nghiêm cấm đúng không?",
+        "doc_ids": [
+            286
+        ]
+    },
+    {
+        "question": "Đường bộ, hoạt động đường bộ bao gồm những gì?",
+        "doc_ids": [
+            960
+        ]
+    },
+    {
+        "question": "Người điều khiển phương tiện tham gia giao thông đường bộ là xe thô sơ có phải bật đèn xe từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau không?",
+        "doc_ids": [
+            328
+        ]
+    },
+    {
+        "question": "Đối tượng tập huấn nghiệp vụ vận tải là ai?",
+        "doc_ids": [
+            1453
+        ]
+    },
+    {
+        "question": "Đinh phản quang được lắp đặt nhằm mục đích gì?",
+        "doc_ids": [
+            292
+        ]
+    },
+    {
+        "question": "Niên hạn sử dụng xe cơ giới là bao nhiêu năm?",
+        "doc_ids": [
+            1937
+        ]
+    },
+    {
+        "question": "Khi tham gia giao thông phải ưu tiên chấp hành vạch vàng nét đứt trước đúng không?",
+        "doc_ids": [
+            291,
+            292
+        ]
+    },
+    {
+        "question": "Độ tuổi được điều khiển xe máy điện là bao nhiêu?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Đơn vị kinh doanh vận tải hành khách bằng xe ô tô có cần phải ứng dụng công nghệ thông tin để quản lý điều hành hoạt động vận tải không?",
+        "doc_ids": [
+            1093
+        ]
+    },
+    {
+        "question": "Cảnh sát giao thông mặc thường phục được dừng xe xử phạt trong trường hợp nào?",
+        "doc_ids": [
+            856
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm là gì?",
+        "doc_ids": [
+            1905
+        ]
+    },
+    {
+        "question": "Giấy chứng nhận kiểm định cấp lại có thời hạn hiệu lực bao lâu?",
+        "doc_ids": [
+            2142
+        ]
+    },
+    {
+        "question": "Tên đường bộ bao gồm những gì?",
+        "doc_ids": [
+            100
+        ]
+    },
+    {
+        "question": "Người bao nhiêu tuổi được cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Khi nào được phục hồi điểm giấy phép lái xe?",
+        "doc_ids": [
+            392
+        ]
+    },
+    {
+        "question": "Đơn vị kinh doanh vận tải hàng hóa có được quyết định giá cước vận tải không?",
+        "doc_ids": [
+            56
+        ]
+    },
+    {
+        "question": "Bằng lái xe B1 có được lái xe mô tô ba bánh không?",
+        "doc_ids": [
+            390
+        ]
+    },
+    {
+        "question": "Biên bản phân công nhiệm vụ của Hội đồng sát hạch lái xe phải được lưu trữ bao lâu?",
+        "doc_ids": []
+    },
+    {
+        "question": "Hàng hóa ký gửi là gì?",
+        "doc_ids": [
+            1115
+        ]
+    },
+    {
+        "question": "Người khuyết tật, người mất năng lực hành vi dân sự tham gia giao thông đường bộ cần tuân theo quy định nào?",
+        "doc_ids": [
+            327
+        ]
+    },
+    {
+        "question": "Tốc độ khai thác tối đa của đường bộ là gì?",
+        "doc_ids": [
+            1808
+        ]
+    },
+    {
+        "question": "Hệ thống thông tin cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ tại Sở Giao thông vận tải gồm những gì?",
+        "doc_ids": [
+            1777
+        ]
+    },
+    {
+        "question": "Nộp lệ phí đăng ký xe ô tô lần đầu thực hiện như thế nào?",
+        "doc_ids": [
+            461
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe có bao nhiêu điểm?",
+        "doc_ids": [
+            392
+        ]
+    },
+    {
+        "question": "03 Đối tượng nào được giáo dục kiến thức pháp luật về trật tự an toàn giao thông đường bộ theo quy định mới?",
+        "doc_ids": [
+            282
+        ]
+    },
+    {
+        "question": "Vận tốc thiết kế của xe chở người bốn bánh có gắn động cơ là bao nhiêu?",
+        "doc_ids": [
+            331
+        ]
+    },
+    {
+        "question": "Thanh toán điện tử giao thông là gì?",
+        "doc_ids": [
+            1065
+        ]
+    },
+    {
+        "question": "Thời hạn xác minh việc mất chứng nhận đăng ký xe khi làm thủ tục cấp lại chứng nhận đăng ký xe là bao lâu?",
+        "doc_ids": [
+            476
+        ]
+    },
+    {
+        "question": "Xe tải chở hàng khối lượng 2,5 tấn không mui khi chở hàng hóa được xếp hàng hóa cao bao nhiêu mét?",
+        "doc_ids": [
+            1395
+        ]
+    },
+    {
+        "question": "Thời gian lưu trữ dữ liệu cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ là bao lâu?",
+        "doc_ids": [
+            1782
+        ]
+    },
+    {
+        "question": "Xe gắn máy không được xếp hàng hóa cao quá bao nhiêu mét?",
+        "doc_ids": [
+            330
+        ]
+    },
+    {
+        "question": "Phương tiện, thiết bị phục vụ quản lý, vận hành, khai thác công trình đường bộ được pháp luật quy định như thế nào?",
+        "doc_ids": [
+            1010
+        ]
+    },
+    {
+        "question": "03 Trường hợp bị thu hồi bằng lái xe theo quy định mới nhất?",
+        "doc_ids": [
+            402
+        ]
+    },
+    {
+        "question": "Giao thông thông minh là gì?",
+        "doc_ids": [
+            1062
+        ]
+    },
+    {
+        "question": "Kỳ hạn sử dụng của vé đường bộ toàn quốc là bao lâu?",
+        "doc_ids": [
+            2201
+        ]
+    },
+    {
+        "question": "Số hiệu đường tỉnh được quy định gồm những gì?",
+        "doc_ids": [
+            100
+        ]
+    },
+    {
+        "question": "Không được quay đầu xe ở những nơi nào?",
+        "doc_ids": [
+            299
+        ]
+    },
+    {
+        "question": "Có được bóp còi khi vượt xe không?",
+        "doc_ids": [
+            307
+        ]
+    },
+    {
+        "question": "Nơi không có vạch kẻ đường thì người đi bộ được qua đường khi nào?",
+        "doc_ids": [
+            326
+        ]
+    },
+    {
+        "question": "Người lái xe gắn máy có được sử dụng chân chống xe quệt xuống đường khi xe đang chạy không?",
+        "doc_ids": [
+            330
+        ]
+    },
+    {
+        "question": "Người lái xe ô tô chở người trên 29 chỗ phải có bằng lái xe hạng nào?",
+        "doc_ids": [
+            390
+        ]
+    },
+    {
+        "question": "Nguyên tắc nhường đường khi có chướng ngại vật phía trước thế nào?",
+        "doc_ids": [
+            301
+        ]
+    },
+    {
+        "question": "Tem kiểm định xe gắn máy bị mất có bị cảnh báo phương tiện tham gia giao thông không?",
+        "doc_ids": [
+            1169
+        ]
+    },
+    {
+        "question": "03 Hoạt động tuần tra, kiểm soát về trật tự, an toàn giao thông là hoạt động nào?",
+        "doc_ids": [
+            408
+        ]
+    },
+    {
+        "question": "Xe ô tô tải chuyên dùng có niên hạn sử dụng bao lâu?",
+        "doc_ids": [
+            1937
+        ]
+    },
+    {
+        "question": "Quy hoạch nào cụ thể hóa quy hoạch mạng lưới đường bộ?",
+        "doc_ids": [
+            967
+        ]
+    },
+    {
+        "question": "Hành vi chuyển hướng xe có gồm việc quay đầu xe?",
+        "doc_ids": [
+            299
+        ]
+    },
+    {
+        "question": "Một xe ô tô có được chở nhiều loại hàng hóa nguy hiểm không?",
+        "doc_ids": [
+            920
+        ]
+    },
+    {
+        "question": "Xe ô tô vận chuyển hành khách khi vượt xe cần phải vượt bên nào?",
+        "doc_ids": [
+            297,
+            298
+        ]
+    },
+    {
+        "question": "Chồng có được phép chở vợ kèm theo 2 con nhỏ khi tham gia giao thông không?",
+        "doc_ids": [
+            330
+        ]
+    },
+    {
+        "question": "Quay đầu xe đối với người tham gia giao thông được quy định như thế nào?",
+        "doc_ids": [
+            299
+        ]
+    },
+    {
+        "question": "Xe chở người bốn bánh có gắn động cơ có thời hạn sử dụng là bao lâu?",
+        "doc_ids": [
+            1937
+        ]
+    },
+    {
+        "question": "Đơn vị kinh doanh vận tải hành khách bằng xe buýt thực hiện lưu trữ Lệnh vận chuyển như thế nào?",
+        "doc_ids": [
+            1432
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động được cấp lại giấy chứng nhận khi nào?",
+        "doc_ids": [
+            1935
+        ]
+    },
+    {
+        "question": "Giấy phép vận chuyển hàng hóa nguy hiểm có thời hạn bao lâu?",
+        "doc_ids": [
+            924
+        ]
+    },
+    {
+        "question": "Việc tổ chức kiểm tra, cấp giấy chứng nhận được thực hiện thế nào?",
+        "doc_ids": [
+            1454
+        ]
+    },
+    {
+        "question": "Có được lùi xe trong hầm đường bộ hay không?",
+        "doc_ids": [
+            300
+        ]
+    },
+    {
+        "question": "Có bắt buộc đặt tên, số hiệu đường bộ đối với đường nội bộ hay không?",
+        "doc_ids": [
+            980
+        ]
+    },
+    {
+        "question": "Xe tải chở hàng hoá xếp hàng vượt phía trước phải có báo hiệu màu gì tại điểm đầu của hàng hóa?",
+        "doc_ids": [
+            365
+        ]
+    },
+    {
+        "question": "Có được dừng đỗ xe trong hầm đường bộ không?",
+        "doc_ids": [
+            316
+        ]
+    },
+    {
+        "question": "Không chấp hành yêu cầu kiểm tra của người thi hành công vụ trong lĩnh vực giao thông đường bộ thì người thi hành công vụ thực hiện các biện pháp nào?",
+        "doc_ids": [
+            422,
+            423
+        ]
+    },
+    {
+        "question": "Người điều khiển phương tiện tham gia giao thông đường bộ được vượt xe khi nào?",
+        "doc_ids": [
+            297
+        ]
+    },
+    {
+        "question": "Xe ô tô chuyên dùng có niên hạn sử dụng không?",
+        "doc_ids": [
+            353
+        ]
+    },
+    {
+        "question": "Hoạt động vận tải người nội bộ là gì?",
+        "doc_ids": [
+            1090
+        ]
+    },
+    {
+        "question": "Hướng dẫn chỉ huy, điều khiển giao thông tại một vị trí hoặc một khu vực trên đường giao thông khi xảy ra ùn tắc giao thông đường bộ?",
+        "doc_ids": [
+            641
+        ]
+    },
+    {
+        "question": "Chỉ huy giao thông đường bộ là gì?",
+        "doc_ids": [
+            424
+        ]
+    },
+    {
+        "question": "Khắc phục hậu quả thiên tai đường bộ khi sạt lở ta luy âm như thế nào?",
+        "doc_ids": [
+            2044
+        ]
+    },
+    {
+        "question": "Bỏ trốn sau khi gây tai nạn để trốn tránh trách nhiệm là hành vi bị nghiêm cấm theo quy định pháp luật?",
+        "doc_ids": [
+            288
+        ]
+    },
+    {
+        "question": "Thời hạn cấp lại Giấy chứng nhận kiểm định là bao lâu?",
+        "doc_ids": [
+            2144,
+            2145,
+            2146
+        ]
+    },
+    {
+        "question": "Xe cứu thương có phải lắp thiết bị giám sát hành trình khi tham gia giao thông?",
+        "doc_ids": [
+            333
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm xe cơ giới có hai dây chuyền kiểm định là gì?",
+        "doc_ids": [
+            1907
+        ]
+    },
+    {
+        "question": "Cảnh sát chỉ huy giao thông đường bộ có trách nhiệm gì khi giải quyết các vụ ùn tắc giao thông đường bộ?",
+        "doc_ids": [
+            647
+        ]
+    },
+    {
+        "question": "Bao nhiêu tuổi được cấp giấy phép lái xe hạng C1E?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Đèn vàng mà Cảnh sát giao thông ra hiệu được đi thì có được đi tiếp hay không?",
+        "doc_ids": [
+            291
+        ]
+    },
+    {
+        "question": "Xe có số máy bị đóng chồng số thì giải quyết đăng ký xe thế nào?",
+        "doc_ids": [
+            522
+        ]
+    },
+    {
+        "question": "Chi phí thẩm tra an toàn giao thông đường bộ được lấy từ đâu?",
+        "doc_ids": [
+            1029
+        ]
+    },
+    {
+        "question": "Khi điều khiển xe máy chuyên dùng có phải mang theo chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ không?",
+        "doc_ids": [
+            389
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm xe cơ giới chỉ có một dây chuyền kiểm định loại I thì diện tích là bao nhiêu?",
+        "doc_ids": []
+    },
+    {
+        "question": "Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ được xây dựng như thế nào?",
+        "doc_ids": [
+            1161
+        ]
+    },
+    {
+        "question": "Xe mô tô (xe máy) được chở hàng hóa có tải trọng tối đa là bao nhiêu theo quy định của pháp luật hiện nay?",
+        "doc_ids": [
+            330
+        ]
+    },
+    {
+        "question": "Nâng hạng bằng lái xe từ B lên C1, C khi bằng lái còn hiệu lực được không?",
+        "doc_ids": [
+            395
+        ]
+    },
+    {
+        "question": "Phương tiện đo của cơ sở đăng kiểm tại xưởng kiểm định được bố trí thế nào?",
+        "doc_ids": [
+            1919
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe hạng CE là gì?",
+        "doc_ids": [
+            390
+        ]
+    },
+    {
+        "question": "Bằng lái xe quốc tế là gì?",
+        "doc_ids": [
+            391
+        ]
+    },
+    {
+        "question": "Thời điểm tập huấn nghiệp vụ vận tải cho lái xe kinh doanh vận tải và yêu cầu của cán bộ tập huấn được quy định thế nào?",
+        "doc_ids": [
+            1453
+        ]
+    },
+    {
+        "question": "Phương tiện tham gia giao thông đường bộ di chuyển với tốc độ thấp hơn phải đi về bên nào?",
+        "doc_ids": [
+            296
+        ]
+    },
+    {
+        "question": "Khi xuống phà xe đạp điện có được phép xuống đầu tiên không?",
+        "doc_ids": [
+            310
+        ]
+    },
+    {
+        "question": "Tạm dừng khai thác đường cao tốc là gì?",
+        "doc_ids": [
+            1073
+        ]
+    },
+    {
+        "question": "Cơ quan nào quản lý, vận hành hệ thống giám sát giao thông trên các tuyến đường cao tốc?",
+        "doc_ids": [
+            2221
+        ]
+    },
+    {
+        "question": "Xe chở thực phẩm tươi sống có phải là xe được ưu tiên khi qua phà không?",
+        "doc_ids": [
+            309
+        ]
+    },
+    {
+        "question": "Chuyển hướng xe là gì?",
+        "doc_ids": [
+            299
+        ]
+    },
+    {
+        "question": "Nếu bị trừ hết điểm giấy phép lái xe có được lái xe không?",
+        "doc_ids": [
+            392
+        ]
+    },
+    {
+        "question": "Điều kiện đăng kiểm viên hạng II của cơ sở đăng kiểm xe cơ giới là gì?",
+        "doc_ids": [
+            1912
+        ]
+    },
+    {
+        "question": "Sử dụng tạm thời lòng đường gây mất trật tự cơ quan nào có thẩm quyền giải quyết?",
+        "doc_ids": [
+            432
+        ]
+    },
+    {
+        "question": "Cơ quan nào có thẩm quyền kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ?",
+        "doc_ids": [
+            1622
+        ]
+    },
+    {
+        "question": "Báo cáo nhanh trong phòng chống khắc phục hậu quả thiên tai đường bộ được lập khi nào?",
+        "doc_ids": [
+            2058
+        ]
+    },
+    {
+        "question": "Bao nhiêu tuổi được cấp giấy phép lái xe hạng C?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Người bao nhiêu tuổi sẽ được cấp bằng lái xe hạng C1?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Bằng lái xe B1 cấp trước đây được đổi sang giấy phép lái xe hạng nào?",
+        "doc_ids": [
+            454
+        ]
+    },
+    {
+        "question": "Phương tiện giao thông thông minh cần đảm bảo điều kiện nào?",
+        "doc_ids": [
+            333
+        ]
+    },
+    {
+        "question": "Bao nhiêu tuổi được thi bằng lái a1?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Xe ô tô tuần tra, kiểm soát về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông có hình thức như thế nào?",
+        "doc_ids": [
+            860,
+            861
+        ]
+    },
+    {
+        "question": "Khi đỗ xe ô tô trên đường phải thực hiện quy định nào?",
+        "doc_ids": [
+            302,
+            304
+        ]
+    },
+    {
+        "question": "Đối tượng được ưu tiên khi đi xe buýt công cộng theo quy định mới?",
+        "doc_ids": [
+            1430
+        ]
+    },
+    {
+        "question": "Người điều khiển phương tiện tham gia giao thông đường bộ phải có trách nhiệm gì?",
+        "doc_ids": [
+            421
+        ]
+    },
+    {
+        "question": "Thuốc nổ là hàng hóa nguy hiểm có được vận chuyển qua hầm hay không?",
+        "doc_ids": [
+            922
+        ]
+    },
+    {
+        "question": "Trật tự, an toàn giao thông đường bộ là gì?",
+        "doc_ids": [
+            268
+        ]
+    },
+    {
+        "question": "Khi nào đường dây tải điện xây dựng bên trên đường bộ không cần có văn bản chấp thuận của cơ quan quản lý đường bộ?",
+        "doc_ids": [
+            1006
+        ]
+    },
+    {
+        "question": "Giấy phép xe tập lái có hiệu lực bao lâu theo quy định?",
+        "doc_ids": [
+            1850
+        ]
+    },
+    {
+        "question": "Có được cải tạo xe ô tô khác thành xe chở người không?",
+        "doc_ids": [
+            286
+        ]
+    },
+    {
+        "question": "Cấp kỹ thuật của đường bộ bao gồm những gì?",
+        "doc_ids": [
+            977
+        ]
+    },
+    {
+        "question": "Vạch kẻ đường có phải là báo hiệu đường bộ không?",
+        "doc_ids": [
+            291,
+            292
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm xe cơ giới cần tối thiểu bao nhiêu lãnh đạo là đăng kiểm viên hạng II trở lên?",
+        "doc_ids": [
+            1911
+        ]
+    },
+    {
+        "question": "Tải trọng đường bộ là gì?",
+        "doc_ids": [
+            1017
+        ]
+    },
+    {
+        "question": "Xe taxi đón trả hành khách như thế nào?",
+        "doc_ids": [
+            359
+        ]
+    },
+    {
+        "question": "Người lái xe ô tô có phải thắt dây an toàn khi tham gia giao thông không?",
+        "doc_ids": [
+            290
+        ]
+    },
+    {
+        "question": "Người đi bộ phải tuân thủ những quy định gì khi tham gia giao thông đường bộ?",
+        "doc_ids": [
+            326
+        ]
+    },
+    {
+        "question": "Đường quốc lộ được hiểu là gì?",
+        "doc_ids": [
+            972
+        ]
+    },
+    {
+        "question": "Tín hiệu được sử dụng đối với thiết bị phát tín hiệu của xe cứu thương là gì?",
+        "doc_ids": [
+            1183
+        ]
+    },
+    {
+        "question": "Bằng lái xe bị thu hồi khi nào theo quy định của pháp luật?",
+        "doc_ids": [
+            402
+        ]
+    },
+    {
+        "question": "Xe gắn máy được phép đậu xe cách vỉa hè ít nhất bao nhiêu mét?",
+        "doc_ids": [
+            304
+        ]
+    },
+    {
+        "question": "Xe nhập khẩu không có số máy thì cơ quan đăng ký xe đóng lại số máy như thế nào?",
+        "doc_ids": [
+            522
+        ]
+    },
+    {
+        "question": "Các hành vi bị cấm của người được chở khi tham gia giao thông là gì?",
+        "doc_ids": [
+            330
+        ]
+    },
+    {
+        "question": "Người điều khiển phương tiện tham gia giao thông đường bộ có bao gồm người điều khiển xe thô sơ không?",
+        "doc_ids": [
+            269
+        ]
+    },
+    {
+        "question": "Hoạt động sát hạch lái xe ô tô được thực hiện ở đâu?",
+        "doc_ids": [
+            397
+        ]
+    },
+    {
+        "question": "Tổ trưởng Tổ sát hạch có phải là ủy viên của Hội đồng sát hạch lái xe không?",
+        "doc_ids": [
+            1696
+        ]
+    },
+    {
+        "question": "Có được vượt xe khi có chướng ngại vật phía trước không?",
+        "doc_ids": [
+            297
+        ]
+    },
+    {
+        "question": "Xe đã đi qua vạch dừng mà tín hiệu đèn vàng có được đi tiếp?",
+        "doc_ids": [
+            291
+        ]
+    },
+    {
+        "question": "Có tịch thu xe máy chạy quá tốc độ gây tai nạn giao thông?",
+        "doc_ids": [
+            2271
+        ]
+    },
+    {
+        "question": "Yêu cầu đối với sát hạch viên là gì?",
+        "doc_ids": [
+            1701,
+            1702
+        ]
+    },
+    {
+        "question": "Công trình đường bộ bao gồm những gì theo Luật Đường bộ mới nhất?",
+        "doc_ids": [
+            960,
+            961
+        ]
+    },
+    {
+        "question": "Số IDP bao gồm những gì theo quy định?",
+        "doc_ids": [
+            1749
+        ]
+    },
+    {
+        "question": "Hành vi bị nghiêm cấm đối với thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông là gì?",
+        "doc_ids": [
+            287,
+            288
+        ]
+    },
+    {
+        "question": "Người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?",
+        "doc_ids": [
+            290
+        ]
+    },
+    {
+        "question": "Người có giấy phép lái xe quốc tế khi lái xe tham gia giao thông tại Việt Nam phải mang theo giấy tờ gì?",
+        "doc_ids": [
+            391
+        ]
+    },
+    {
+        "question": "Có được chở người trên xe ô tô được kéo không?",
+        "doc_ids": [
+            325
+        ]
+    },
+    {
+        "question": "Công dân khi phát hiện vụ tai nạn giao thông cần phải báo cho ai?",
+        "doc_ids": [
+            437
+        ]
+    },
+    {
+        "question": "Lắp loa trên xe ô tô gây mất trật tự an toàn giao thông đường bộ là hành vi vi phạm pháp luật đúng không?",
+        "doc_ids": [
+            287
+        ]
+    },
+    {
+        "question": "Bằng lái xe hạng C1 có thời hạn bao lâu kể từ ngay được cấp?",
+        "doc_ids": [
+            391
+        ]
+    },
+    {
+        "question": "Đường đô thị bao gồm những đường nào?",
+        "doc_ids": [
+            972
+        ]
+    },
+    {
+        "question": "Chưa đổi, cấp lại giấy phép lái xe trong trường hợp nào?",
+        "doc_ids": [
+            402
+        ]
+    },
+    {
+        "question": "Xe ô tô được kéo xe ô tô khác khi nào? Được kéo bao nhiêu xe?",
+        "doc_ids": [
+            325
+        ]
+    },
+    {
+        "question": "Tem kiểm định bị mất thì có phải mang xe đến cơ sở đăng kiểm kiểm tra, đánh giá lại không?",
+        "doc_ids": [
+            2142
+        ]
+    },
+    {
+        "question": "Sử dụng người chưa được huấn luyện an toàn hàng hóa nguy hiểm có bị thu hồi giấy phép không?",
+        "doc_ids": [
+            937
+        ]
+    },
+    {
+        "question": "Ô tô, xe máy phải tắt đèn pha, bật đèn chiếu gần trong trường hợp nào?",
+        "doc_ids": [
+            306
+        ]
+    },
+    {
+        "question": "Cơ quan quản lý thu phí sử dụng đường bộ cao tốc là cơ quan nào?",
+        "doc_ids": [
+            2198
+        ]
+    },
+    {
+        "question": "Đào tạo lái xe để nâng hạng giấy phép lái xe thực hiện với những đối tượng nào?",
+        "doc_ids": [
+            394
+        ]
+    },
+    {
+        "question": "Cảnh sát giao thông được kiểm soát các giấy tờ nào liên quan đến người và phương tiện giao thông?",
+        "doc_ids": [
+            857
+        ]
+    },
+    {
+        "question": "Người điều khiển phương tiện tham gia giao thông có phải giảm tốc độ để tránh xe đi ngược chiều không?",
+        "doc_ids": [
+            294
+        ]
+    },
+    {
+        "question": "Đơn vị kinh doanh vận tải sử dụng hợp đồng vận tải hành khách điện tử phải lưu trữ dữ liệu hợp đồng bao lâu?",
+        "doc_ids": [
+            1461
+        ]
+    },
+    {
+        "question": "Người đi bộ qua đường phải có tín hiệu bằng tay theo quy định mới?",
+        "doc_ids": [
+            326
+        ]
+    },
+    {
+        "question": "Có thu hồi giấy phép hoạt động khi phương tiện giao thông thông minh bị hỏng không sử dụng được không?",
+        "doc_ids": [
+            1199
+        ]
+    },
+    {
+        "question": "Cấp kỹ thuật của đường bộ được xác định như thế nào?",
+        "doc_ids": [
+            977
+        ]
+    },
+    {
+        "question": "Xe ô tô thuộc trường hợp nào sẽ không áp dụng niên hạn sử dụng?",
+        "doc_ids": [
+            353
+        ]
+    },
+    {
+        "question": "Khi nào được đi vào làn khẩn cấp trên cao tốc?",
+        "doc_ids": [
+            313,
+            314
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm xe cơ giới có hai dây chuyền kiểm định thì diện tích mặt bằng cơ sở tối thiểu là bao nhiêu?",
+        "doc_ids": [
+            1910
+        ]
+    },
+    {
+        "question": "Thiết bị an toàn cho trẻ em trên ô tô là gì?",
+        "doc_ids": [
+            270
+        ]
+    },
+    {
+        "question": "Phạm vi hoạt động vận tải trung chuyển hành khách như thế nào?",
+        "doc_ids": [
+            1426
+        ]
+    },
+    {
+        "question": "Các hành vi bị cấm của người lái xe khi tham gia giao thông là gì?",
+        "doc_ids": [
+            330
+        ]
+    },
+    {
+        "question": "Xe cứu thương có thuộc nhóm xe ưu tiên?",
+        "doc_ids": [
+            317
+        ]
+    },
+    {
+        "question": "Tên đường bộ được đặt như thế nào?",
+        "doc_ids": [
+            978,
+            979,
+            980
+        ]
+    },
+    {
+        "question": "Trách nhiệm của người gây tai nạn giao thông là gì?",
+        "doc_ids": [
+            436
+        ]
+    },
+    {
+        "question": "Hoạt động tuần tra kiểm soát về trật tự an toàn giao thông đường bộ được thực hiện thế nào?",
+        "doc_ids": [
+            408
+        ]
+    },
+    {
+        "question": "Hành vi điểu khiển phương tiện giao thông đường bộ mà trong cơ thể có chất ma túy có bị pháp luật nghiêm cấm không?",
+        "doc_ids": [
+            286
+        ]
+    },
+    {
+        "question": "Trách nhiệm của người gây ra tai nạn giao thông là gì?",
+        "doc_ids": [
+            436
+        ]
+    },
+    {
+        "question": "Biên lai thu phí sử dụng đường bộ cao tốc được phát hành dưới dạng nào?",
+        "doc_ids": [
+            2199
+        ]
+    },
+    {
+        "question": "Cơ quan nào có thẩm quyền quyết định vị trí lắp đặt công trình kiểm soát tải trọng xe?",
+        "doc_ids": [
+            1061
+        ]
+    },
+    {
+        "question": "Độ tuổi của người được cấp bằng lái xe B1 quy định thế nào?",
+        "doc_ids": [
+            393
+        ]
+    },
+    {
+        "question": "Khi vận chuyển hàng rời người điều khiển xe gắn máy có trách nhiệm gì?",
+        "doc_ids": [
+            365
+        ]
+    },
+    {
+        "question": "Khi nào giấy chứng nhận kiểm định, tem kiểm định được xem là không có hiệu lực?",
+        "doc_ids": [
+            1927
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe được phục hồi khi nào?",
+        "doc_ids": [
+            2506
+        ]
+    },
+    {
+        "question": "Có được vượt xe tại nơi đường giao nhau với đường sắt không?",
+        "doc_ids": [
+            294
+        ]
+    },
+    {
+        "question": "Đua xe trái phép là một hành vi bị pháp luật nghiêm cấm trong lĩnh vực giao thông đường bộ đúng không?",
+        "doc_ids": [
+            286
+        ]
+    },
+    {
+        "question": "Hệ thống thông tin sát hạch lái xe gồm những gì?",
+        "doc_ids": [
+            1654
+        ]
+    },
+    {
+        "question": "Thực hiện hợp tác quốc tế về trật tự an toàn giao thông đường bộ trên cơ sở thế nào theo quy định?",
+        "doc_ids": [
+            285
+        ]
+    },
+    {
+        "question": "Thứ tự ưu tiên của việc chấp hành hiệu lệnh của tín hiệu đèn giao thông?",
+        "doc_ids": [
+            291
+        ]
+    },
+    {
+        "question": "Việc nộp lệ phí đăng ký xe được thực hiện qua đâu?",
+        "doc_ids": [
+            462
+        ]
+    },
+    {
+        "question": "Vận tải trung chuyển hành khách là gì?",
+        "doc_ids": [
+            1422
+        ]
+    },
+    {
+        "question": "Người chạy xe gắn máy tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ như thế nào?",
+        "doc_ids": [
+            291
+        ]
+    },
+    {
+        "question": "Cảnh sát chỉ huy, điều khiển giao thông có nhiệm vụ giải quyết ùn tắc giao thông đường bộ không?",
+        "doc_ids": [
+            627
+        ]
+    },
+    {
+        "question": "Xe ô tô có được lùi xe ở khu vực cấm dừng không?",
+        "doc_ids": [
+            300
+        ]
+    },
+    {
+        "question": "Việc nhận kết quả đăng ký xe được thực hiện qua đâu?",
+        "doc_ids": [
+            462
+        ]
+    },
+    {
+        "question": "Chỉ được dừng xe trong hầm đường bộ trong trường hợp nào?",
+        "doc_ids": [
+            316
+        ]
+    },
+    {
+        "question": "Khi chuyển làn đường có cần phải bảo đảm khoảng cách an toàn với các xe khác không?",
+        "doc_ids": [
+            296
+        ]
+    },
+    {
+        "question": "Xe gắn máy bao gồm những loại xe nào theo quy định của pháp luật?",
+        "doc_ids": [
+            331
+        ]
+    },
+    {
+        "question": "Điều khiển xe gắn máy tham gia giao thông nẹt pô liên tục có phải là hành vi bị cấm không?",
+        "doc_ids": [
+            286
+        ]
+    },
+    {
+        "question": "Lái xe 8 chỗ cần bằng lái xe hạng gì? Xe 8 chỗ chở được mấy người?",
+        "doc_ids": [
+            390
+        ]
+    },
+    {
+        "question": "Học viên không đủ điều kiện xét hoàn thành khóa đào tạo lái xe hạng B thì có được đào tạo lại không?",
+        "doc_ids": [
+            1668
+        ]
+    },
+    {
+        "question": "Có được chở trẻ em ngồi cùng hàng ghế ô tô với người lái xe theo quy định mới nhất không?",
+        "doc_ids": [
+            290
+        ]
+    },
+    {
+        "question": "CSGT có được dừng phương tiện tham gia giao thông đường bộ để phục vụ việc phòng cháy, chữa cháy và cứu nạn, cứu hộ không?",
+        "doc_ids": [
+            415
+        ]
+    },
+    {
+        "question": "Chủ xe là người Việt Nam sử dụng tài khoản định danh điện tử mức độ mấy khi thực hiện đăng ký xe trên cổng dịch vụ công?",
+        "doc_ids": [
+            482
+        ]
+    },
+    {
+        "question": "Hình thức thanh toán tiền sử dụng đường bộ trên đường cao tốc?",
+        "doc_ids": [
+            1065
+        ]
+    },
+    {
+        "question": "Hàng rời là gì?",
+        "doc_ids": [
+            1369
+        ]
+    },
+    {
+        "question": "Năm 2025, điều khiển, dẫn dắt thú cưng phải đảm bảo điều kiện gì?",
+        "doc_ids": [
+            329
+        ]
+    },
+    {
+        "question": "Xe hết niên hạn sử dụng có được giữ lại số biển số xe không?",
+        "doc_ids": [
+            336
+        ]
+    },
+    {
+        "question": "Việc kiểm soát tại một điểm trên đường giao thông, tại Trạm Cảnh sát giao thông được thực hiện thế nào?",
+        "doc_ids": [
+            852
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe quốc gia bị tẩy xóa thì có được cấp IDP không?",
+        "doc_ids": [
+            1753
+        ]
+    },
+    {
+        "question": "Xe không có số máy số khung đều do cơ quan đăng ký xe thực hiện đóng lại đúng không?",
+        "doc_ids": [
+            523,
+            524,
+            525
+        ]
+    },
+    {
+        "question": "Hai xe đi ngược chiều nhường đường khi tránh nhau như thế nào là đúng quy tắc giao thông hiện nay?",
+        "doc_ids": [
+            301
+        ]
+    },
+    {
+        "question": "Đất của đường bộ gồm những phần đất nào?",
+        "doc_ids": [
+            982
+        ]
+    },
+    {
+        "question": "Giấy chứng nhận kiểm định và tem kiểm định được cấp đồng thời khi xe tham gia giao thông đường bộ đúng không?",
+        "doc_ids": [
+            1926
+        ]
+    },
+    {
+        "question": "Thiết bị thông minh hỗ trợ chỉ huy điều khiển giao thông là gì?",
+        "doc_ids": [
+            270
+        ]
+    },
+    {
+        "question": "Phương tiện giao thông thông minh cần gắn biển số xe hay không?",
+        "doc_ids": [
+            333
+        ]
+    },
+    {
+        "question": "Thời gian nghỉ giữa 2 lần lái xe liên tục đối với tài xế lái xe ô tô đầu kéo Container vận chuyển hàng hóa là bao lâu?",
+        "doc_ids": [
+            1452
+        ]
+    },
+    {
+        "question": "Đèn tín hiệu giao thông màu vàng có được đi hay không?",
+        "doc_ids": [
+            291
+        ]
+    },
+    {
+        "question": "Theo nguyên tắc, mọi hành vi vi phạm pháp luật về trật tự an toàn giao thông đường bộ phải được xử lý như thế nào?",
+        "doc_ids": [
+            273
+        ]
+    },
+    {
+        "question": "Thay đổi thông tin ghi trên giấy phép lái xe có được đổi giấy phép lái xe không?",
+        "doc_ids": [
+            400
+        ]
+    },
+    {
+        "question": "Xe đạp điện có phải là xe thô sơ không?",
+        "doc_ids": [
+            332
+        ]
+    },
+    {
+        "question": "Khối lượng toàn bộ của xe bao gồm những gì?",
+        "doc_ids": [
+            1368
+        ]
+    },
+    {
+        "question": "Có cần lắp đèn cảnh báo khi chở hàng hóa nguy hiểm không?",
+        "doc_ids": [
+            371
+        ]
+    },
+    {
+        "question": "Người lái xe đạp được chở tối đa hai người tromng trường hợp chở một trẻ em dưới 07 tuổi đúng không?",
+        "doc_ids": [
+            328
+        ]
+    },
+    {
+        "question": "Chiều rộng hành lang an toàn đường bộ đối với đường ngoài đô thị được tính như thế nào?",
+        "doc_ids": [
+            109
+        ]
+    },
+    {
+        "question": "Những loại hình kinh doanh vận tải hành khách bằng xe ô tô được pháp luật quy định như thế nào?",
+        "doc_ids": [
+            1084
+        ]
+    },
+    {
+        "question": "Xếp hàng hóa trên xe tải chở hàng có được che khuất cảnh báo an toàn của phương tiện không?",
+        "doc_ids": [
+            1388
+        ]
+    },
+    {
+        "question": "Xây dựng cơ sở dữ liệu về trật tự an toàn giao thông đường bộ có nằm trong nội dung quản lý nhà nước không?",
+        "doc_ids": [
+            446
+        ]
+    },
+    {
+        "question": "Không chấp hành yêu cầu kiểm tra của người thi hành công vụ khi tham gia giao thông là vi phạm điều cấm?",
+        "doc_ids": [
+            286
+        ]
+    },
+    {
+        "question": "Thu hồi chứng chỉ thẩm tra viên an toàn giao thông đường bộ khi nào?",
+        "doc_ids": [
+            203
+        ]
+    },
+    {
+        "question": "Điều kiện đối với xe ô tô kinh doanh vận tải hành khách theo hợp đồng được quy định thế nào?",
+        "doc_ids": [
+            1438
+        ]
+    },
+    {
+        "question": "Xe ô tô bao gồm những loại xe nào?",
+        "doc_ids": [
+            331
+        ]
+    },
+    {
+        "question": "Nội dung tập huấn an toàn hàng hóa nguy hiểm được pháp luật quy định như thế nào?",
+        "doc_ids": [
+            917
+        ]
+    },
+    {
+        "question": "Khi nào được xét hoàn thành khóa đào tạo nâng hạng giấy phép lái xe?",
+        "doc_ids": [
+            1675
+        ]
+    },
+    {
+        "question": "Xe đạp điện được chở tối đa bao nhiêu người?",
+        "doc_ids": [
+            328
+        ]
+    },
+    {
+        "question": "Người ngồi sau xe đạp điện có cần đội mũ bảo hiểm không?",
+        "doc_ids": [
+            328
+        ]
+    },
+    {
+        "question": "Thông tin trong Cơ sở dữ liệu về trật tự an toàn giao thông đường bộ được cập nhật từ những nguồn nào?",
+        "doc_ids": [
+            1176
+        ]
+    },
+    {
+        "question": "Có được lùi xe trên đường 1 chiều không?",
+        "doc_ids": [
+            300
+        ]
+    },
+    {
+        "question": "Có được dừng xe đổ xe tại điểm đón trả khách không?",
+        "doc_ids": [
+            303
+        ]
+    },
+    {
+        "question": "Cơ quan quản lý đường bộ gồm cơ quan nào?",
+        "doc_ids": [
+            962
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe sau khi đổi, cấp lại, nâng hạng có được giữ nguyên số điểm không?",
+        "doc_ids": [
+            392
+        ]
+    },
+    {
+        "question": "Lái xe buýt thì tài xế cần có bằng lái xe hạng nào?",
+        "doc_ids": [
+            390
+        ]
+    },
+    {
+        "question": "Quyền hạn của Cảnh sát giao thông khi thực hiện tuần tra, kiểm soát hiện nay?",
+        "doc_ids": [
+            412
+        ]
+    },
+    {
+        "question": "Người khuyết tật lái xe ô tô số tự động được cấp giáy phép lái xe không?",
+        "doc_ids": [
+            391
+        ]
+    },
+    {
+        "question": "Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe máy chuyên dùng gồm những gì?",
+        "doc_ids": [
+            355
+        ]
+    },
+    {
+        "question": "Cơ quan nào có thẩm quyền cấp Giấy phép kinh doanh vận tải theo quy định?",
+        "doc_ids": [
+            1463
+        ]
+    },
+    {
+        "question": "Việc kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới do ai thực hiện?",
+        "doc_ids": [
+            357
+        ]
+    },
+    {
+        "question": "Vận tốc thiết kế của xe bốn bánh có gắn động cơ vận chuyển hàng hóa có được lớn hơn 60 km/h không?",
+        "doc_ids": [
+            331
+        ]
+    },
+    {
+        "question": "Nghị định 168 xử phạt đối với ô tô, xe máy có hiệu lực kể từ ngày nào?",
+        "doc_ids": [
+            2595
+        ]
+    },
+    {
+        "question": "Lùi xe ở đường một chiều, tài xế ô tô có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2273
+        ]
+    },
+    {
+        "question": "Chở trẻ em ngồi trước xe máy có bị phạt không theo Nghị định 168?",
+        "doc_ids": [
+            2296
+        ]
+    },
+    {
+        "question": "Xe máy chạy quá tốc độ dưới 10 km/h có bị phạt không?",
+        "doc_ids": [
+            2283,
+            2297
+        ]
+    },
+    {
+        "question": "Người điều khiển xe đưa đón trẻ em mầm non bị phạt bao nhiêu tiền nếu cho trẻ em 5 tuổi ngồi cùng hàng ghế với mình?",
+        "doc_ids": [
+            2260
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ngược chiều ô tô phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2256
+        ]
+    },
+    {
+        "question": "Xe máy chở 3 mà không thuộc trường hợp ngoại lệ theo luật định thì bị phạt bao nhiêu theo Nghị định 168?",
+        "doc_ids": [
+            2284
+        ]
+    },
+    {
+        "question": "Các hình thức xử phạt giao thông chính tại Nghị định 168 là gì?",
+        "doc_ids": [
+            2236
+        ]
+    },
+    {
+        "question": "Có bị trừ điểm giấy phép lái xe khi xe ô tô vượt đèn đỏ không?",
+        "doc_ids": [
+            2271
+        ]
+    },
+    {
+        "question": "Chở người trên thùng xe ô tô chở hàng trái quy định bị phạt bao nhiêu?",
+        "doc_ids": [
+            2268
+        ]
+    },
+    {
+        "question": "Lỗi chở hàng vượt quá chiều cao thùng xe tải Nghị định 168?",
+        "doc_ids": [
+            2415
+        ]
+    },
+    {
+        "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi lái xe chở hàng bốn bánh có gắn động cơ có bị phạt tiền không?",
+        "doc_ids": [
+            2386
+        ]
+    },
+    {
+        "question": "Đăng kiểm viên không thực hiện đúng quy trình, đưa ra các yêu cầu trái quy định có bị tước bằng không?",
+        "doc_ids": [
+            2543
+        ]
+    },
+    {
+        "question": "Không chấp hành kiểm tra nồng độ cồn có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2295
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ô tô trên vỉa hè theo Nghị định 168 bị phạt như thế nào?",
+        "doc_ids": [
+            2258
+        ]
+    },
+    {
+        "question": "Lỗi chuyển làn đường không đúng quy định có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2266
+        ]
+    },
+    {
+        "question": "Mang thú cưng lên xe khách bị phạt bao nhiêu theo Nghị định 168?",
+        "doc_ids": [
+            2408
+        ]
+    },
+    {
+        "question": "Xe máy chuyên dùng không có giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường thì bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2375
+        ]
+    },
+    {
+        "question": "Xe máy không bật đèn khi trời mưa có bị phạt không?",
+        "doc_ids": [
+            2281
+        ]
+    },
+    {
+        "question": "Xe ô tô chạy quá tốc độ từ 5km đến dưới 10km có bị trừ điểm giấy phép lái xe không theo Nghị định 168?",
+        "doc_ids": [
+            2257
+        ]
+    },
+    {
+        "question": "Người điều khiển xe gắn máy tống 3 bị phạt bao nhiêu?",
+        "doc_ids": [
+            2284
+        ]
+    },
+    {
+        "question": "Người xúi giục xe máy chạy quá tốc độ quy định có bị xử phạt không?",
+        "doc_ids": [
+            2523
+        ]
+    },
+    {
+        "question": "Lỗi quay đầu xe trên cầu, xe ô tô có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2273
+        ]
+    },
+    {
+        "question": "Mức phạt lỗi không chấp hành hiệu lệnh của cảnh sát giao thông Nghị định 168 đối với xe ô tô?",
+        "doc_ids": [
+            2272
+        ]
+    },
+    {
+        "question": "Xe mô tô sử dụng chân chống quẹt xuống đường khi đang chạy bị phạt bao nhiêu?",
+        "doc_ids": [
+            2294
+        ]
+    },
+    {
+        "question": "Không thắt dây an toàn khi điều khiển xe ô tô trên đường có bị trừ điểm giấy phép lái xe hay không?",
+        "doc_ids": [
+            2260
+        ]
+    },
+    {
+        "question": "Lạng lách đánh võng ô tô bị trừ bao nhiêu điểm bằng lái?",
+        "doc_ids": [
+            2276
+        ]
+    },
+    {
+        "question": "Cơ sở đăng kiểm đưa ra nhiều yêu cầu trái với quy định về thủ tục đăng kiểm có thể bị phạt lên đến 20 triệu đồng?",
+        "doc_ids": [
+            2547
+        ]
+    },
+    {
+        "question": "Lỗi Quay đầu xe máy có bị trừ điểm giấy phép lái xe theo Nghị định 168?",
+        "doc_ids": [
+            2297
+        ]
+    },
+    {
+        "question": "Xe gắn máy vận chuyển hàng rời để rơi vãi xuống đường có bị phạt tiền không theo Nghị định 168?",
+        "doc_ids": [
+            2524
+        ]
+    },
+    {
+        "question": "Lỗi dừng xe đỗ xe máy dưới lòng đường phạt bao nhiêu?",
+        "doc_ids": [
+            2283
+        ]
+    },
+    {
+        "question": "Bị phạt bao nhiêu tiền nếu điều khiển xe do trâu kéo đi vào làn đường dành cho xe cơ giới?",
+        "doc_ids": [
+            2327
+        ]
+    },
+    {
+        "question": "Người vận chuyển không đem theo giấy chứng nhận hoàn thành chương trình tập huấn an toàn hàng hóa nguy hiểm thì bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2430
+        ]
+    },
+    {
+        "question": "Lỗi vượt xe trên cầu phạt bao nhiêu? Lỗi ô tô vượt xe trên cầu theo Nghị định 168?",
+        "doc_ids": [
+            2264
+        ]
+    },
+    {
+        "question": "Người điều khiển xe gắn máy bị trừ hết điểm giấy phép lái xe nhưng vẫn lái xe bị phạt thế nào?",
+        "doc_ids": [
+            2390
+        ]
+    },
+    {
+        "question": "Có áp dụng Nghị định 168 2024 đối với cơ quan nhà nước có hành vi vi phạm?",
+        "doc_ids": [
+            2233
+        ]
+    },
+    {
+        "question": "Việc trừ điểm giấy phép lái xe được thực hiện khi nào?",
+        "doc_ids": [
+            2581
+        ]
+    },
+    {
+        "question": "Phạt nồng độ cồn xe máy có giam bằng lái không?",
+        "doc_ids": [
+            2295
+        ]
+    },
+    {
+        "question": "Lỗi vượt đèn vàng xe máy phạt bị bao nhiêu tiền?",
+        "doc_ids": [
+            2292
+        ]
+    },
+    {
+        "question": "Người đi bộ qua đường không giơ tay xin đường có thể bị phạt tiền theo quy định mới tại Nghị định 168?",
+        "doc_ids": [
+            2325
+        ]
+    },
+    {
+        "question": "Quay đầu xe trên cầu, người lái xe máy có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2297
+        ]
+    },
+    {
+        "question": "Đua xe đạp máy trái phép trên đường giao thông có bị tịch thu phương tiện không?",
+        "doc_ids": [
+            2523
+        ]
+    },
+    {
+        "question": "Xe máy đè vạch kẻ đường bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2280
+        ]
+    },
+    {
+        "question": "Xe ô tô chạy dưới tốc độ tối thiểu bị phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2260
+        ]
+    },
+    {
+        "question": "Xe ô tô tránh xe đi ngược chiều không đúng quy định bị phạt bao nhiêu?",
+        "doc_ids": [
+            2264
+        ]
+    },
+    {
+        "question": "Xe ô tô tránh xe đi ngược chiều không đúng quy định bị trừ bao nhiêu điểm giấy phép lái xe?",
+        "doc_ids": [
+            2264
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ngược chiều ô tô có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2256
+        ]
+    },
+    {
+        "question": "Sử dụng điện thoại khi đang điều khiển xe máy có bị trừ điểm giấy phép lái xe không?",
+        "doc_ids": [
+            2289
+        ]
+    },
+    {
+        "question": "Điều khiển xe không có kính chắn gió bị phạt bao nhiêu?",
+        "doc_ids": [
+            2346
+        ]
+    },
+    {
+        "question": "Xe máy đăng ký tạm thời mà chạy quá thời hạn cho phép thì bị phạt bao nhiêu tiền theo Nghị định 168?",
+        "doc_ids": [
+            2365
+        ]
+    },
+    {
+        "question": "Lái ô tô gây tai nạn rồi bỏ trốn, không trợ giúp người bị nạn bị trừ bao nhiêu điểm giấy phép lái xe?",
+        "doc_ids": [
+            2271
+        ]
+    },
+    {
+        "question": "Lỗi đỗ xe ngược chiều xe máy phạt bao nhiêu tiền?",
+        "doc_ids": [
+            2302
+        ]
+    },
+    {
+        "question": "Lạng lách đánh võng xe máy bị trừ bao nhiêu điểm bằng lái?",
+        "doc_ids": [
+            2294
+        ]
+    }
+]
