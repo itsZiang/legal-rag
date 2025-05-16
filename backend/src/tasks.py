@@ -94,7 +94,7 @@ def bot_rag_answer_message(history, question):
 
     #     logger.info("Openai messages:\n%s", pprint.pformat(vistral_prompt))
 
-    assistant_answer = cohere_chat_complete(openai_messages)
+    assistant_answer = openai_chat_complete(openai_messages)
 
     logger.info("Bot RAG reply:\n%s", pprint.pformat(assistant_answer))
     return assistant_answer

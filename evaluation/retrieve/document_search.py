@@ -53,13 +53,13 @@ def load_processed_questions(file_paths):
 
 def main():
     # File paths for individual JSONL files
-    # bge_file = "predictions_bge_m3.jsonl"
-    rerank_file = "predictions_rerank-bge_m3.jsonl" 
-    hybrid_file = "predictions_hybrid-bge_m3.jsonl"
-    multi_queries_file = "predictions_multi_queries-bge_m3.jsonl"
+    bge_file = "predictions_bge_v2_m3.jsonl"
+    rerank_file = "predictions_rerank-bge_v2_m3_final.jsonl" 
+    hybrid_file = "predictions_hybrid-bge_v2_m3_final.jsonl"
+    multi_queries_file = "predictions_multi_queries-bge_v2_m3.jsonl"
     
     file_paths = [
-        # bge_file, 
+        bge_file, 
         rerank_file, 
         hybrid_file, 
         multi_queries_file
@@ -104,12 +104,12 @@ def main():
             print(f"  - Skipping Hybrid (already processed)")
             
         # Multi queries search
-        if question not in processed_questions[multi_queries_file]:
-            doc_ids_multi_queries = get_documents_multi_queries(question)
-            append_to_jsonl(multi_queries_file, {"question": question, "doc_ids": doc_ids_multi_queries})
-            print(f"  - Saved Multi-queries result")
-        else:
-            print(f"  - Skipping Multi-queries (already processed)")
+        # if question not in processed_questions[multi_queries_file]:
+        #     doc_ids_multi_queries = get_documents_multi_queries(question)
+        #     append_to_jsonl(multi_queries_file, {"question": question, "doc_ids": doc_ids_multi_queries})
+        #     print(f"  - Saved Multi-queries result")
+        # else:
+        #     print(f"  - Skipping Multi-queries (already processed)")
 
     print("Done")
 
